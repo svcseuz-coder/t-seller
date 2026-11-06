@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-11-05T06:22:32.236Z",
+  "source_list": "youtube_tecno_infinix_complaints.html",
+  "source_generated": "2026-10-26T05:01:17.906101+00:00",
+  "totals": {
+    "catalog_models": 30,
+    "tecno": 19,
+    "infinix": 11,
+    "matched": 29,
+    "multiple_matches": 1,
+    "requires_manual_verification": 0,
+    "not_collected": 0
+  },
+  "by_series": {
+    "TECNO / CAMON": 7,
+    "TECNO / SPARK": 7,
+    "TECNO / POVA": 3,
+    "TECNO / POP": 2,
+    "Infinix / GT": 2,
+    "Infinix / NOTE": 4,
+    "Infinix / HOT": 3,
+    "Infinix / SMART": 1,
+    "Infinix / XPAD": 1
+  },
+  "missing_critical_frequency": {},
+  "low_completeness": [],
+  "models": [
+    {
+      "id": "T02",
+      "brand": "TECNO",
+      "model": "Camon 50 4G",
+      "status": "matched",
+      "completeness_pct": 78,
+      "missing_critical": []
+    },
+    {
+      "id": "T03",
+      "brand": "TECNO",
+      "model": "Camon 50 Pro 4G",
+      "status": "matched",
+      "completeness_pct": 80,
+      "missing_critical": []
+    },
+    {
+      "id": "T13",
+      "brand": "TECNO",
+      "model": "Camon 50 Pro 5G",
+      "status": "matched",
+      "completeness_pct": 80,
+      "missing_critical": []
+    },
+    {
+      "id": "T01",
+      "brand": "TECNO",
+      "model": "Camon 50 Ultra 5G",
+      "status": "matched",
+      "completeness_pct": 88,
+      "missing_critical": []
+    },
+    {
+      "id": "T17",
+      "brand": "TECNO",
+      "model": "Camon Air",
+      "status": "matched",
+      "completeness_pct": 73,
+      "missing_critical": []
+    },
+    {
+      "id": "T06",
+      "brand": "TECNO",
+      "model": "Camon Slim 4G",
+      "status": "matched",
+      "completeness_pct": 73,
+      "missing_critical": []
+    },
+    {
+      "id": "T10",
+      "brand": "TECNO",
+      "model": "Camon Slim 5G",
+      "status": "matched",
+      "completeness_pct": 82,
+      "missing_critical": []
+    },
+    {
+      "id": "T05",
+      "brand": "TECNO",
+      "model": "Spark 50 4G",
+      "status": "matched",
+      "completeness_pct": 78,
+      "missing_critical": []
+    },
+    {
+      "id": "T12",
+      "brand": "TECNO",
+      "model": "Spark 50 5G",
+      "status": "matched",
+      "completeness_pct": 78,
+      "missing_critical": []
+    },
+    {
+      "id": "T07",
+      "brand": "TECNO",
+      "model": "Spark 50 Pro",
+      "status": "matched",
+      "completeness_pct": 78,
+      "missing_critical": []
+    },
+    {
+      "id": "T18",
+      "brand": "TECNO",
+      "model": "Spark 50c",
+      "status": "matched",
+      "completeness_pct": 76,
+      "missing_critical": []
+    },
+    {
+      "id": "T11",
+      "brand": "TECNO",
+      "model": "Spark 50s 5G",
+      "status": "matched",
+      "completeness_pct": 82,
+      "missing_critical": []
+    },
+    {
+      "id": "T04",
+      "brand": "TECNO",
+      "model": "Spark Go 3",
+      "status": "matched",
+      "completeness_pct": 76,
+      "missing_critical": []
+    },
+    {
+      "id": "T19",
+      "brand": "TECNO",
+      "model": "Spark Go 3 Pro",
+      "status": "matched",
+      "completeness_pct": 73,
+      "missing_critical": []
+    },
+    {
+      "id": "T09",
+      "brand": "TECNO",
+      "model": "Pova 8 5G",
+      "status": "matched",
+      "completeness_pct": 84,
+      "missing_critical": []
+    },
+    {
+      "id": "T08",
+      "brand": "TECNO",
+      "model": "Pova 8 Pro 5G",
+      "status": "matched",
+      "completeness_pct": 88,
+      "missing_critical": []
+    },
+    {
+      "id": "T14",
+      "brand": "TECNO",
+      "model": "Pova Curve 2 5G",
+      "status": "matched",
+      "completeness_pct": 84,
+      "missing_critical": []
+    },
+    {
+      "id": "T16",
+      "brand": "TECNO",
+      "model": "Pop X",
+      "status": "matched",
+      "completeness_pct": 76,
+      "missing_critical": []
+    },
+    {
+      "id": "T15",
+      "brand": "TECNO",
+      "model": "Pop X 5G",
+      "status": "matched",
+      "completeness_pct": 78,
+      "missing_critical": []
+    },
+    {
+      "id": "I01",
+      "brand": "Infinix",
+      "model": "GT 30 Pro",
+      "status": "matched",
+      "completeness_pct": 92,
+      "missing_critical": []
+    },
+    {
+      "id": "I04",
+      "brand": "Infinix",
+      "model": "GT 50 Pro 5G",
+      "status": "matched",
+      "completeness_pct": 94,
+      "missing_critical": []
+    },
+    {
+      "id": "I08",
+      "brand": "Infinix",
+      "model": "Note 60 5G",
+      "status": "matched",
+      "completeness_pct": 92,
+      "missing_critical": []
+    },
+    {
+      "id": "I05",
+      "brand": "Infinix",
+      "model": "Note 60 Pro 5G",
+      "status": "matched",
+      "completeness_pct": 94,
+      "missing_critical": []
+    },
+    {
+      "id": "I02",
+      "brand": "Infinix",
+      "model": "Note 60 Ultra 5G",
+      "status": "matched",
+      "completeness_pct": 96,
+      "missing_critical": []
+    },
+    {
+      "id": "I03",
+      "brand": "Infinix",
+      "model": "Note Edge 5G",
+      "status": "matched",
+      "completeness_pct": 90,
+      "missing_critical": []
+    },
+    {
+      "id": "I06",
+      "brand": "Infinix",
+      "model": "Hot 60i",
+      "status": "multiple_matches",
+      "completeness_pct": 84,
+      "missing_critical": []
+    },
+    {
+      "id": "I10",
+      "brand": "Infinix",
+      "model": "Hot 70",
+      "status": "matched",
+      "completeness_pct": 88,
+      "missing_critical": []
+    },
+    {
+      "id": "I09",
+      "brand": "Infinix",
+      "model": "Hot 70 Pro 5G",
+      "status": "matched",
+      "completeness_pct": 86,
+      "missing_critical": []
+    },
+    {
+      "id": "I07",
+      "brand": "Infinix",
+      "model": "Smart 20",
+      "status": "matched",
+      "completeness_pct": 82,
+      "missing_critical": []
+    },
+    {
+      "id": "I11",
+      "brand": "Infinix",
+      "model": "Xpad 30 Pro",
+      "status": "matched",
+      "completeness_pct": 84,
+      "missing_critical": []
+    }
+  ]
+}

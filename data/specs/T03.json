@@ -1,0 +1,86 @@
+{
+  "gsmarena_name": "Tecno Camon 50 Pro 4G",
+  "release": {
+    "announced": "2026, February 17",
+    "status": "Available. Released 2026, March"
+  },
+  "body": {
+    "dimensions": "162.4 x 77 x 7.4 mm (6.39 x 3.03 x 0.29 in)",
+    "weight": null,
+    "build": null,
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68/IP69K",
+    "colors": "Moonlight black, Malachite green, Nebula titanium, Fir green, Lavender mist, Ethereal blue"
+  },
+  "display": {
+    "type": "AMOLED, 144Hz",
+    "size": "6.78 inches, 112.1 cm2 (~89.6% screen-to-body ratio)",
+    "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+    "refresh_rate": "144Hz",
+    "brightness": null,
+    "protection": "Unspecified"
+  },
+  "platform": {
+    "os": "Android 16, up to 3 major OS updates, HIOS 16",
+    "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+    "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MC2 (1.1GHz)"
+  },
+  "memory": {
+    "ram": "8GB",
+    "storage": "256GB",
+    "card_slot": "Unspecified"
+  },
+  "main_camera": {
+    "modules": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS; 50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom; 8 MP, f/2.2, 14mm, 112˚ (ultrawide)",
+    "features": "Dual-LED flash, HDR, panorama",
+    "video": "1080p@30fps",
+    "ois": "Yes",
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "32 MP, f/2.5, (wide)",
+    "features": null,
+    "video": "1080p@30fps"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "No"
+  },
+  "comms": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+    "fingerprint": "Under display, optical",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6150 mAh",
+    "capacity": "6150 mAh",
+    "wired_charging": "60W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": "up to 3 major OS updates"
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro-4g.jpg"
+  ],
+  "id": "T03",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Camon 50 Pro 4G",
+  "catalog_year": 2025,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50_pro-14500.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

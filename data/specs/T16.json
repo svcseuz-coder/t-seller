@@ -1,0 +1,86 @@
+{
+  "id": "T16",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Pop X",
+  "catalog_year": 2025,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_pop_x-14665.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05",
+  "gsmarena_name": "Tecno Pop X 4G",
+  "release": {
+    "announced": "2026, March 04",
+    "status": "Available. Released 2026, March 06"
+  },
+  "body": {
+    "dimensions": "167.7 x 77.8 x 8.1 mm (6.60 x 3.06 x 0.32 in)",
+    "weight": null,
+    "build": "Glass front, plastic back, plastic frame",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+    "colors": "Flare White, Chilly Green"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz",
+    "size": "6.74 inches, 109.7 cm2 (~84.1% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 15, HIOS 15",
+    "chipset": "Unisoc T7250 (12 nm)",
+    "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MP1"
+  },
+  "memory": {
+    "ram": "4GB",
+    "storage": "64GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "13 MP, f/1.9, (wide)",
+    "features": "Dual-LED",
+    "video": "Yes",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes",
+    "jack": "Yes"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.2, A2DP, LE",
+    "nfc": "No",
+    "gps": "GPS",
+    "usb": "USB Type-C, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "Li-Po 5000 mAh",
+    "capacity": "5000 mAh",
+    "wired_charging": "15W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 15",
+    "custom_ui": "HIOS 15",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-pop-x-4g.jpg"
+  ]
+}

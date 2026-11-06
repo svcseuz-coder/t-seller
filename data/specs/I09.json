@@ -1,0 +1,66 @@
+{
+  "gsmarena_name": "Infinix Hot 70 Pro",
+  "release": {"announced": "2026, July 16", "status": "Available. Released 2026, July"},
+  "body": {
+    "dimensions": "166.9 x 79.5 x 7.9 mm (6.57 x 3.13 x 0.31 in)",
+    "weight": "204 g (7.20 oz)",
+    "build": null,
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68 dust tight and water resistant (immersible up to 2m for 30 min)",
+    "colors": "Thermo Orange, Mirage Green, Silk Glow Purple, Depth Ring White, Night Pulse, Dive Blue"
+  },
+  "display": {
+    "type": "IPS LCD, 144Hz, 950 nits (HBM)",
+    "size": "6.76 inches, 110.3 cm2 (~83.2% screen-to-body ratio)",
+    "resolution": "1080 x 2344 pixels, 20:9 ratio (~441 ppi density)",
+    "refresh_rate": "144Hz",
+    "brightness": "950 nits (HBM)",
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, up to 3 major OS updates, XOS 16",
+    "chipset": "Mediatek Dimensity 7100 (6 nm)",
+    "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G610 MC2"
+  },
+  "memory": {"ram": "6GB, 8GB", "storage": "128GB, 256GB", "card_slot": "microSDXC (dedicated slot)"},
+  "main_camera": {
+    "modules": "50 MP, f/1.8, 25mm (wide), 1/1.95\", 0.8µm, PDAF; Auxiliary lens",
+    "features": "Dual-LED flash, HDR, panorama",
+    "video": "1440p@30fps, 1080p@30/60fps",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {"modules": "8 MP, f/2.0, (wide)", "features": null, "video": "1440p@30fps, 1080p@30fps"},
+  "sound": {"speakers": "Yes, with stereo speakers", "jack": "Yes"},
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": "SA/NSA"
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6000 mAh or 5600 mAh",
+    "capacity": "6000 mAh or 5600 mAh",
+    "wired_charging": "45W wired, 50% in 25 min, 100% in 53 min (for 5600 mAh)",
+    "wireless_charging": null,
+    "reverse_charging": "10W reverse wired",
+    "bypass_charging": "Bypass charging"
+  },
+  "software": {"android": "Android 16", "custom_ui": "XOS 16", "updates": "up to 3 major OS updates"},
+  "images": ["https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-70-pro.jpg"],
+  "id": "I09",
+  "catalog_brand": "Infinix",
+  "catalog_model": "Hot 70 Pro 5G",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/infinix_hot_70_pro_5g-14806.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

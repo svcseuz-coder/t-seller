@@ -1,0 +1,66 @@
+{
+  "gsmarena_name": "Infinix Hot 70",
+  "release": {"announced": "2026, May 25", "status": "Available. Released 2026, May 25"},
+  "body": {
+    "dimensions": "167.9 x 79.1 x 7.5 mm (6.61 x 3.11 x 0.30 in)",
+    "weight": "195 g (6.88 oz)",
+    "build": "Glass front, plastic back, plastic frame",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP65 dust tight and water resistant (low pressure water jets)",
+    "colors": "Night Pulse, Dive Blue, Silver Dancer, Thermo Orange, Green Texture, Quiet Violet"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz, 700 nits (HBM)",
+    "size": "6.78 inches, 112.1 cm2 (~84.4% screen-to-body ratio)",
+    "resolution": "720 x 1576 pixels, 19.5:9 ratio (~256 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": "700 nits (HBM)",
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, up to 3 major OS updates, XOS 16",
+    "chipset": "Mediatek Helio G100 Ultimate (6 nm)",
+    "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G52 MC2"
+  },
+  "memory": {"ram": "4GB, 6GB, 8GB", "storage": "128GB, 256GB", "card_slot": "microSDXC (dedicated slot)"},
+  "main_camera": {
+    "modules": "50 MP, f/1.9, (wide), AF; Auxiliary lens",
+    "features": "Dual-LED flash, HDR, panorama",
+    "video": "1440p@30fps, 1080p@30fps",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {"modules": "8 MP, f/2.0, (wide)", "features": "Dual-LED flash", "video": "1440p@30fps, 1080p@30fps"},
+  "sound": {"speakers": "Yes, with stereo speakers", "jack": "Yes"},
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6000 mAh",
+    "capacity": "6000 mAh",
+    "wired_charging": "45W wired, 50% in 25 min",
+    "wireless_charging": null,
+    "reverse_charging": "10W reverse wired",
+    "bypass_charging": "Bypass charging"
+  },
+  "software": {"android": "Android 16", "custom_ui": "XOS 16", "updates": "up to 3 major OS updates"},
+  "images": ["https://fdn2.gsmarena.com/vv/bigpic/infinix-hot70-4g.jpg"],
+  "id": "I10",
+  "catalog_brand": "Infinix",
+  "catalog_model": "Hot 70",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/infinix_hot_70-14683.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

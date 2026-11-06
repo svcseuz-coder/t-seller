@@ -1,0 +1,86 @@
+{
+  "gsmarena_name": "Tecno Pova 8 Pro",
+  "release": {
+    "announced": "2026, August 13",
+    "status": "Available. Released 2026, August 18"
+  },
+  "body": {
+    "dimensions": "162.5 x 77.3 x 7.4 mm (6.40 x 3.04 x 0.29 in)",
+    "weight": "189 g (6.67 oz)",
+    "build": null,
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)",
+    "colors": "Arc White, Graphite Black, Tundra Green, Tonino Lamborghini Black"
+  },
+  "display": {
+    "type": "AMOLED, 1B colors, 144Hz, HDR, 2592Hz PWM, 1600 nits (HBM), 4500 nits (peak)",
+    "size": "6.78 inches, 112.1 cm2 (~89.2% screen-to-body ratio)",
+    "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+    "refresh_rate": "144Hz",
+    "brightness": "1600 nits (HBM), 4500 nits (peak)",
+    "protection": "Corning Gorilla Glass 7i"
+  },
+  "platform": {
+    "os": "Android 16, HIOS 16",
+    "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+    "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G615 MC2"
+  },
+  "memory": {
+    "ram": "8GB, 12GB",
+    "storage": "256GB, 512GB",
+    "card_slot": "Unspecified"
+  },
+  "main_camera": {
+    "modules": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, dual pixel PDAF, OIS; 8 MP (ultrawide)",
+    "features": "LED flash",
+    "video": "Yes",
+    "ois": "Yes",
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "13 MP (wide)",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+    "jack": "No"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "gps": "GPS, GLONASS, GALILEO, BDS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": "SA/NSA"
+  },
+  "features": {
+    "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
+    "fingerprint": "Fingerprint (under display, optical)",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6500 mAh",
+    "capacity": "6500 mAh",
+    "wired_charging": "45W wired, 50% in 27 min, 100% in 60 min",
+    "wireless_charging": null,
+    "reverse_charging": "10W reverse wired",
+    "bypass_charging": "Bypass charging"
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova8-pro.jpg"
+  ],
+  "id": "T08",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Pova 8 Pro 5G",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_pova_8_pro_5g-14875.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

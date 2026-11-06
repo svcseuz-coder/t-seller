@@ -1,0 +1,87 @@
+{
+  "gsmarena_name": "Infinix Hot 60i 4G",
+  "release": {
+    "announced": "2025, July 02",
+    "status": "Available. Released 2025, July 02"
+  },
+  "body": {
+    "dimensions": "166 x 76.6 x 7.7 mm (6.54 x 3.02 x 0.30 in)",
+    "weight": "188 g (6.63 oz)",
+    "build": "Glass front, plastic back, plastic frame",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+    "colors": "Sleek Black, Titanium Silver, Shadow Blue, Neon Red, Meadow Green, Soul Eye Purple"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz, 700 nits (HBM)",
+    "size": "6.7 inches, 108.4 cm2 (~85.2% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": "700 nits (HBM)",
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 15, XOS 15.1",
+    "chipset": "Mediatek Helio G81 Ultimate (12 nm)",
+    "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+    "gpu": "Mali-G52 MC2"
+  },
+  "memory": {
+    "ram": "4GB, 6GB, 8GB",
+    "storage": "128GB, 256GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "50 MP, (wide), AF; Auxiliary lens",
+    "features": "Dual-LED flash, HDR, panorama",
+    "video": "1440p@30fps, 1080p@30fps",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP, (wide)",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "Yes"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "Yes (data transfer only; not for payments - market/region dependent)",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "5160 mAh",
+    "capacity": "5160 mAh",
+    "wired_charging": "45W wired, 50% in 24 min",
+    "wireless_charging": null,
+    "reverse_charging": "10W reverse wired",
+    "bypass_charging": "Bypass charging"
+  },
+  "software": {
+    "android": "15",
+    "custom_ui": "XOS 15.1",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-60i.jpg"
+  ],
+  "id": "I06",
+  "catalog_brand": "Infinix",
+  "catalog_model": "Hot 60i",
+  "catalog_year": 2025,
+  "gsmarena_url": "https://www.gsmarena.com/infinix_hot_60i-13983.php",
+  "match_status": "multiple_matches",
+  "match_note": "GSMArena lists two variants: Hot 60i 4G and Hot 60i 5G.",
+  "fetched_at": "2026-11-05"
+}

@@ -1,0 +1,86 @@
+{
+  "gsmarena_name": "Tecno Camon Slim 4G",
+  "release": {
+    "announced": "2026, June 23",
+    "status": "Available. Released 2026, July"
+  },
+  "body": {
+    "dimensions": "162.8 x 77.7 x 6.4 mm (6.41 x 3.06 x 0.25 in)",
+    "weight": null,
+    "build": null,
+    "sim": "Nano-SIM",
+    "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)",
+    "colors": "New Mondrian, Prism Black, Jungle Green, Van Gogh Blue, Burgundy Red"
+  },
+  "display": {
+    "type": "AMOLED, 144Hz, 2160Hz PWM",
+    "size": "6.78 inches, 111.0 cm2 (~87.7% screen-to-body ratio)",
+    "resolution": "1224 x 2720 pixels, 20:9 ratio (~440 ppi density)",
+    "refresh_rate": "144Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, up to 3 major OS updates, HIOS 16.2",
+    "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+    "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MC2 (1.1GHz)"
+  },
+  "memory": {
+    "ram": "8GB",
+    "storage": "128GB, 256GB",
+    "card_slot": "Unspecified"
+  },
+  "main_camera": {
+    "modules": "50 MP, f/1.8, 24mm (wide), 1/1.95\", 0.8µm, PDAF",
+    "features": "LED flash",
+    "video": "Yes",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "32 MP, f/2.5, (wide)",
+    "features": null,
+    "video": "1080p@30fps"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "No"
+  },
+  "comms": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "gps": "GPS, GLONASS, GALILEO, BDS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Accelerometer, proximity, compass",
+    "fingerprint": null,
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "5600 mAh",
+    "capacity": "5600 mAh",
+    "wired_charging": "60W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16.2",
+    "updates": "up to 3 major OS updates"
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-slim.jpg"
+  ],
+  "id": "T06",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Camon Slim 4G",
+  "catalog_year": 2025,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_camon_slim-14745.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

@@ -1,0 +1,66 @@
+{
+  "gsmarena_name": "Infinix Note 60",
+  "release": {"announced": "2026, February 18", "status": "Available. Released 2026, March"},
+  "body": {
+    "dimensions": "162.4 x 77.2 x 7.5 mm (6.39 x 3.04 x 0.30 in)",
+    "weight": "199 g (7.02 oz)",
+    "build": "Glass front (Gorilla Glass 7i), aluminum frame, aluminum back",
+    "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+    "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+    "colors": "Mist Titanium, Midnight Black, Fizz Blue, Rose Gold, Mocha Brown"
+  },
+  "display": {
+    "type": "AMOLED, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+    "size": "6.78 inches, 112.1 cm2 (~89.4% screen-to-body ratio)",
+    "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+    "refresh_rate": "144Hz",
+    "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+    "protection": "Corning Gorilla Glass 7i"
+  },
+  "platform": {
+    "os": "Android 16, up to 3 major OS updates, XOS 16",
+    "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+    "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G615 MC2"
+  },
+  "memory": {"ram": "8GB", "storage": "128GB, 256GB", "card_slot": "No"},
+  "main_camera": {
+    "modules": "50 MP, f/1.6, (wide), 0.8µm, PDAF, OIS; 8 MP, f/2.2, 112˚ (ultrawide), 1.12µm",
+    "features": "Dual-LED flash, HDR, panorama",
+    "video": "4K@30fps, 1080p@30/60/120fps",
+    "ois": "Yes",
+    "eis": null
+  },
+  "selfie_camera": {"modules": "13 MP, f/2.2, (wide), 1.12µm", "features": null, "video": "4K@30fps, 1080p@30/60fps"},
+  "sound": {"speakers": "Yes, with stereo speakers", "jack": "No"},
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": "SA/NSA"
+  },
+  "features": {
+    "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2",
+    "fingerprint": "under display, optical",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6150 mAh or 6500 mAh",
+    "capacity": "6150 mAh or 6500 mAh",
+    "wired_charging": "45W wired, 50% in 26 min, 100% in 54 min",
+    "wireless_charging": "30W wireless",
+    "reverse_charging": null,
+    "bypass_charging": "Bypass Charging (gaming, navigating)"
+  },
+  "software": {"android": "Android 16", "custom_ui": "XOS 16", "updates": "up to 3 major OS updates"},
+  "images": ["https://fdn2.gsmarena.com/vv/bigpic/infinix-note60.jpg"],
+  "id": "I08",
+  "catalog_brand": "Infinix",
+  "catalog_model": "Note 60 5G",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/infinix_note_60_5g-14498.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

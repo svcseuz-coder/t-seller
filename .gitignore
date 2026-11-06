@@ -1,0 +1,26 @@
+# Gradle / Android build output
+.gradle/
+build/
+*/build/
+android/.gradle/
+android/build/
+android/app/build/
+android/core/*/build/
+android/local.properties
+android/captures/
+.cxx/
+.externalNativeBuild/
+
+# IDE
+.idea/
+*.iml
+*.hprof
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build artifacts kept out of the repo (latest APK only)
+docs/T-Seller-v1.0.0.apk
+docs/T-Seller-v1.1.0.apk
+docs/T-Seller-v1.2.0.apk

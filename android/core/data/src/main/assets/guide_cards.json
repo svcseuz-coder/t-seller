@@ -1,0 +1,402 @@
+{
+  "version": 1,
+  "checked_at": "2026-11-05",
+  "cards": [
+    {
+      "id": "display-amoled-ips",
+      "ru": {
+        "title": "Экран: AMOLED vs IPS LCD",
+        "what": "Два типа экрана. В AMOLED каждый пиксель светится сам: чёрный цвет настоящий, цвета сочнее. В IPS LCD за экраном горит подсветка: чёрный слегка серый, зато такой экран дешевле и не страдает выгоранием.",
+        "watch": "Для видео и фото AMOLED приятнее. Для соцсетей, чтения и звонков IPS вполне достаточно — он стоит в бюджетных сериях.",
+        "explain": "«AMOLED — это глубокие цвета и настоящий чёрный, плюс при тёмной теме экран расходует меньше заряда. Если много смотрите видео — AMOLED приятнее».",
+        "advantage": "Настоящий чёрный и сочные цвета; на тёмной теме — меньше расход заряда.",
+        "important": "Экономия работает только на тёмном контенте; в светлых приложениях расход примерно как у IPS.",
+        "nuance": "IPS дешевле и не выгорает со временем.",
+        "examples": "AMOLED — TECNO Camon 50 / Pro / Ultra, Camon Air, Camon Slim, Pova 8 Pro, Pova Curve 2, Infinix GT 30 Pro, GT 50 Pro, Note 60 / Pro / Ultra / Edge (15 моделей). IPS — Spark, Spark Go, Pop, Hot, Smart (например TECNO Spark 50 4G, Infinix Hot 70)."
+      },
+      "en": {
+        "title": "Display: AMOLED vs IPS LCD",
+        "what": "Two types of screens. In an AMOLED display every pixel lights up by itself: black is true black and colors are richer. In an IPS LCD a backlight shines behind the screen: black looks slightly gray, but such a screen is cheaper and does not suffer from burn-in.",
+        "watch": "For video and photos AMOLED is more pleasant. For social media, reading and calls an IPS screen is perfectly adequate — it is used in budget series.",
+        "explain": "“AMOLED means deep colors and true black, plus the screen uses less charge with a dark theme. If you watch a lot of video, AMOLED is nicer.”",
+        "advantage": "True black and rich colors; with a dark theme — lower power draw.",
+        "important": "The saving works only with dark content; in light apps the drain is about the same as IPS.",
+        "nuance": "IPS is cheaper and does not burn in over time.",
+        "examples": "AMOLED — TECNO Camon 50 / Pro / Ultra, Camon Air, Camon Slim, Pova 8 Pro, Pova Curve 2, Infinix GT 30 Pro, GT 50 Pro, Note 60 / Pro / Ultra / Edge (15 models). IPS — Spark, Spark Go, Pop, Hot, Smart (e.g. TECNO Spark 50 4G, Infinix Hot 70)."
+      },
+      "uz": {
+        "title": "Ekran: AMOLED va IPS LCD",
+        "what": "Ikki xil ekran turi. AMOLEDda har bir piksel o'zi yonadi: qora rang haqiqiy qora, ranglar to'yingan. IPS LCDda ekran orqasida yoritish ishlaydi: qora biroz kulrang ko'rinadi, lekin bunday ekran arzonroq va vaqt o'tishi bilan kuyib qolmaydi.",
+        "watch": "Video va foto uchun AMOLED yoqimliroq. Ijtimoiy tarmoqlar, o'qish va qo'ng'iroqlar uchun IPS yetarli — u byudjet seriyalarda qo'llaniladi.",
+        "explain": "«AMOLED — bu chuqur ranglar va haqiqiy qora, qorong'i mavzuda esa ekran kamroq quvvat sarflaydi. Agar ko'p video ko'rsangiz — AMOLED yoqimliroq».",
+        "advantage": "Haqiqiy qora va to'yingan ranglar; qorong'i mavzuda — kamroq quvvat sarfi.",
+        "important": "Tejamkorlik faqat qorong'i kontentda ishlaydi; yorqin ilovalarda sarf IPS bilan deyarli bir xil.",
+        "nuance": "IPS arzonroq va vaqt o'tishi bilan kuyib qolmaydi.",
+        "examples": "AMOLED — TECNO Camon 50 / Pro / Ultra, Camon Air, Camon Slim, Pova 8 Pro, Pova Curve 2, Infinix GT 30 Pro, GT 50 Pro, Note 60 / Pro / Ultra / Edge (15 model). IPS — Spark, Spark Go, Pop, Hot, Smart (masalan, TECNO Spark 50 4G, Infinix Hot 70)."
+      }
+    },
+    {
+      "id": "refresh-rate",
+      "ru": {
+        "title": "Частота обновления: 60 / 90 / 120 / 144 Гц",
+        "what": "Сколько раз в секунду экран обновляет картинку. Чем выше, тем плавнее движется изображение при пролистывании и в играх.",
+        "watch": "60 Гц — обычный стандарт. 90–120 Гц — заметно приятнее в ленте и играх. Почти все наши модели уже 120 Гц, флагманы — 144 Гц.",
+        "explain": "«120 Гц — лента и игры идут заметно плавнее. Проведите пальцем по экрану — разница чувствуется сразу».",
+        "advantage": "Плавность в ленте, анимациях и играх.",
+        "important": "В простых задачах (звонки, мессенджеры) разница почти незаметна; это комфорт, а не необходимость.",
+        "nuance": "Высокая частота может чуть ускорять расход заряда.",
+        "examples": "144 Гц — TECNO Camon 50 Pro 5G, Infinix GT 30 Pro. 120 Гц даже в бюджетниках — TECNO Spark Go 3, Infinix Smart 20."
+      },
+      "en": {
+        "title": "Refresh rate: 60 / 90 / 120 / 144 Hz",
+        "what": "How many times per second the screen redraws the picture. The higher the rate, the smoother scrolling and games feel.",
+        "watch": "60 Hz is the normal standard. 90–120 Hz is noticeably nicer in feeds and games. Almost all our models are already 120 Hz, flagships are 144 Hz.",
+        "explain": "“120 Hz — feeds and games run noticeably smoother. Swipe your finger across the screen — you can feel the difference right away.”",
+        "advantage": "Smoother feeds, animations and games.",
+        "important": "In simple tasks (calls, messengers) the difference is barely noticeable; it is a comfort, not a necessity.",
+        "nuance": "A high refresh rate can drain the battery slightly faster.",
+        "examples": "144 Hz — TECNO Camon 50 Pro 5G, Infinix GT 30 Pro. 120 Hz even in budget phones — TECNO Spark Go 3, Infinix Smart 20."
+      },
+      "uz": {
+        "title": "Yangilanish chastotasi: 60 / 90 / 120 / 144 Hz",
+        "what": "Ekran sekundiga necha marta tasvirni yangilaydi. Qanchalik yuqori bo'lsa, varaqlash va o'yinlarda tasvir shunchalik silliq harakatlanadi.",
+        "watch": "60 Hz — oddiy standart. 90–120 Hz — lenta va o'yinlarda sezilarli yoqimliroq. Deyarli barcha modellarimiz allaqachon 120 Hz, flagmanlar — 144 Hz.",
+        "explain": "«120 Hz — lenta va o'yinlar sezilarli silliqroq ishlaydi. Barmog'ingizni ekran bo'ylab suring — farqni darhol sezasiz».",
+        "advantage": "Lenta, animatsiyalar va o'yinlarda silliqlik.",
+        "important": "Oddiy vazifalarda (qo'ng'iroqlar, messenjerlar) farq deyarli sezilmaydi; bu qulaylik, zarurat emas.",
+        "nuance": "Yuqori chastota quvvat sarfini biroz tezlashtirishi mumkin.",
+        "examples": "144 Hz — TECNO Camon 50 Pro 5G, Infinix GT 30 Pro. 120 Hz hatto byudjet qurilmalarda — TECNO Spark Go 3, Infinix Smart 20."
+      }
+    },
+    {
+      "id": "brightness-nits",
+      "ru": {
+        "title": "Яркость экрана (ниты)",
+        "what": "Нит — единица яркости. 500–700 нит — комфортно в помещении. 1000+ нит (HBM) — экран хорошо читается на солнце. Рекламные «пиковые» 4500 нит — краткие вспышки для HDR-видео, в обычной работе такой яркости нет.",
+        "watch": "Смотрите «typ» (обычную яркость) и «HBM» (яркость на солнце), а не пиковое число. Чем выше HBM — тем комфортнее экран на улице.",
+        "explain": "«Экран с HBM 1000+ нит хорошо читается даже на ярком солнце — не придётся прятать экран в тень».",
+        "advantage": "Читаемость на улице и на солнце.",
+        "important": "Сравнивать HBM/typ, а не рекламный «peak».",
+        "nuance": "Пиковая яркость — короткие вспышки, а не постоянный режим.",
+        "examples": "TECNO Pova 8 Pro 5G — 1600 нит (HBM), Infinix GT 30 Pro и Note 60 — 1600 нит (HBM) / 4500 пик, TECNO Camon 50 Ultra — 1302 нит максимум."
+      },
+      "en": {
+        "title": "Screen brightness (nits)",
+        "what": "A nit is a unit of brightness. 500–700 nits is comfortable indoors. 1000+ nits (HBM) — the screen stays readable in sunlight. Advertised “peak” 4500 nits are brief flashes for HDR video; in normal use the screen never reaches that brightness.",
+        "watch": "Look at “typ” (typical brightness) and “HBM” (sunlight brightness), not the peak number. The higher the HBM, the more comfortable the screen outdoors.",
+        "explain": "“A screen with 1000+ nits HBM stays readable even in bright sunlight — no need to shield it with your hand.”",
+        "advantage": "Readability outdoors and in sunlight.",
+        "important": "Compare HBM/typ values, not the advertised “peak”.",
+        "nuance": "Peak brightness is short flashes, not a constant mode.",
+        "examples": "TECNO Pova 8 Pro 5G — 1600 nits (HBM), Infinix GT 30 Pro and Note 60 — 1600 nits (HBM) / 4500 peak, TECNO Camon 50 Ultra — 1302 nits maximum."
+      },
+      "uz": {
+        "title": "Ekran yorqinligi (nitlar)",
+        "what": "Nit — yorqinlik birligi. 500–700 nit — xonada qulay. 1000+ nit (HBM) — ekran quyoshda yaxshi o'qiladi. Reklamadagi «pik» 4500 nit — HDR-video uchun qisqa chaqnashlar, oddiy ishda bunday yorqinlik bo'lmaydi.",
+        "watch": "«Pik» songa emas, «typ» (oddiy yorqinlik) va «HBM» (quyoshdagi yorqinlik)ga qarang. HBM qanchalik yuqori bo'lsa, ekran ko'chada shunchalik qulay.",
+        "explain": "«HBM 1000+ nitli ekran hatto yorqin quyoshda ham yaxshi o'qiladi — ekranni soyaga yashirishning hojati yo'q».",
+        "advantage": "Ko'chada va quyoshda o'qilish.",
+        "important": "Reklamadagi «pik»ni emas, HBM/typ qiymatlarini solishtiring.",
+        "nuance": "Pik yorqinlik — qisqa chaqnashlar, doimiy rejim emas.",
+        "examples": "TECNO Pova 8 Pro 5G — 1600 nit (HBM), Infinix GT 30 Pro va Note 60 — 1600 nit (HBM) / 4500 pik, TECNO Camon 50 Ultra — maksimum 1302 nit."
+      }
+    },
+    {
+      "id": "chipset-nm",
+      "ru": {
+        "title": "Процессор: Helio vs Dimensity, нанометры",
+        "what": "«Мозг» телефона. MediaTek Helio (G-серия) — чипы для 4G-моделей и повседневных задач. Dimensity — более мощная линейка для 5G и игр. Нанометры — условная маркировка техпроцесса: более современный техпроцесс часто обеспечивает лучшую энергоэффективность при сопоставимой производительности, но это не прямая гарантия ни скорости, ни нагрева.",
+        "watch": "Для мессенджеров, камеры и YouTube хватит любого современного чипа. Для игр — Dimensity свежих поколений. Helio G100/G200 Ultimate — сильные 4G-варианты за свои деньги.",
+        "explain": "«Для игр лучше Dimensity свежих поколений — он мощнее и обычно экономичнее. Для повседневных задач Helio с головой хватит — и такой телефон дешевле».",
+        "advantage": "Dimensity тянет тяжёлые игры и 5G.",
+        "important": "Плавность и нагрев зависят ещё от нагрузки, охлаждения и оптимизации игры.",
+        "nuance": "«нм» — маркетинговая условность: число само по себе не измеряет ни мощность, ни температуру.",
+        "examples": "TECNO Camon 50 Pro 5G — Dimensity 7400 Ultimate (4 нм), Infinix GT 30 Pro — Dimensity 8350 Ultimate. 4G-варианты: TECNO Spark 50 Pro — Helio G100 Ultimate (6 нм), Spark 50 4G — Helio G81 (12 нм)."
+      },
+      "en": {
+        "title": "Chipset: Helio vs Dimensity, nanometers",
+        "what": "The “brain” of the phone. MediaTek Helio (G series) powers 4G models and everyday tasks. Dimensity is the more powerful line for 5G and gaming. Nanometers are a conventional process label: a more modern process often delivers better power efficiency at comparable performance, but it is no direct guarantee of either speed or heat.",
+        "watch": "For messengers, the camera and YouTube any modern chip is enough. For gaming — recent Dimensity chips. The Helio G100/G200 Ultimate are strong 4G options for the money.",
+        "explain": "“For gaming, a recent Dimensity is better — it is more powerful and usually more efficient. For everyday tasks Helio is more than enough — and the phone costs less.”",
+        "advantage": "Dimensity handles heavy games and 5G.",
+        "important": "Smoothness and heat also depend on the load, cooling and game optimization.",
+        "nuance": "“nm” is a marketing convention: the number alone measures neither power nor temperature.",
+        "examples": "TECNO Camon 50 Pro 5G — Dimensity 7400 Ultimate (4 nm), Infinix GT 30 Pro — Dimensity 8350 Ultimate. 4G options: TECNO Spark 50 Pro — Helio G100 Ultimate (6 nm), Spark 50 4G — Helio G81 (12 nm)."
+      },
+      "uz": {
+        "title": "Protsessor: Helio va Dimensity, nanometrlar",
+        "what": "Telefonning «miyasi». MediaTek Helio (G seriyasi) — 4G modellar va kundalik vazifalar uchun chiplar. Dimensity — 5G va o'yinlar uchun qudratliroq liniya. Nanometrlar — texprotsessning shartli belgisi: zamonaviyroq texprotsess ko'pincha taqqoslanadigan unumdorlikda yaxshiroq energo-tejamkorlikni ta'minlaydi, lekin bu tezlik yoki isishning bevosita kafolati emas.",
+        "watch": "Messenjerlar, kamera va YouTube uchun har qanday zamonaviy chip yetarli. O'yinlar uchun — yangi avlod Dimensity. Helio G100/G200 Ultimate — o'z narxiga kuchli 4G variantlari.",
+        "explain": "«O'yinlar uchun yangi avlod Dimensity yaxshiroq — u qudratliroq va odatda tejamkorroq. Kundalik vazifalar uchun Helio yetarli — va bunday telefon arzonroq».",
+        "advantage": "Dimensity og'ir o'yinlar va 5Gni ko'taradi.",
+        "important": "Silliqlik va isish yuklamaga, sovutishga va o'yin optimizatsiyasiga ham bog'liq.",
+        "nuance": "«nm» — marketing shartliligi: son o'zi na quvvatni, na haroratni o'lchaydi.",
+        "examples": "TECNO Camon 50 Pro 5G — Dimensity 7400 Ultimate (4 nm), Infinix GT 30 Pro — Dimensity 8350 Ultimate. 4G variantlari: TECNO Spark 50 Pro — Helio G100 Ultimate (6 nm), Spark 50 4G — Helio G81 (12 nm)."
+      }
+    },
+    {
+      "id": "ram-storage",
+      "ru": {
+        "title": "ОЗУ и память",
+        "what": "ОЗУ (4/6/8/12 ГБ) — сколько приложений телефон держит открытыми без перезагрузки. Память (128/256 ГБ) — место под фото, видео и приложения. Во всех 30 моделях каталога есть слот для карты памяти.",
+        "watch": "4 ГБ — базовый минимум. 6–8 ГБ — комфортный вариант, но насколько долго телефон останется быстрым, зависит не только от ОЗУ — ещё от процессора и обновлений ПО. Под фото и видео советуйте microSD.",
+        "explain": "«Возьмите 6–8 ГБ ОЗУ — это хорошая база, а слот для карты памяти есть у всех наших моделей: фото и видео не займут всё место».",
+        "advantage": "Больше ОЗУ: меньше перезагрузок приложений; microSD есть у всех 30 моделей.",
+        "important": "Рекомендация «6–8 ГБ» не гарантия: скорость через годы держится ещё на процессоре и софте.",
+        "nuance": "«Виртуальное расширение ОЗУ» не добавляет настоящей скорости, лишь расширяет фон за счёт встроенной памяти.",
+        "examples": "TECNO Camon 50 Ultra 5G — 8/12 ГБ + 256 ГБ, Infinix Hot 70 — 4/6/8 ГБ, слот карты есть у всех (Spark, Pop, Smart — тоже)."
+      },
+      "en": {
+        "title": "RAM and storage",
+        "what": "RAM (4/6/8/12 GB) is how many apps the phone keeps open without reloading. Storage (128/256 GB) is room for photos, videos and apps. All 30 catalog models have a memory card slot.",
+        "watch": "4 GB is the basic minimum. 6–8 GB is a comfortable choice, but how long the phone stays fast depends not only on RAM — also on the chipset and software updates. For photos and videos, suggest a microSD card.",
+        "explain": "“Go for 6–8 GB of RAM — a good base, and every one of our models has a card slot: your photos and videos will not eat up all the space.”",
+        "advantage": "More RAM means fewer app reloads; all 30 models have a microSD slot.",
+        "important": "“6–8 GB” is a recommendation, not a guarantee: long-term speed also rests on the chipset and software.",
+        "nuance": "“Virtual RAM expansion” adds no real speed — it just extends the background list using built-in storage.",
+        "examples": "TECNO Camon 50 Ultra 5G — 8/12 GB + 256 GB, Infinix Hot 70 — 4/6/8 GB, every model has a card slot (Spark, Pop, Smart too)."
+      },
+      "uz": {
+        "title": "Operativ xotira va xotira",
+        "what": "Operativ xotira (4/6/8/12 GB) — telefon qancha ilovani qayta yuklamasdan ochiq saqlaydi. Xotira (128/256 GB) — foto, video va ilovalar uchun joy. Katalogdagi barcha 30 modelda xotira kartasi uyasi bor.",
+        "watch": "4 GB — asosiy minimum. 6–8 GB — qulay variant, lekin telefon qancha vaqt tez qolishi nafaqat operativ xotiraga — protsessor va dasturiy yangilanishlarga ham bog'liq. Foto va video uchun microSD tavsiya qiling.",
+        "explain": "«6–8 GB operativ xotira oling — bu yaxshi asos, xotira kartasi uyasi esa barcha modellarimizda bor: foto va video butun joyni egallamaydi».",
+        "advantage": "Ko'proq operativ xotira: ilovalar kamroq qayta yuklanadi; microSD barcha 30 modelda bor.",
+        "important": "«6–8 GB» — tavsiya, kafolat emas: yillar davomida tezlik protsessor va dasturiy ta'minotga ham tayanadi.",
+        "nuance": "«Virtual operativ xotira kengaytmasi» haqiqiy tezlik qo'shmaydi — faqat ichki xotira hisobiga fon ro'yxatini kengaytiradi.",
+        "examples": "TECNO Camon 50 Ultra 5G — 8/12 GB + 256 GB, Infinix Hot 70 — 4/6/8 GB, karta uyasi hammasida bor (Spark, Pop, Smart ham)."
+      }
+    },
+    {
+      "id": "camera-light",
+      "ru": {
+        "title": "Камера: почему мегапиксели — не главное",
+        "what": "Качество фото определяет не число МП, а свет: апертура (f/1.6 пропускает больше света, чем f/2.2), оптическая стабилизация OIS (гасит дрожание руки, особенно вечером) и электронная EIS (для ровного видео).",
+        "watch": "50 МП с OIS чаще снимают лучше вечером, чем 108 МП без стабилизатора. OIS особенно заметен в сумерках и на видео. Ночной режим и размер пикселя — тоже о свете.",
+        "explain": "«Для вечерних фото стабилизатор даёт больше, чем лишние мегапиксели: меньше смазанных кадров. Смотрите в характеристиках не только МП, но и OIS с апертурой».",
+        "advantage": "OIS и светосильная апертура улучшают вечерние снимки и видео.",
+        "important": "Сравнивать OIS и апертуру, а не только мегапиксели.",
+        "nuance": "OIS не заменяет хорошую оптику и обработку; днём разница меньше заметна.",
+        "examples": "С OIS: вся линейка TECNO Camon 50, Camon Slim 5G, Pova 8 Pro, Infinix GT 50 Pro, Note 60 / Pro / Ultra (9 моделей)."
+      },
+      "en": {
+        "title": "Camera: why megapixels are not everything",
+        "what": "Photo quality is defined not by megapixels but by light: aperture (f/1.6 lets in more light than f/2.2), optical stabilization OIS (cancels hand shake, especially in the evening) and electronic EIS (for steady video).",
+        "watch": "A 50 MP camera with OIS often takes better evening shots than a 108 MP one without stabilization. OIS matters most in low light and in video. Night mode and pixel size are also about light.",
+        "explain": "“For evening photos, stabilization gives you more than extra megapixels: fewer blurry shots. In the specs, look not only at MP but also at OIS and aperture.”",
+        "advantage": "OIS and a bright aperture improve evening shots and video.",
+        "important": "Compare OIS and aperture, not just megapixels.",
+        "nuance": "OIS cannot replace good optics and processing; in daylight the difference is smaller.",
+        "examples": "With OIS: the whole TECNO Camon 50 line, Camon Slim 5G, Pova 8 Pro, Infinix GT 50 Pro, Note 60 / Pro / Ultra (9 models)."
+      },
+      "uz": {
+        "title": "Kamera: megapiksellar nega asosiy emas",
+        "what": "Foto sifati megapiksellar soni bilan emas, yorug'lik bilan belgilanadi: diafragma (f/1.6 f/2.2dan ko'proq yorug'lik o'tkazadi), optik stabilizatsiya OIS (qo'l titrashini so'ndiradi, ayniqsa kechqurun) va elektron EIS (tekis video uchun).",
+        "watch": "OISli 50 MP kechqurun stabilizatorsiz 108 MPdan ko'proq yaxshi suratga oladi. OIS ayniqsa alacakaranlikda va videoda seziladi. Tungi rejim va piksel o'lchami ham yorug'lik haqida.",
+        "explain": "«Kechki foto uchun qo'shimcha megapiksellardan ko'ra stabilizator ko'proq beradi: xira kadrlar kamroq. Xususiyatlarda nafaqat MP, balki OIS va diafragmaga ham qarang».",
+        "advantage": "OIS va yorug' diafragma kechki suratlar va videoni yaxshilaydi.",
+        "important": "Faqat megapiksellarni emas, OIS va diafragmani solishtiring.",
+        "nuance": "OIS yaxshi optika va ishlov berishni almashtirmaydi; kunduzi farq kamroq seziladi.",
+        "examples": "OIS bilan: butun TECNO Camon 50 liniyasi, Camon Slim 5G, Pova 8 Pro, Infinix GT 50 Pro, Note 60 / Pro / Ultra (9 model)."
+      }
+    },
+    {
+      "id": "battery-mah",
+      "ru": {
+        "title": "Батарея: ёмкость в мА·ч",
+        "what": "Ёмкость аккумулятора. 5000 мА·ч — день умеренного использования. 6000–7000 мА·ч — день с запасом, при спокойном сценарии полтора-два дня.",
+        "watch": "Реальная автономность зависит от сценария: игры и навигация едят заряд быстрее любых цифр. И от комплекта: экран и процессор влияют не меньше ёмкости.",
+        "explain": "«6000–7000 мА·ч при обычном использовании спокойно переживут день, а часто и полтора-два. Туризм, такси, дальнобой — берите максимальную ёмкость».",
+        "advantage": "6000–7000 мА·ч: запас автономности на день и больше.",
+        "important": "Обещать конкретное число дней нельзя: всё решает сценарий использования.",
+        "nuance": "AMOLED + свежий чип с той же ёмкостью живут дольше IPS + старый чип.",
+        "examples": "TECNO Spark 50 4G — 7000 мА·ч, Camon 50 Pro 5G и Pova 8 Pro — 6500 мА·ч, Infinix Hot 70 — 6000 мА·ч."
+      },
+      "en": {
+        "title": "Battery: capacity in mAh",
+        "what": "Battery capacity. 5000 mAh is a day of moderate use. 6000–7000 mAh is a day with headroom — a day and a half to two days in a light scenario.",
+        "watch": "Real battery life depends on the scenario: games and navigation drain any battery faster than any number suggests. And on the whole package: the display and chipset matter as much as capacity.",
+        "explain": "“With normal use, 6000–7000 mAh will comfortably last a day, often a day and a half to two. Hiking, taxi, long haul — go for the biggest capacity.”",
+        "advantage": "6000–7000 mAh: enough charge for a day and more.",
+        "important": "Never promise an exact number of days — the usage scenario decides.",
+        "nuance": "AMOLED plus a recent chipset lasts longer than IPS plus an old chipset at the same capacity.",
+        "examples": "TECNO Spark 50 4G — 7000 mAh, Camon 50 Pro 5G and Pova 8 Pro — 6500 mAh, Infinix Hot 70 — 6000 mAh."
+      },
+      "uz": {
+        "title": "Batareya: mAhdagi sig'im",
+        "what": "Akkumulyator sig'imi. 5000 mAh — o'rtacha foydalanish kuni. 6000–7000 mAh — zaxira bilan bir kun, xotirjam stsenariyda bir yarim–ikki kun.",
+        "watch": "Haqiqiy avtonomlik stsenariyga bog'liq: o'yinlar va navigatsiya har qanday raqamdan tezroq quvvat yeydi. Va umumiy to'plamga: ekran va protsessor sig'imdan kam ta'sir qilmaydi.",
+        "explain": "«6000–7000 mAh oddiy foydalanishda bemalol bir kun, ko'pincha bir yarim–ikki kun yetadi. Turizm, taksi, uzoq yo'l — maksimal sig'imni oling».",
+        "advantage": "6000–7000 mAh: bir kun va undan ko'proq uchun quvvat zaxirasi.",
+        "important": "Aniq kun sonini va'da qilib bo'lmaydi: hammasini foydalanish stsenariysi hal qiladi.",
+        "nuance": "AMOLED + yangi chip bir xil sig'imda IPS + eski chipdan uzoqroq ishlaydi.",
+        "examples": "TECNO Spark 50 4G — 7000 mAh, Camon 50 Pro 5G va Pova 8 Pro — 6500 mAh, Infinix Hot 70 — 6000 mAh."
+      }
+    },
+    {
+      "id": "fast-charging",
+      "ru": {
+        "title": "Быстрая зарядка (ватты) и bypass-зарядка",
+        "what": "Ватты — скорость зарядки. 15–18W — примерно 2 часа до полной. 45W — около часа, половина заряда за полчаса. 60–70W — ещё быстрее. Bypass-зарядка подаёт питание на плату мимо батареи: при игре меньше нагрева и износа аккумулятора.",
+        "watch": "В характеристиках часто написано прямо: «50% за 27 минут» — это понятнее, чем ватты. Для любителей игр — bypass.",
+        "explain": "«45 ватт — за полчаса телефон зарядится примерно наполовину. А bypass-зарядка уменьшает нагрев в играх и продлевает жизнь батарее».",
+        "advantage": "45–70W: половина заряда примерно за 25–30 минут; bypass — меньше нагрева в играх.",
+        "important": "Заявленные минуты обычно относятся к первым процентам, а не до 100%.",
+        "nuance": "Ближе к концу цикла зарядка замедляется — последние проценты идут дольше.",
+        "examples": "TECNO Spark 50 Pro — 60W (63% за 30 мин), Pova 8 Pro 5G — 45W (50% за 27 мин), Infinix Hot 70 — 45W (50% за 25 мин). Bypass есть у Pova 8 Pro, GT 30/50 Pro, Note 60 и др. (14 моделей)."
+      },
+      "en": {
+        "title": "Fast charging (watts) and bypass charging",
+        "what": "Watts indicate charging speed. 15–18W — about 2 hours to full. 45W — around an hour, half the charge in half an hour. 60–70W — even faster. Bypass charging feeds the board while skipping the battery: less heat and less battery wear during gaming.",
+        "watch": "The specs often state it plainly: “50% in 27 minutes” — easier to grasp than watts. For gamers — bypass.",
+        "explain": "“45 watts — about half the charge in half an hour. And bypass charging reduces heat in games and extends battery life.”",
+        "advantage": "45–70W: roughly half the charge in 25–30 minutes; bypass means less heat in games.",
+        "important": "The advertised minutes usually refer to the early percentages, not to 100%.",
+        "nuance": "Charging slows near the end of the cycle — the last percent take longer.",
+        "examples": "TECNO Spark 50 Pro — 60W (63% in 30 min), Pova 8 Pro 5G — 45W (50% in 27 min), Infinix Hot 70 — 45W (50% in 25 min). Bypass is available on Pova 8 Pro, GT 30/50 Pro, Note 60 and others (14 models)."
+      },
+      "uz": {
+        "title": "Tezkor quvvatlash (vattlar) va bypass quvvatlash",
+        "what": "Vattlar — quvvatlash tezligi. 15–18W — to'liq quvvatgacha taxminan 2 soat. 45W — bir soat atrofida, yarim soatda quvvatning yarmi. 60–70W — yana tezroq. Bypass quvvatlash batareyani chetlab, plataga quvvat beradi: o'yinda kamroq isish va akkumulyator eskirishi.",
+        "watch": "Xususiyatlarda ko'pincha to'g'ridan-to'g'ri yoziladi: «27 daqiqada 50%» — bu vattlardan tushunarliroq. O'yinchilar uchun — bypass.",
+        "explain": "«45 vatt — yarim soatda telefon taxminan yarmigacha quvvatlanadi. Bypass quvvatlash esa o'yinlarda isishni kamaytiradi va batareya umrini uzaytiradi».",
+        "advantage": "45–70W: quvvatning yarmi taxminan 25–30 daqiqada; bypass — o'yinlarda kamroq isish.",
+        "important": "E'lon qilingan daqiqalar odatda 100%gacha emas, birinchi foizlarga tegishli.",
+        "nuance": "Tsikl oxiriga yaqin quvvatlash sekinlashadi — oxirgi foizlar uzoqroq ketadi.",
+        "examples": "TECNO Spark 50 Pro — 60W (30 daqiqada 63%), Pova 8 Pro 5G — 45W (27 daqiqada 50%), Infinix Hot 70 — 45W (25 daqiqada 50%). Bypass Pova 8 Pro, GT 30/50 Pro, Note 60 va boshqalarda bor (14 model)."
+      }
+    },
+    {
+      "id": "network-5g",
+      "ru": {
+        "title": "5G",
+        "what": "Пятое поколение мобильной сети: выше скорость и ниже задержка там, где сеть есть. Нужны SIM с 5G-тарифом и зона покрытия оператора.",
+        "watch": "18 из 30 моделей каталога — 5G. В Узбекистане покрытие растёт, но пока не везде — перед покупкой стоит уточнить, есть ли 5G у оператора в районе покупателя. SA/NSA — типы сети; для покупателя разницы нет, важно само наличие 5G.",
+        "explain": "«Если в вашем городе уже есть 5G или оно появится в ближайшие годы — версия с 5G будет готова. В зоне только 4G телефон работает как обычный, просто без выигрыша в скорости».",
+        "advantage": "Запас на будущее там, где сеть растёт.",
+        "important": "Без 5G-покрытия оператора и тарифа преимущества нет.",
+        "nuance": "В 4G-зоне 5G-модель работает как обычный телефон.",
+        "examples": "TECNO Spark 50 5G, Camon 50 Pro 5G, Pova 8 5G, Infinix Note 60 5G, Hot 70 Pro 5G."
+      },
+      "en": {
+        "title": "5G",
+        "what": "The fifth generation of mobile networks: higher speed and lower latency where the network exists. You need a SIM with a 5G plan and coverage from your carrier.",
+        "watch": "18 of the 30 catalog models are 5G. Coverage in Uzbekistan is growing but is not everywhere yet — before buying, check whether the customer's carrier offers 5G in their area. SA/NSA are network types; for the buyer the difference does not matter, only the presence of 5G does.",
+        "explain": "“If your city already has 5G or it arrives in the coming years, a 5G version will be ready for it. In a 4G-only area the phone works as usual, just without the speed advantage.”",
+        "advantage": "Future-proofing where the network is growing.",
+        "important": "Without 5G coverage and a 5G plan from the carrier there is no advantage.",
+        "nuance": "In a 4G area a 5G model works like a regular phone.",
+        "examples": "TECNO Spark 50 5G, Camon 50 Pro 5G, Pova 8 5G, Infinix Note 60 5G, Hot 70 Pro 5G."
+      },
+      "uz": {
+        "title": "5G",
+        "what": "Mobil tarmoqning beshinchi avlodi: tarmoq mavjud joyda yuqori tezlik va past kechikish. 5G-tarifli SIM va operatorning qamrov zonasi kerak.",
+        "watch": "Katalogdagi 30 modeldan 18 tasi — 5G. O'zbekistonda qamrov o'smoqda, lekin hali hamma joyda emas — sotib olishdan oldin operatorning xaridor hududida 5G bor-yo'qligini aniqlashtirish kerak. SA/NSA — tarmoq turlari; xaridor uchun farqi yo'q, 5Gning o'zi muhim.",
+        "explain": "«Agar shahringizda 5G allaqachon bor bo'lsa yoki yaqin yillarda paydo bo'lsa — 5G versiyasi tayyor bo'ladi. Faqat 4G zonasida telefon oddiy tarzda ishlaydi, shunchaki tezlikda yutuq bo'lmaydi».",
+        "advantage": "Tarmoq o'sayotgan joyda kelajak uchun zaxira.",
+        "important": "Operatorning 5G qamrovi va tarifisiz afzallik yo'q.",
+        "nuance": "4G zonasida 5G model oddiy telefon kabi ishlaydi.",
+        "examples": "TECNO Spark 50 5G, Camon 50 Pro 5G, Pova 8 5G, Infinix Note 60 5G, Hot 70 Pro 5G."
+      }
+    },
+    {
+      "id": "nfc",
+      "ru": {
+        "title": "NFC",
+        "what": "Чип бесконтактной связи: оплата телефоном, проездной, подключение аксессуаров.",
+        "watch": "В каталоге 23 модели с полноценным NFC «Yes». Без NFC: TECNO Spark 50 5G, Spark 50s 5G, Spark Go 3, Spark Go 3 Pro, Pop X, Pop X 5G, Infinix Xpad 30 Pro. У Infinix Hot 60i (4G) NFC «только передача данных» — для оплаты не подходит; у 5G-версии полноценный.",
+        "explain": "«Для оплаты телефоном нужен полноценный NFC — я покажу модели, где он точно есть. Это важно уточнить до покупки».",
+        "advantage": "Оплата телефоном и проездной без карты.",
+        "important": "Уточнять «полноценный» NFC до покупки, не все модели его имеют.",
+        "nuance": "«NFC: только передача данных» для оплаты не подходит (например, Hot 60i 4G).",
+        "examples": "Полноценный NFC: вся линейка Camon 50, Pova, Infinix GT, Note, Hot 70. Без NFC: Spark Go 3, Pop X, Xpad 30 Pro."
+      },
+      "en": {
+        "title": "NFC",
+        "what": "A contactless connectivity chip: paying with the phone, transit cards, connecting accessories.",
+        "watch": "23 catalog models have full NFC “Yes”. Without NFC: TECNO Spark 50 5G, Spark 50s 5G, Spark Go 3, Spark Go 3 Pro, Pop X, Pop X 5G, Infinix Xpad 30 Pro. On the Infinix Hot 60i (4G) NFC is “data transfer only” — not suitable for payments; the 5G version has full NFC.",
+        "explain": "“For paying with your phone you need full NFC — I will show you the models that definitely have it. This is worth checking before the purchase.”",
+        "advantage": "Pay with the phone and use transit cards without a bank card.",
+        "important": "Check for “full” NFC before buying — not every model has it.",
+        "nuance": "“NFC: data transfer only” is not suitable for payments (e.g. Hot 60i 4G).",
+        "examples": "Full NFC: the whole Camon 50 line, Pova, Infinix GT, Note, Hot 70. Without NFC: Spark Go 3, Pop X, Xpad 30 Pro."
+      },
+      "uz": {
+        "title": "NFC",
+        "what": "Kontaktsiz aloqa chipi: telefon bilan to'lov, transport kartasi, aksessuarlarni ulash.",
+        "watch": "Katalogda to'liq NFC «Yes» bo'lgan 23 model bor. NFCsiz: TECNO Spark 50 5G, Spark 50s 5G, Spark Go 3, Spark Go 3 Pro, Pop X, Pop X 5G, Infinix Xpad 30 Pro. Infinix Hot 60i (4G)da NFC «faqat ma'lumot uzatish» — to'lov uchun mos emas; 5G versiyasida to'liq.",
+        "explain": "«Telefon bilan to'lov uchun to'liq NFC kerak — men aniq bor modellarni ko'rsataman. Buni sotib olishdan oldin aniqlashtirish muhim».",
+        "advantage": "Telefon bilan to'lov va kartasiz transport kartasi.",
+        "important": "Sotib olishdan oldin «to'liq» NFCni aniqlashtiring, hamma modellarda ham bor emas.",
+        "nuance": "«NFC: faqat ma'lumot uzatish» to'lov uchun mos emas (masalan, Hot 60i 4G).",
+        "examples": "To'liq NFC: butun Camon 50 liniyasi, Pova, Infinix GT, Note, Hot 70. NFCsiz: Spark Go 3, Pop X, Xpad 30 Pro."
+      }
+    },
+    {
+      "id": "ip-rating",
+      "ru": {
+        "title": "Влагозащита: IP-рейтинг",
+        "what": "Степень защиты от пыли и воды. Первая цифра — пыль (6 = полная пыленепроницаемость). Вторая — вода: 4 — брызги, 5 — струи, 7–8 — погружение, 9K — струя высокого давления.",
+        "watch": "IP64 — переживёт дождь. IP68/IP69K — у ряда моделей заявлено погружение. Но рейтинг — это лабораторный тест на чистой пресной воде с нового устройства: защита ослабевает после падений, царапин и износа. Гарантия утопление обычно не покрывает. У всех 30 моделей есть минимум IP64.",
+        "explain": "«IP68 переживёт дождь и брызги, но рассчитывать на спасение в воде не стоит: защита может ослабнуть после падений и износа, а утопление гарантия не покрывает».",
+        "advantage": "Защита от дождя и брызг есть у всех 30 моделей (≥IP64).",
+        "important": "Не обещать выживание в воде даже с IP68: рейтинг не гарантирует защиту после износа или повреждений.",
+        "nuance": "Тест проводится на чистой пресной воде; морская вода и напитки — другой риск.",
+        "examples": "IP68/IP69K — TECNO Camon 50 4G, Camon 50 Pro, Spark 50 Pro (по заявлению производителя — погружение до 6 м), Infinix Hot 70 Pro 5G. IP64 — Spark 50 4G/5G, Note 60, GT 30 Pro."
+      },
+      "en": {
+        "title": "Water resistance: IP rating",
+        "what": "Dust and water protection level. The first digit is dust (6 = fully dust-tight). The second is water: 4 — splashes, 5 — jets, 7–8 — immersion, 9K — high-pressure jets.",
+        "watch": "IP64 survives rain. IP68/IP69K are claimed on some models for immersion. But the rating is a laboratory test in clean fresh water on a brand-new device: protection weakens after drops, scratches and wear. Warranty usually does not cover liquid damage. All 30 models have at least IP64.",
+        "explain": "“IP68 survives rain and splashes, but do not count on it surviving the water: protection can weaken after drops and wear, and liquid damage is not covered by warranty.”",
+        "advantage": "All 30 models are protected from rain and splashes (≥IP64).",
+        "important": "Do not promise survival in water even with IP68: the rating does not guarantee protection after wear or damage.",
+        "nuance": "The test uses clean fresh water; seawater and drinks are a different risk.",
+        "examples": "IP68/IP69K — TECNO Camon 50 4G, Camon 50 Pro, Spark 50 Pro (per the manufacturer — immersion up to 6 m), Infinix Hot 70 Pro 5G. IP64 — Spark 50 4G/5G, Note 60, GT 30 Pro."
+      },
+      "uz": {
+        "title": "Suvdan himoya: IP reytingi",
+        "what": "Chang va suvdan himoya darajasi. Birinchi raqam — chang (6 = to'liq chang o'tkazmaslik). Ikkinchisi — suv: 4 — sachrashlar, 5 — oqimlar, 7–8 — cho'kish, 9K — yuqori bosimli oqim.",
+        "watch": "IP64 — yomg'irga chidaydi. IP68/IP69K — bir qator modellarda cho'kish e'lon qilingan. Lekin reyting — yangi qurilmada toza chuchuk suvda laboratoriya sinovi: himoya tushish, tirnalish va eskirishdan keyin zaiflashadi. Kafolat odatda suv botishini qoplamaydi. Barcha 30 modelda kamida IP64 bor.",
+        "explain": "«IP68 yomg'ir va sachrashlarga chidaydi, lekin suvda omon qolishga ishonmang: himoya tushish va eskirishdan keyin zaiflashishi mumkin, suv botishi esa kafolat bilan qoplanmaydi».",
+        "advantage": "Yomg'ir va sachrashlardan himoya barcha 30 modelda bor (≥IP64).",
+        "important": "IP68 bo'lsa ham suvda omon qolishni va'da qilmang: reyting eskirish yoki shikastlanishdan keyin himoyani kafolatlamaydi.",
+        "nuance": "Sinov toza chuchuk suvda o'tkaziladi; dengiz suvi va ichimliklar — boshqa xavf.",
+        "examples": "IP68/IP69K — TECNO Camon 50 4G, Camon 50 Pro, Spark 50 Pro (ishlab chiqaruvchining bayonotiga ko'ra — 6 m gacha cho'kish), Infinix Hot 70 Pro 5G. IP64 — Spark 50 4G/5G, Note 60, GT 30 Pro."
+      }
+    },
+    {
+      "id": "biometry-updates",
+      "ru": {
+        "title": "Биометрия, Android и оболочка",
+        "what": "Разблокировка: отпечаток в кнопке питания (side-mounted) — быстро и удобно, срабатывает даже в темноте; разблокировка по лицу. Софт: Android 15–16 плюс фирменная оболочка — HiOS у TECNO, XOS у Infinix.",
+        "watch": "Сроки обновлений различаются: у Camon 50 — до 3 крупных обновлений Android, у Note 60 — до 3, у GT 30 Pro — до 2, у Spark и бюджетных серий обновления не заявлены. Регулярные обновления — это безопасность и актуальность.",
+        "explain": "«Отпечаток в кнопке разблокирует мгновенно; если руки мокрые — просто вытрите палец. Обновления Android до трёх лет помогут телефону дольше оставаться актуальным».",
+        "advantage": "Быстрая разблокировка в любой обстановке; обновления = безопасность.",
+        "important": "Сроки обновлений у моделей разные, у бюджетных серий не заявлены — уточнять у конкретной модели.",
+        "nuance": "С мокрыми или грязными руками любой отпечаток может не сработать.",
+        "examples": "TECNO Camon 50 Pro 5G — Android 16, HiOS 16, до 3 обновлений; Infinix Note 60 5G — Android 16, XOS 16, до 3 обновлений; Infinix GT 30 Pro — XOS 15, до 2 обновлений; TECNO Spark 50 Pro — Android 16 без заявленных обновлений."
+      },
+      "en": {
+        "title": "Biometrics, Android and the user interface",
+        "what": "Unlocking: a fingerprint in the power button (side-mounted) — fast and convenient, works even in the dark; face unlock. Software: Android 15–16 plus the brand shell — HiOS on TECNO, XOS on Infinix.",
+        "watch": "Update periods differ: Camon 50 gets up to 3 major Android updates, Note 60 up to 3, GT 30 Pro up to 2, and no updates are promised for Spark and the budget series. Regular updates mean security and relevance.",
+        "explain": "“The fingerprint unlocks instantly; if your hands are wet, just dry your finger. Android updates for up to three years help the phone stay relevant longer.”",
+        "advantage": "Fast unlocking in any situation; updates mean security.",
+        "important": "Update periods differ between models; for budget series none are promised — check the specific model.",
+        "nuance": "With wet or dirty fingers any fingerprint sensor can fail.",
+        "examples": "TECNO Camon 50 Pro 5G — Android 16, HiOS 16, up to 3 updates; Infinix Note 60 5G — Android 16, XOS 16, up to 3 updates; Infinix GT 30 Pro — XOS 15, up to 2 updates; TECNO Spark 50 Pro — Android 16 with no promised updates."
+      },
+      "uz": {
+        "title": "Biometriya, Android va qobiq",
+        "what": "Qulfdan chiqarish: quvvat tugmasidagi barmoq izi (side-mounted) — tez va qulay, qorong'ida ham ishlaydi; yuz bilan qulfdan chiqarish. Dasturiy ta'minot: Android 15–16 va firma qobig'i — TECNOda HiOS, Infinixda XOS.",
+        "watch": "Yangilanish muddatlari farq qiladi: Camon 50 — 3 tagacha yirik Android yangilanishi, Note 60 — 3 tagacha, GT 30 Pro — 2 tagacha, Spark va byudjet seriyalarda yangilanishlar e'lon qilinmagan. Muntazam yangilanishlar — bu xavfsizlik va dolzarblik.",
+        "explain": "«Tugmadagi barmoq izi bir zumda ochadi; qo'llar ho'l bo'lsa — barmog'ingizni artib oling. Uch yilgacha Android yangilanishlari telefonning dolzarb qolishiga yordam beradi».",
+        "advantage": "Har qanday sharoitda tez qulfdan chiqarish; yangilanishlar = xavfsizlik.",
+        "important": "Yangilanish muddatlari modellarga qarab farq qiladi, byudjet seriyalarda e'lon qilinmagan — aniq modeldan aniqlashtiring.",
+        "nuance": "Ho'l yoki iflos qo'llarda har qanday barmoq izi ishlamasligi mumkin.",
+        "examples": "TECNO Camon 50 Pro 5G — Android 16, HiOS 16, 3 tagacha yangilanish; Infinix Note 60 5G — Android 16, XOS 16, 3 tagacha yangilanish; Infinix GT 30 Pro — XOS 15, 2 tagacha yangilanish; TECNO Spark 50 Pro — Android 16, e'lon qilingan yangilanishlarsiz."
+      }
+    }
+  ]
+}

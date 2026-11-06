@@ -1,0 +1,86 @@
+{
+  "gsmarena_name": "Tecno Spark 50 Pro",
+  "release": {
+    "announced": "2026, June 15",
+    "status": "Available. Released 2026, June"
+  },
+  "body": {
+    "dimensions": "167.8 x 79.2 x 7.8 mm (6.61 x 3.12 x 0.31 in)",
+    "weight": null,
+    "build": "Glass front, plastic frame, plastic back",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 6m for 30 min)",
+    "colors": "Ink Black, Titanium Grey, Midnight Blue, Dynamic Orange, Cloud White"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz",
+    "size": "6.78 inches, 111.0 cm2 (~83.5% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, HIOS 16",
+    "chipset": "Mediatek Helio G100 Ultimate (6 nm)",
+    "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G52 MC2"
+  },
+  "memory": {
+    "ram": "4GB, 6GB, 8GB",
+    "storage": "128GB, 256GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "50 MP, f/1.8, (wide), 1/1.95\" 0.8μm, PDAF",
+    "features": "LED flash",
+    "video": "Yes",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP, f/2.0, (wide)",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "No"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), unspecified sensors",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6000 mAh or 5600 mAh",
+    "capacity": "6000 mAh or 5600 mAh",
+    "wired_charging": "60W wired, 63% in 30 min, 100% in 55 min",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": "Bypass charging"
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-50-pro.jpg"
+  ],
+  "id": "T07",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Spark 50 Pro",
+  "catalog_year": 2025,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50_pro-14728.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

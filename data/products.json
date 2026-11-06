@@ -1,0 +1,3040 @@
+{
+  "items": [
+    {
+      "id": "T02",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon 50 4G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50-14501.php",
+      "gsmarena_name": "Tecno Camon 50 4G",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, February 17",
+          "status": "Available. Released 2026, March"
+        },
+        "body": {
+          "dimensions": "162.4 x 77.2 x 7.5 mm (6.39 x 3.04 x 0.30 in)",
+          "weight": null,
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)",
+          "colors": "Moonlight black, Malachite green, Nebula titanium, Fir green, Lavender mist, Mint cream"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz",
+          "size": "6.78 inches, 112.1 cm2 (~89.4% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": null,
+          "protection": "Unspecified"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, HIOS 16",
+          "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2 (1.1GHz)"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS; 8 MP, f/2.2, 14mm, 112˚ (ultrawide), AF",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "1080p@30fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "32 MP, f/2.5, (wide)",
+          "features": null,
+          "video": "1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Yes",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": null,
+          "capacity": "6150 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-4g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T03",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon 50 Pro 4G",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50_pro-14500.php",
+      "gsmarena_name": "Tecno Camon 50 Pro 4G",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, February 17",
+          "status": "Available. Released 2026, March"
+        },
+        "body": {
+          "dimensions": "162.4 x 77 x 7.4 mm (6.39 x 3.03 x 0.29 in)",
+          "weight": null,
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69K",
+          "colors": "Moonlight black, Malachite green, Nebula titanium, Fir green, Lavender mist, Ethereal blue"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz",
+          "size": "6.78 inches, 112.1 cm2 (~89.6% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": null,
+          "protection": "Unspecified"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, HIOS 16",
+          "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2 (1.1GHz)"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": "256GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS; 50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom; 8 MP, f/2.2, 14mm, 112˚ (ultrawide)",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "1080p@30fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "32 MP, f/2.5, (wide)",
+          "features": null,
+          "video": "1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Yes",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+          "fingerprint": "Under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6150 mAh",
+          "capacity": "6150 mAh",
+          "wired_charging": "60W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro-4g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T13",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon 50 Pro 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50_pro_5g-14538.php",
+      "gsmarena_name": "Tecno Camon 50 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, March 10",
+          "status": "Available. Released 2026, March 10"
+        },
+        "body": {
+          "dimensions": "162.4 x 77 x 7.8 mm (6.39 x 3.03 x 0.31 in)",
+          "weight": null,
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min) MIL-STD-810H compliant",
+          "colors": "Moonshadow Black, Cypress Green, Nebula Titanium, Misty Purple"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz",
+          "size": "6.78 inches, 112.1 cm2 (~89.6% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, HIOS 16",
+          "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+          "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G615 MC2"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "256GB, 512GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS; 50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom; 8 MP, f/2.2, 14mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+          "features": "LED flash, HDR, panorama",
+          "video": "Yes",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "50 MP, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Yes",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6500 mAh",
+          "capacity": "6500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T01",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon 50 Ultra 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50_ultra_5g-14519.php",
+      "gsmarena_name": "Tecno Camon 50 Ultra",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, March 02",
+          "status": "Available. Released 2026, March"
+        },
+        "body": {
+          "dimensions": "162.4 x 77 x 7.8 mm",
+          "weight": "178 g",
+          "build": "Glass front (Gorilla Glass 7i), glass back (Gorilla Glass 7i), plastic frame",
+          "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+          "ip_rating": "IP68/IP69K",
+          "colors": "Moonshadow Black, Cypress Green, Nebula Titanium, Luminous Orange, Misty Purple"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2160Hz PWM, HDR10",
+          "size": "6.78 inches",
+          "resolution": "1208 x 2644 pixels",
+          "refresh_rate": "144Hz",
+          "brightness": "1302 nits max",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+          "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G615 MC2"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "256GB, 512GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "50 MP wide + 50 MP telephoto (3x optical) + 8 MP ultrawide",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "4K@30fps, 1080p@60fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "50 MP wide",
+          "features": null,
+          "video": "4K@30/60fps, 1080p@60fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+          "fingerprint": "Under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6160 mAh or 6500 mAh",
+          "capacity": "6160 mAh or 6500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "16",
+          "custom_ui": "HIOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-ultra.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T17",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon Air",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_air-14919.php",
+      "gsmarena_name": "Tecno Camon Air",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, September 02",
+          "status": "Available. Released 2026, September 02"
+        },
+        "body": {
+          "dimensions": "162.8 x 77.7 x 6.4 mm (6.41 x 3.06 x 0.25 in)",
+          "weight": null,
+          "build": null,
+          "sim": "Nano-SIM",
+          "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)",
+          "colors": "New Mondrian, Prism Black, Jungle Green, Van Gogh Blue, Burgundy Red"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2160Hz PWM",
+          "size": "6.78 inches, 111.0 cm2 (~87.7% screen-to-body ratio)",
+          "resolution": "1224 x 2720 pixels, 20:9 ratio (~440 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": null,
+          "protection": "Corning Gorilla Glass"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, HIOS 16.3",
+          "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2 (1.1GHz)"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 24mm (wide), 1/1.95\", 0.8µm, PDAF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "32 MP, f/2.5, (wide)",
+          "features": null,
+          "video": "1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Yes",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS, GLONASS, GALILEO, BDS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Accelerometer, proximity, compass",
+          "fingerprint": null,
+          "face_unlock": null
+        },
+        "battery": {
+          "type": null,
+          "capacity": "6000 mAh",
+          "wired_charging": "60W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16.3",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-slim.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T06",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon Slim 4G",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_slim-14745.php",
+      "gsmarena_name": "Tecno Camon Slim 4G",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, June 23",
+          "status": "Available. Released 2026, July"
+        },
+        "body": {
+          "dimensions": "162.8 x 77.7 x 6.4 mm (6.41 x 3.06 x 0.25 in)",
+          "weight": null,
+          "build": null,
+          "sim": "Nano-SIM",
+          "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min)",
+          "colors": "New Mondrian, Prism Black, Jungle Green, Van Gogh Blue, Burgundy Red"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2160Hz PWM",
+          "size": "6.78 inches, 111.0 cm2 (~87.7% screen-to-body ratio)",
+          "resolution": "1224 x 2720 pixels, 20:9 ratio (~440 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, HIOS 16.2",
+          "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2 (1.1GHz)"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 24mm (wide), 1/1.95\", 0.8µm, PDAF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "32 MP, f/2.5, (wide)",
+          "features": null,
+          "video": "1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Yes",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS, GLONASS, GALILEO, BDS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Accelerometer, proximity, compass",
+          "fingerprint": null,
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "5600 mAh",
+          "capacity": "5600 mAh",
+          "wired_charging": "60W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16.2",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-slim.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T10",
+      "brand": "TECNO",
+      "series": "CAMON",
+      "model": "Camon Slim 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_camon_slim_5g-14918.php",
+      "gsmarena_name": "Tecno Camon Slim",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, September 02",
+          "status": "Available. Released 2026, September"
+        },
+        "body": {
+          "dimensions": "162.6 x 77.3 x 6.4 mm (6.40 x 3.04 x 0.25 in)",
+          "weight": "171 g (6.03 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+          "ip_rating": "IP68/IP69K",
+          "colors": "Matisse Black, Van Gogh Blue, Burgundy Red"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2160Hz PWM",
+          "size": "6.78 inches, 112.1 cm2 (~89.2% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16",
+          "chipset": "Mediatek Dimensity 7300e (6 nm)",
+          "cpu": "Octa-core (4x2.5 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G610"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": "256GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS; 8 MP, f/2.2, 14mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+          "features": "LED flash, HDR, panorama",
+          "video": "1440p@30fps, 1080p@60fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "32 MP, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Yes",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6000 mAh",
+          "capacity": "6000 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-slim-5g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T05",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark 50 4G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50_4g-14596.php",
+      "gsmarena_name": "Tecno Spark 50 4G",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, April 14",
+          "status": "Available. Released 2026, April 14"
+        },
+        "body": {
+          "dimensions": "167.8 x 79.2 x 8.2 mm (6.61 x 3.12 x 0.32 in)",
+          "weight": "210 g (7.41 oz)",
+          "build": "Glass front, plastic frame, plastic back",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Halo Blue, Titanium Grey, Ink Black, Aurora Purple, Bloom Pink"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.78 inches, 111.0 cm2 (~83.5% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "MediaTek Helio G81",
+          "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2"
+        },
+        "memory": {
+          "ram": "4GB, 6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.9, (wide), PDAF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.3, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), gyro",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "7000 mAh",
+          "capacity": "7000 mAh",
+          "wired_charging": "18W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark50-4g-1.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T12",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark 50 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50_5g-14566.php",
+      "gsmarena_name": "Tecno Spark 50",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, March 27",
+          "status": "Available. Released 2026, April 03"
+        },
+        "body": {
+          "dimensions": "167.9 x 79.3 x 8.2 mm (6.61 x 3.12 x 0.32 in)",
+          "weight": "210 g (7.41 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Fantasy Purple, Mint Green, Ink Black, Champagne Gold"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.78 inches, 112.1 cm2 (~84.2% screen-to-body ratio)",
+          "resolution": "720 x 1576 pixels, 19.5:9 ratio (~256 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 6400 (6 nm)",
+          "cpu": "Octa-core (2x2.5 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2"
+        },
+        "memory": {
+          "ram": "4GB, 6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.9, (wide), PDAF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.3, A2DP, LE",
+          "nfc": "No",
+          "gps": "GPS",
+          "usb": "USB Type-C",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted); unspecified sensors",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6500 mAh",
+          "capacity": "6500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark50.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T07",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark 50 Pro",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50_pro-14728.php",
+      "gsmarena_name": "Tecno Spark 50 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, June 15",
+          "status": "Available. Released 2026, June"
+        },
+        "body": {
+          "dimensions": "167.8 x 79.2 x 7.8 mm (6.61 x 3.12 x 0.31 in)",
+          "weight": null,
+          "build": "Glass front, plastic frame, plastic back",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 6m for 30 min)",
+          "colors": "Ink Black, Titanium Grey, Midnight Blue, Dynamic Orange, Cloud White"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.78 inches, 111.0 cm2 (~83.5% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Helio G100 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G52 MC2"
+        },
+        "memory": {
+          "ram": "4GB, 6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, (wide), 1/1.95\" 0.8μm, PDAF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), unspecified sensors",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6000 mAh or 5600 mAh",
+          "capacity": "6000 mAh or 5600 mAh",
+          "wired_charging": "60W wired, 63% in 30 min, 100% in 55 min",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-50-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T18",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark 50c",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50c-15016.php",
+      "gsmarena_name": "Tecno Spark 50c",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, September 17",
+          "status": "Available. Released 2026, September"
+        },
+        "body": {
+          "dimensions": "167.8 x 79.2 x 7.9 mm (6.61 x 3.12 x 0.31 in)",
+          "weight": null,
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min) Drop resistant up to 1.7m",
+          "colors": "Burgundy Red, Forge Orange, Basalt Titanium, Eclipse Black"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.78 inches, 111.0 cm2 (~83.5% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Helio G81 (12 nm)",
+          "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+          "gpu": "Mali-G52 MC2"
+        },
+        "memory": {
+          "ram": "4GB",
+          "storage": "64GB, 128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "13 MP",
+          "features": "Dual-LED",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "Li-Po",
+          "capacity": "5200 mAh",
+          "wired_charging": "15W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-50c.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T11",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark 50s 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50s_5g-15015.php",
+      "gsmarena_name": "Tecno Spark 50s",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, October 16",
+          "status": "Available. Released 2026, October 20"
+        },
+        "body": {
+          "dimensions": "167.9 x 79.3 x 8.2 mm (6.61 x 3.12 x 0.32 in)",
+          "weight": "210 g (7.41 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64",
+          "colors": "Burgundy Red, Breeze Blue"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz, 560 nits",
+          "size": "6.78 inches, 112.1 cm2 (~84.2% screen-to-body ratio)",
+          "resolution": "720 x 1576 pixels, 19.5:9 ratio (~256 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": "560 nits",
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 6400 (6 nm)",
+          "cpu": "Octa-core (2x2.5 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2"
+        },
+        "memory": {
+          "ram": "6GB, 8GB",
+          "storage": "128GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, (wide), AF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.3, A2DP, LE",
+          "nfc": "No",
+          "gps": "GPS, GALILEO, GLONASS, BDS, QZSS",
+          "usb": "USB Type-C",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted); unspecified sensors",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6500 mAh",
+          "capacity": "6500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-50s-5g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T04",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark Go 3",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_go_3-14420.php",
+      "gsmarena_name": "Tecno Spark Go 3",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, January 16",
+          "status": "Available. Released 2026, January 23"
+        },
+        "body": {
+          "dimensions": "167.7 x 77.8 x 8.1 mm (6.60 x 3.06 x 0.32 in)",
+          "weight": null,
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64",
+          "colors": "Titanium Grey, Ink Black, Galaxy Blue, Aurora Purple"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.74 inches, 109.7 cm2 (~84.1% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 15, HIOS 15",
+          "chipset": "Unisoc T7250 (12 nm)",
+          "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MP1"
+        },
+        "memory": {
+          "ram": "4GB",
+          "storage": "64GB, 128GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "13 MP",
+          "features": "Dual-LED",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "Yes",
+          "nfc": "No",
+          "gps": "GPS",
+          "usb": "USB Type-C, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "Li-Po 5000 mAh",
+          "capacity": "5000 mAh",
+          "wired_charging": "15W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 15",
+          "custom_ui": "HIOS 15",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go3.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T19",
+      "brand": "TECNO",
+      "series": "SPARK",
+      "model": "Spark Go 3 Pro",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_spark_go_3_pro-14905.php",
+      "gsmarena_name": "Tecno Spark Go 3 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, August 28",
+          "status": "Available. Released 2026, September 04"
+        },
+        "body": {
+          "dimensions": null,
+          "weight": null,
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69",
+          "colors": "Black, Gray, Orange, Burgundy Red"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.78 inches, 111.0 cm2 (~85.1% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Unisoc T7250 (12 nm)",
+          "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MP1"
+        },
+        "memory": {
+          "ram": "4GB",
+          "storage": "64GB/128GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "13 MP",
+          "features": "Dual-LED",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "Yes",
+          "nfc": "No",
+          "gps": "GPS",
+          "usb": "USB Type-C, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "Li-Po",
+          "capacity": "5200 mAh",
+          "wired_charging": "15W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go3-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T09",
+      "brand": "TECNO",
+      "series": "POVA",
+      "model": "Pova 8 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_pova_8_5g-14714.php",
+      "gsmarena_name": "Tecno Pova 8",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, June 11",
+          "status": "Available. Released 2026, July 01"
+        },
+        "body": {
+          "dimensions": "165.7 x 78.5 x 8.8 mm (6.52 x 3.09 x 0.35 in)",
+          "weight": "225 g (7.94 oz)",
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64",
+          "colors": "Arc White, Graphite Black, Helios Orange, Echo Green, Bit White (India), Terminal Green (India)"
+        },
+        "display": {
+          "type": "IPS LCD, 144Hz",
+          "size": "6.76 inches, 112.6 cm2 (~86.6% screen-to-body ratio)",
+          "resolution": "1080 x 2344 pixels, 19.5:9 ratio (~381 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "991 nits max brightness (measured)",
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 7100 (6 nm)",
+          "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G610 MC2"
+        },
+        "memory": {
+          "ram": "6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (uses shared SIM slot) - India model only"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 23mm (wide), 1/1.95\", 0.8µm, PDAF; Auxiliary lens",
+          "features": "Dual-LED flash",
+          "video": "1440p@30fps, 1080p@30/60fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP, f/2.2, 24mm (wide), 1/3.06\", 1.12µm",
+          "features": null,
+          "video": "1440p@30fps, 1080p@60fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS, GLONASS, GALILEO, BDS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "8000 mAh",
+          "capacity": "8000 mAh",
+          "wired_charging": "45W wired, 50% in 35 min",
+          "wireless_charging": null,
+          "reverse_charging": "10W reverse wired",
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova8-5g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T08",
+      "brand": "TECNO",
+      "series": "POVA",
+      "model": "Pova 8 Pro 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_pova_8_pro_5g-14875.php",
+      "gsmarena_name": "Tecno Pova 8 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, August 13",
+          "status": "Available. Released 2026, August 18"
+        },
+        "body": {
+          "dimensions": "162.5 x 77.3 x 7.4 mm (6.40 x 3.04 x 0.29 in)",
+          "weight": "189 g (6.67 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min)",
+          "colors": "Arc White, Graphite Black, Tundra Green, Tonino Lamborghini Black"
+        },
+        "display": {
+          "type": "AMOLED, 1B colors, 144Hz, HDR, 2592Hz PWM, 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 112.1 cm2 (~89.2% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+          "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G615 MC2"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "256GB, 512GB",
+          "card_slot": "Unspecified"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, (wide), 1/1.56\", 1.0µm, dual pixel PDAF, OIS; 8 MP (ultrawide)",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS, GLONASS, GALILEO, BDS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
+          "fingerprint": "Fingerprint (under display, optical)",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6500 mAh",
+          "capacity": "6500 mAh",
+          "wired_charging": "45W wired, 50% in 27 min, 100% in 60 min",
+          "wireless_charging": null,
+          "reverse_charging": "10W reverse wired",
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova8-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T14",
+      "brand": "TECNO",
+      "series": "POVA",
+      "model": "Pova Curve 2 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_pova_curve_2_5g-14384.php",
+      "gsmarena_name": "Tecno Pova Curve 2",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, February 13",
+          "status": "Available. Released 2026, February 20"
+        },
+        "body": {
+          "dimensions": "162.7 x 77.2 x 7.4 mm (6.41 x 3.04 x 0.29 in)",
+          "weight": "195 g (6.88 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Mystic Purple, Melting Silver, Storm Titanium"
+        },
+        "display": {
+          "type": "AMOLED, 1B colors, 144Hz, 2304Hz PWM, 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 89.3 cm2 (~71.1% screen-to-body ratio)",
+          "resolution": "1080 x 2364 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 7100 (6 nm)",
+          "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G610 MC2"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, (wide), PDAF; 2 MP (macro)",
+          "features": "LED flash, HDR, panorama",
+          "video": "1440p@30fps, 1080p@30fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP",
+          "features": null,
+          "video": "1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "8000 mAh",
+          "capacity": "8000 mAh",
+          "wired_charging": "45W wired, 50% in 36 min",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-pova-curve2-5g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T16",
+      "brand": "TECNO",
+      "series": "POP",
+      "model": "Pop X",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_pop_x-14665.php",
+      "gsmarena_name": "Tecno Pop X 4G",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, March 04",
+          "status": "Available. Released 2026, March 06"
+        },
+        "body": {
+          "dimensions": "167.7 x 77.8 x 8.1 mm (6.60 x 3.06 x 0.32 in)",
+          "weight": null,
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Flare White, Chilly Green"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.74 inches, 109.7 cm2 (~84.1% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 15, HIOS 15",
+          "chipset": "Unisoc T7250 (12 nm)",
+          "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MP1"
+        },
+        "memory": {
+          "ram": "4GB",
+          "storage": "64GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "13 MP, f/1.9, (wide)",
+          "features": "Dual-LED",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.2, A2DP, LE",
+          "nfc": "No",
+          "gps": "GPS",
+          "usb": "USB Type-C, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "Li-Po 5000 mAh",
+          "capacity": "5000 mAh",
+          "wired_charging": "15W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 15",
+          "custom_ui": "HIOS 15",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-pop-x-4g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "T15",
+      "brand": "TECNO",
+      "series": "POP",
+      "model": "Pop X 5G",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/tecno_pop_x_5g-14608.php",
+      "gsmarena_name": "Tecno Pop X",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, April 20",
+          "status": "Available. Released 2026, April 24"
+        },
+        "body": {
+          "dimensions": "167.9 x 79.3 x 8.2 mm (6.61 x 3.12 x 0.32 in)",
+          "weight": "210 g (7.41 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Midnight Blue, Ripple Green"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz",
+          "size": "6.78 inches, 112.1 cm2 (~84.2% screen-to-body ratio)",
+          "resolution": "720 x 1576 pixels, 19.5:9 ratio (~256 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": null,
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, HIOS 16",
+          "chipset": "Mediatek Dimensity 6400 (6 nm)",
+          "cpu": "Octa-core (2x2.5 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2"
+        },
+        "memory": {
+          "ram": "4GB, 6GB",
+          "storage": "128GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, (wide), AF",
+          "features": "LED flash",
+          "video": "Yes",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.3, A2DP, LE",
+          "nfc": "No",
+          "gps": "GPS, GALILEO, GLONASS, BDS, QZSS",
+          "usb": "USB Type-C",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted); unspecified sensors",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6500 mAh",
+          "capacity": "6500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": null,
+          "reverse_charging": null,
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "HIOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/tecno-pop-x-5g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I01",
+      "brand": "Infinix",
+      "series": "GT",
+      "model": "GT 30 Pro",
+      "year": 2025,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_gt_30_pro_5g-13889.php",
+      "gsmarena_name": "Infinix GT 30 Pro",
+      "match_note": "GSMArena lists only the 5G variant under this name",
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2025, May 21",
+          "status": "Available. Released 2025, June 01"
+        },
+        "body": {
+          "dimensions": "163.7 x 75.8 x 8 mm (6.44 x 2.98 x 0.31 in)",
+          "weight": "189 g (6.67 oz)",
+          "build": "Glass front (Gorilla Glass 7i), plastic frame, plastic back",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Dark Flare, Blade White, Shadow Ash"
+        },
+        "display": {
+          "type": "AMOLED, 1B colors, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 111.0 cm2 (~89.4% screen-to-body ratio)",
+          "resolution": "1224 x 2720 pixels, 20:9 ratio (~440 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 15, up to 2 major OS updates, XOS 15",
+          "chipset": "Mediatek Dimensity 8350 Ultimate (4 nm)",
+          "cpu": "Octa-core (1x3.35 GHz Cortex-A715 & 3x3.20 GHz Cortex-A715 & 4x2.20 GHz Cortex-A510)",
+          "gpu": "Mali G615-MC6"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "256GB, 512GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "108 MP, f/1.9, (wide), 1/1.33\", 0.8µm, PDAF; 8 MP, f/2.2, 111˚ (ultrawide), 1/4.0\", 1.0µm, AF",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "4K@30/60fps, 1080p@30/60/120/240fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP, f/2.2, (wide), 1/3.1\", 1.12µm",
+          "features": null,
+          "video": "4K@30fps, 1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS, GLONASS, GALILEO",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "1, 3, 5, 7, 8, 12, 20, 28, 38, 40, 41, 66, 71, 77, 78 SA/NSA/Sub6"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass, gyro",
+          "fingerprint": "Fingerprint (under display, optical)",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "5200 mAh or 5500 mAh",
+          "capacity": "5200 mAh or 5500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": "30W wireless",
+          "reverse_charging": "10W reverse wired, 5W reverse wireless",
+          "bypass_charging": "Bypass Charging 2"
+        },
+        "software": {
+          "android": "Android 15",
+          "custom_ui": "XOS 15",
+          "updates": "up to 2 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt30-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I04",
+      "brand": "Infinix",
+      "series": "GT",
+      "model": "GT 50 Pro 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_gt_50_pro_5g-14497.php",
+      "gsmarena_name": "Infinix GT 50 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, April 24",
+          "status": "Available. Released 2026, April 25"
+        },
+        "body": {
+          "dimensions": "162.4 x 77.2 x 8.2 mm (6.39 x 3.04 x 0.32 in)",
+          "weight": "198 g (6.98 oz)",
+          "build": "Glass front (Gorilla Glass 7i), plastic frame, plastic back",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Black Abyss, Red Blaze, Silver Glacier"
+        },
+        "display": {
+          "type": "AMOLED, 1B colors, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 106.6 cm2 (~85.0% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~440 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Mediatek Dimensity 8400 Ultimate (4 nm)",
+          "cpu": "Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725)",
+          "gpu": "Mali-G720 MC7"
+        },
+        "memory": {
+          "ram": "12GB",
+          "storage": "256GB, 512GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 27mm (wide), 1/1.95\", 0.8µm, PDAF, OIS; 8 MP, f/2.2, 15mm, 111˚ (ultrawide), 1/4.0\", 1.12µm, PDAF",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "4K@30/60fps, 1080p@30/60/120/240fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP, f/2.2, 24mm (wide), 1/3.1\", 1.12µm",
+          "features": null,
+          "video": "4K@30fps, 1080p@60fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers (with Dolby Atmos)",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS, GLONASS, GALILEO",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA/Sub6"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass, gyro",
+          "fingerprint": "Under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6150 mAh or 6500 mAh",
+          "capacity": "6150 mAh or 6500 mAh",
+          "wired_charging": "45W wired",
+          "wireless_charging": "30W wireless",
+          "reverse_charging": "10W reverse wired, 5W reverse wireless",
+          "bypass_charging": "Bypass Charging 2, Wireless bypass charging (accessory required)"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-gt50-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I08",
+      "brand": "Infinix",
+      "series": "NOTE",
+      "model": "Note 60 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_note_60_5g-14498.php",
+      "gsmarena_name": "Infinix Note 60",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, February 18",
+          "status": "Available. Released 2026, March"
+        },
+        "body": {
+          "dimensions": "162.4 x 77.2 x 7.5 mm (6.39 x 3.04 x 0.30 in)",
+          "weight": "199 g (7.02 oz)",
+          "build": "Glass front (Gorilla Glass 7i), aluminum frame, aluminum back",
+          "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Mist Titanium, Midnight Black, Fizz Blue, Rose Gold, Mocha Brown"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 112.1 cm2 (~89.4% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+          "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G615 MC2"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.6, (wide), 0.8µm, PDAF, OIS; 8 MP, f/2.2, 112˚ (ultrawide), 1.12µm",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "4K@30fps, 1080p@30/60/120fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP, f/2.2, (wide), 1.12µm",
+          "features": null,
+          "video": "4K@30fps, 1080p@30/60fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6150 mAh or 6500 mAh",
+          "capacity": "6150 mAh or 6500 mAh",
+          "wired_charging": "45W wired, 50% in 26 min, 100% in 54 min",
+          "wireless_charging": "30W wireless",
+          "reverse_charging": null,
+          "bypass_charging": "Bypass Charging (gaming, navigating)"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-note60.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I05",
+      "brand": "Infinix",
+      "series": "NOTE",
+      "model": "Note 60 Pro 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_note_60_pro_5g-14499.php",
+      "gsmarena_name": "Infinix Note 60 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, February 18",
+          "status": "Available. Released 2026, March"
+        },
+        "body": {
+          "dimensions": "162.4 x 77.2 x 7.4 mm (6.39 x 3.04 x 0.29 in)",
+          "weight": "201.7 g (7.13 oz)",
+          "build": "Glass front (Gorilla Glass 7i), aluminum frame, glass back",
+          "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Mist Titanium, Deep Ocean Blue, Solar Orange, Mocha Brown, Torino Black, Frost Silver, Pininfarina Black"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 112.1 cm2 (~89.4% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Qualcomm SM7635-AC Snapdragon 7s Gen 4 (4 nm)",
+          "cpu": "Octa-core (1x2.7 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)",
+          "gpu": "Adreno 810"
+        },
+        "memory": {
+          "ram": "8GB, 12GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.6, 27mm (wide), 1/1.95\", 0.8µm, PDAF, OIS; 8 MP, f/2.2, 15mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "4K@30fps, 1080p@30/60/120fps",
+          "ois": "Yes",
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP, f/2.2, 24mm (wide), 1/3.1\", 1.12µm",
+          "features": null,
+          "video": "4K@30fps, 1080p@30/60fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6000 mAh or 6500 mAh",
+          "capacity": "6000 mAh or 6500 mAh",
+          "wired_charging": "90W",
+          "wireless_charging": "30W",
+          "reverse_charging": "7.5W reverse wired; 5W reverse wireless",
+          "bypass_charging": "Bypass Charging (gaming, navigating)"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-note60-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I02",
+      "brand": "Infinix",
+      "series": "NOTE",
+      "model": "Note 60 Ultra 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_note_60_ultra_5g-14528.php",
+      "gsmarena_name": "Infinix Note 60 Ultra",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, March 04",
+          "status": "Available. Released 2026, May"
+        },
+        "body": {
+          "dimensions": "162.3 x 77.2 x 7.9 mm (6.39 x 3.04 x 0.31 in)",
+          "weight": "220 g (7.76 oz)",
+          "build": "Glass front (Gorilla Glass 7i), aluminum frame, Gorilla Glass Victus (camera island only)",
+          "sim": "Nano-SIM + Nano-SIM + eSIM (max 2 at a time)",
+          "ip_rating": "IP65 dust tight and water resistant (low pressure water jets)",
+          "colors": "Torino Black, Monza Red, Roma Silver, Amalfi Blue"
+        },
+        "display": {
+          "type": "AMOLED, 144Hz, 2304Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 112.1 cm2 (~89.5% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Mediatek Dimensity 8400 Ultimate (4 nm)",
+          "cpu": "Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725)",
+          "gpu": "Mali-G720 MC7"
+        },
+        "memory": {
+          "ram": "12GB",
+          "storage": "256GB, 512GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "200 MP, f/1.7, 23mm (wide), 1/1.4\", 0.56µm, dual-pixel PDAF, OIS; 50 MP, f/2.9, 80mm (periscope telephoto), 1/2.76\", 0.64µm, dual-pixel PDAF, OIS, 3.5x optical zoom; 8 MP, f/2.2, 112˚ (ultrawide), 1.12µm",
+          "features": "LED flash, HDR, panorama",
+          "video": "4K@30/60fps, 1080p@30/60/120/240fps, gyro-EIS, OIS, HDR10+",
+          "ois": "Yes",
+          "eis": "gyro-EIS"
+        },
+        "selfie_camera": {
+          "modules": "32 MP, f/2.2, (wide)",
+          "features": null,
+          "video": "4K@30fps, 1080p@30/60fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac/6, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass, heart rate, SpO2",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "Si/C Li-Ion 7000 mAh",
+          "capacity": "7000 mAh",
+          "wired_charging": "100W wired, 50% in 18 min, 100% in 48 min",
+          "wireless_charging": "50W wireless",
+          "reverse_charging": "10W reverse wired, 10W reverse wireless",
+          "bypass_charging": "Bypass Charging (gaming, navigating)"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-note60-ultra.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I03",
+      "brand": "Infinix",
+      "series": "NOTE",
+      "model": "Note Edge 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_note_edge_5g-14421.php",
+      "gsmarena_name": "Infinix Note Edge",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, January 19",
+          "status": "Available. Released 2026, January 31"
+        },
+        "body": {
+          "dimensions": "163.1 x 77.4 x 7.2 mm (6.42 x 3.05 x 0.28 in)",
+          "weight": "190 g (6.70 oz)",
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP65 dust tight and water resistant (low pressure water jets)",
+          "colors": "Lunar Titanium, Silk Green, Stellar Blue, Shadow Black, Orange"
+        },
+        "display": {
+          "type": "AMOLED, 1B colors, 120Hz, 2160Hz PWM, 700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "size": "6.78 inches, 112.1 cm2 (~88.8% screen-to-body ratio)",
+          "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": "700 nits (typ), 1600 nits (HBM), 4500 nits (peak)",
+          "protection": "Corning Gorilla Glass 7i"
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Mediatek Dimensity 7100 (6 nm)",
+          "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G610 MC2"
+        },
+        "memory": {
+          "ram": "8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "No"
+        },
+        "main_camera": {
+          "modules": "50 MP, (wide), 1/2.0\", 0.8µm, PDAF",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "1440p@30fps, 1080p@30fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "13 MP, f/2.2 (wide)",
+          "features": null,
+          "video": "1440p@30fps, 1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS, GALILEO, GLONASS, QZSS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (under display, optical), accelerometer, gyro, proximity, compass",
+          "fingerprint": "under display, optical",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6500 mAh",
+          "capacity": "6500 mAh",
+          "wired_charging": "45W wired, 50% in 27 min",
+          "wireless_charging": null,
+          "reverse_charging": "10W reverse wired",
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-note-edge.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I06",
+      "brand": "Infinix",
+      "series": "HOT",
+      "model": "Hot 60i",
+      "year": 2025,
+      "status": "multiple_matches",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_hot_60i-13983.php",
+      "gsmarena_name": "Infinix Hot 60i 4G",
+      "match_note": "GSMArena lists two variants: Hot 60i 4G and Hot 60i 5G. Both variants are sold in Uzbekistan (confirmed 2026-11-05).",
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2025, July 02",
+          "status": "Available. Released 2025, July 02"
+        },
+        "body": {
+          "dimensions": "166 x 76.6 x 7.7 mm (6.54 x 3.02 x 0.30 in)",
+          "weight": "188 g (6.63 oz)",
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+          "colors": "Sleek Black, Titanium Silver, Shadow Blue, Neon Red, Meadow Green, Soul Eye Purple"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz, 700 nits (HBM)",
+          "size": "6.7 inches, 108.4 cm2 (~85.2% screen-to-body ratio)",
+          "resolution": "720 x 1600 pixels, 20:9 ratio (~262 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": "700 nits (HBM)",
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 15, XOS 15.1",
+          "chipset": "Mediatek Helio G81 Ultimate (12 nm)",
+          "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.8 GHz Cortex-A55)",
+          "gpu": "Mali-G52 MC2"
+        },
+        "memory": {
+          "ram": "4GB, 6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, (wide), AF; Auxiliary lens",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "1440p@30fps, 1080p@30fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, (wide)",
+          "features": null,
+          "video": "Yes"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.3, A2DP, LE",
+          "nfc": "Yes (data transfer only; not for payments - market/region dependent)",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "5160 mAh",
+          "capacity": "5160 mAh",
+          "wired_charging": "45W wired, 50% in 24 min",
+          "wireless_charging": null,
+          "reverse_charging": "10W reverse wired",
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "15",
+          "custom_ui": "XOS 15.1",
+          "updates": null
+        }
+      },
+      "regional_variants": [
+        {
+          "label": "5G",
+          "url": "https://www.gsmarena.com/infinix_hot_60i_5g-14072.php",
+          "specs": {
+            "gsmarena_name": "Infinix Hot 60i",
+            "release": {
+              "announced": "2025, August 16",
+              "status": "Available. Released 2025, August 21"
+            },
+            "body": {
+              "dimensions": "167.4 x 77.7 x 8.1 mm (6.59 x 3.06 x 0.32 in)",
+              "weight": "199 g (7.02 oz)",
+              "build": null,
+              "sim": "Nano-SIM + Nano-SIM",
+              "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+              "colors": "Shadow Blue, Sleek Black, Monsoon Green, Plum Red"
+            },
+            "display": {
+              "type": "IPS LCD, 120Hz, 560 nits (typ), 670 nits (HBM)",
+              "size": "6.75 inches, 110.0 cm2 (~84.6% screen-to-body ratio)",
+              "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+              "refresh_rate": "120Hz",
+              "brightness": "560 nits (typ), 670 nits (HBM)",
+              "protection": null
+            },
+            "platform": {
+              "os": "Android 15, XOS 15.1",
+              "chipset": "Mediatek Dimensity 6400 (6 nm)",
+              "cpu": "Octa-core (2x2.5 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+              "gpu": "Mali-G57 MC2"
+            },
+            "memory": {
+              "ram": "4GB",
+              "storage": "128GB",
+              "card_slot": "microSDXC (dedicated slot)"
+            },
+            "main_camera": {
+              "modules": "50 MP, f/1.6, (wide), AF; Auxiliary lens",
+              "features": "Dual-LED flash, HDR, panorama",
+              "video": "1080p@30fps",
+              "ois": null,
+              "eis": null
+            },
+            "selfie_camera": {
+              "modules": "5 MP, f/2.0, (wide)",
+              "features": null,
+              "video": "1080p@30fps"
+            },
+            "sound": {
+              "speakers": "Yes, with stereo speakers",
+              "jack": "Yes"
+            },
+            "comms": {
+              "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+              "bluetooth": "5.4, A2DP, LE",
+              "nfc": "Yes",
+              "gps": "GPS",
+              "usb": "USB Type-C 2.0, OTG",
+              "network_5g": "SA/NSA"
+            },
+            "features": {
+              "sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass",
+              "fingerprint": "side-mounted",
+              "face_unlock": null
+            },
+            "battery": {
+              "type": "6000 mAh",
+              "capacity": "6000 mAh",
+              "wired_charging": "18W wired",
+              "wireless_charging": null,
+              "reverse_charging": "10W reverse wired",
+              "bypass_charging": "Bypass charging"
+            },
+            "software": {
+              "android": "Android 15",
+              "custom_ui": "XOS 15.1",
+              "updates": null
+            },
+            "images": [
+              "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-60i-5g-official.jpg"
+            ],
+            "id": "I06_5g",
+            "catalog_brand": "Infinix",
+            "catalog_model": "Hot 60i",
+            "catalog_year": 2025,
+            "gsmarena_url": "https://www.gsmarena.com/infinix_hot_60i_5g-14072.php",
+            "match_status": "multiple_matches",
+            "match_note": "GSMArena lists two variants: Hot 60i 4G and Hot 60i 5G.",
+            "fetched_at": "2026-11-05"
+          }
+        }
+      ],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-60i.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": [],
+      "variant_labels": [
+        "4G",
+        "5G"
+      ]
+    },
+    {
+      "id": "I10",
+      "brand": "Infinix",
+      "series": "HOT",
+      "model": "Hot 70",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_hot_70-14683.php",
+      "gsmarena_name": "Infinix Hot 70",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, May 25",
+          "status": "Available. Released 2026, May 25"
+        },
+        "body": {
+          "dimensions": "167.9 x 79.1 x 7.5 mm (6.61 x 3.11 x 0.30 in)",
+          "weight": "195 g (6.88 oz)",
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP65 dust tight and water resistant (low pressure water jets)",
+          "colors": "Night Pulse, Dive Blue, Silver Dancer, Thermo Orange, Green Texture, Quiet Violet"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz, 700 nits (HBM)",
+          "size": "6.78 inches, 112.1 cm2 (~84.4% screen-to-body ratio)",
+          "resolution": "720 x 1576 pixels, 19.5:9 ratio (~256 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": "700 nits (HBM)",
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Mediatek Helio G100 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G52 MC2"
+        },
+        "memory": {
+          "ram": "4GB, 6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.9, (wide), AF; Auxiliary lens",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "1440p@30fps, 1080p@30fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": "Dual-LED flash",
+          "video": "1440p@30fps, 1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6000 mAh",
+          "capacity": "6000 mAh",
+          "wired_charging": "45W wired, 50% in 25 min",
+          "wireless_charging": null,
+          "reverse_charging": "10W reverse wired",
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot70-4g.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I09",
+      "brand": "Infinix",
+      "series": "HOT",
+      "model": "Hot 70 Pro 5G",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_hot_70_pro_5g-14806.php",
+      "gsmarena_name": "Infinix Hot 70 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, July 16",
+          "status": "Available. Released 2026, July"
+        },
+        "body": {
+          "dimensions": "166.9 x 79.5 x 7.9 mm (6.57 x 3.13 x 0.31 in)",
+          "weight": "204 g (7.20 oz)",
+          "build": null,
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP68 dust tight and water resistant (immersible up to 2m for 30 min)",
+          "colors": "Thermo Orange, Mirage Green, Silk Glow Purple, Depth Ring White, Night Pulse, Dive Blue"
+        },
+        "display": {
+          "type": "IPS LCD, 144Hz, 950 nits (HBM)",
+          "size": "6.76 inches, 110.3 cm2 (~83.2% screen-to-body ratio)",
+          "resolution": "1080 x 2344 pixels, 20:9 ratio (~441 ppi density)",
+          "refresh_rate": "144Hz",
+          "brightness": "950 nits (HBM)",
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, up to 3 major OS updates, XOS 16",
+          "chipset": "Mediatek Dimensity 7100 (6 nm)",
+          "cpu": "Octa-core (4x2.4 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G610 MC2"
+        },
+        "memory": {
+          "ram": "6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "50 MP, f/1.8, 25mm (wide), 1/1.95\", 0.8µm, PDAF; Auxiliary lens",
+          "features": "Dual-LED flash, HDR, panorama",
+          "video": "1440p@30fps, 1080p@30/60fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide)",
+          "features": null,
+          "video": "1440p@30fps, 1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.4, A2DP, LE",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "SA/NSA"
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "6000 mAh or 5600 mAh",
+          "capacity": "6000 mAh or 5600 mAh",
+          "wired_charging": "45W wired, 50% in 25 min, 100% in 53 min (for 5600 mAh)",
+          "wireless_charging": null,
+          "reverse_charging": "10W reverse wired",
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": "up to 3 major OS updates"
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-hot-70-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I07",
+      "brand": "Infinix",
+      "series": "SMART",
+      "model": "Smart 20",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_smart_20-14502.php",
+      "gsmarena_name": "Infinix Smart 20",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, March 04",
+          "status": "Available. Released 2026, March"
+        },
+        "body": {
+          "dimensions": "167.7 x 78.8 x 7.7 mm (6.60 x 3.10 x 0.30 in)",
+          "weight": "185 g (6.53 oz)",
+          "build": "Glass front, plastic back, plastic frame",
+          "sim": "Nano-SIM + Nano-SIM",
+          "ip_rating": "IP64",
+          "colors": "Shadow Black, Cloudline Blue, Polaris Titanium, Sunlike Orange"
+        },
+        "display": {
+          "type": "IPS LCD, 120Hz, 700 nits (HBM)",
+          "size": "6.78 inches, 109.5 cm2 (~82.9% screen-to-body ratio)",
+          "resolution": "720 x 1576 pixels, 19.5:9 ratio (~259 ppi density)",
+          "refresh_rate": "120Hz",
+          "brightness": "700 nits (HBM)",
+          "protection": null
+        },
+        "platform": {
+          "os": "Android 16, XOS 16",
+          "chipset": "Mediatek Helio G81 Ultimate (12 nm)",
+          "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+          "gpu": "Mali-G52 MC2"
+        },
+        "memory": {
+          "ram": "4GB",
+          "storage": "64GB, 128GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm, AF",
+          "features": "Dual-LED flash, panorama",
+          "video": "1440p@30fps, 1080p@30fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm",
+          "features": null,
+          "video": "1440p@30fps, 1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes",
+          "jack": "Yes"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "Yes",
+          "nfc": "Yes",
+          "gps": "GPS",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": null
+        },
+        "features": {
+          "sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass",
+          "fingerprint": "side-mounted",
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "5200 mAh",
+          "capacity": "5200 mAh",
+          "wired_charging": "15W wired",
+          "wireless_charging": null,
+          "reverse_charging": "5W reverse wired",
+          "bypass_charging": null
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart20.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    },
+    {
+      "id": "I11",
+      "brand": "Infinix",
+      "series": "XPAD",
+      "model": "Xpad 30 Pro",
+      "year": 2026,
+      "status": "matched",
+      "gsmarena_url": "https://www.gsmarena.com/infinix_xpad_30_pro-14913.php",
+      "gsmarena_name": "Infinix Xpad 30 Pro",
+      "match_note": null,
+      "fetched_at": "2026-11-05",
+      "specs": {
+        "release": {
+          "announced": "2026, September 07",
+          "status": "Available. Released 2026, September 07"
+        },
+        "body": {
+          "dimensions": "254 x 165.6 x 6.6 mm (10.0 x 6.52 x 0.26 in)",
+          "weight": "476 g (1.05 lb)",
+          "build": "Glass front, aluminum frame, aluminum back",
+          "sim": "Nano-SIM",
+          "ip_rating": null,
+          "colors": "Twilight Purple, Anthracite Grey, Titanium Silver"
+        },
+        "display": {
+          "type": "TFT LCD, 90Hz, 500 nits",
+          "size": "11.0 inches, 350.9 cm2 (~83.4% screen-to-body ratio)",
+          "resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)",
+          "refresh_rate": "90Hz",
+          "brightness": "500 nits",
+          "protection": "Panda MN228"
+        },
+        "platform": {
+          "os": "Android 16, XOS 16.3",
+          "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+          "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+          "gpu": "Mali-G57 MC2 (1.1GHz)"
+        },
+        "memory": {
+          "ram": "4GB, 6GB, 8GB",
+          "storage": "128GB, 256GB",
+          "card_slot": "microSDXC (dedicated slot)"
+        },
+        "main_camera": {
+          "modules": "8 MP, f/2.0, 1/4.0\", 1.12µm, AF",
+          "features": "LED flash, panorama",
+          "video": "1440p@30fps, 1080p@30fps",
+          "ois": null,
+          "eis": null
+        },
+        "selfie_camera": {
+          "modules": "8 MP, f/2.0, 1/4.0\", 1.12µm",
+          "features": null,
+          "video": "1440p@30fps, 1080p@30fps"
+        },
+        "sound": {
+          "speakers": "Yes, with stereo speakers with DTS",
+          "jack": "No"
+        },
+        "comms": {
+          "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+          "bluetooth": "5.3, A2DP, LE",
+          "nfc": "No",
+          "gps": "No",
+          "usb": "USB Type-C 2.0, OTG",
+          "network_5g": "No"
+        },
+        "features": {
+          "sensors": "Accelerometer, compass",
+          "fingerprint": null,
+          "face_unlock": null
+        },
+        "battery": {
+          "type": "8200 mAh",
+          "capacity": "8200 mAh",
+          "wired_charging": "18W wired",
+          "wireless_charging": null,
+          "reverse_charging": "Reverse wired",
+          "bypass_charging": "Bypass charging"
+        },
+        "software": {
+          "android": "Android 16",
+          "custom_ui": "XOS 16.3",
+          "updates": null
+        }
+      },
+      "regional_variants": [],
+      "images": [
+        "https://fdn2.gsmarena.com/vv/bigpic/infinix-xpad-30-pro.jpg"
+      ],
+      "verification": {
+        "source": "GSMArena",
+        "status_gsmarena": "reference",
+        "verified_fields": [],
+        "checked_at": "2026-11-05"
+      },
+      "missing_critical": []
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "T19",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Spark Go 3 Pro",
+  "catalog_year": 2025,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_spark_go_3_pro-14905.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05",
+  "gsmarena_name": "Tecno Spark Go 3 Pro",
+  "release": {
+    "announced": "2026, August 28",
+    "status": "Available. Released 2026, September 04"
+  },
+  "body": {
+    "dimensions": null,
+    "weight": null,
+    "build": "Glass front, plastic back, plastic frame",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68/IP69",
+    "colors": "Black, Gray, Orange, Burgundy Red"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz",
+    "size": "6.78 inches, 111.0 cm2 (~85.1% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, HIOS 16",
+    "chipset": "Unisoc T7250 (12 nm)",
+    "cpu": "Octa-core (2x1.8 GHz Cortex-A75 & 6x1.6 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MP1"
+  },
+  "memory": {
+    "ram": "4GB",
+    "storage": "64GB/128GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "13 MP",
+    "features": "Dual-LED",
+    "video": "Yes",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "Yes"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "Yes",
+    "nfc": "No",
+    "gps": "GPS",
+    "usb": "USB Type-C, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "Li-Po",
+    "capacity": "5200 mAh",
+    "wired_charging": "15W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-go3-pro.jpg"
+  ]
+}

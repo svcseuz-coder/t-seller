@@ -1,0 +1,66 @@
+{
+  "gsmarena_name": "Infinix Xpad 30 Pro",
+  "release": {"announced": "2026, September 07", "status": "Available. Released 2026, September 07"},
+  "body": {
+    "dimensions": "254 x 165.6 x 6.6 mm (10.0 x 6.52 x 0.26 in)",
+    "weight": "476 g (1.05 lb)",
+    "build": "Glass front, aluminum frame, aluminum back",
+    "sim": "Nano-SIM",
+    "ip_rating": null,
+    "colors": "Twilight Purple, Anthracite Grey, Titanium Silver"
+  },
+  "display": {
+    "type": "TFT LCD, 90Hz, 500 nits",
+    "size": "11.0 inches, 350.9 cm2 (~83.4% screen-to-body ratio)",
+    "resolution": "1600 x 2560 pixels, 16:10 ratio (~274 ppi density)",
+    "refresh_rate": "90Hz",
+    "brightness": "500 nits",
+    "protection": "Panda MN228"
+  },
+  "platform": {
+    "os": "Android 16, XOS 16.3",
+    "chipset": "Mediatek Helio G200 Ultimate (6 nm)",
+    "cpu": "Octa-core (2x2.2 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MC2 (1.1GHz)"
+  },
+  "memory": {"ram": "4GB, 6GB, 8GB", "storage": "128GB, 256GB", "card_slot": "microSDXC (dedicated slot)"},
+  "main_camera": {
+    "modules": "8 MP, f/2.0, 1/4.0\", 1.12µm, AF",
+    "features": "LED flash, panorama",
+    "video": "1440p@30fps, 1080p@30fps",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {"modules": "8 MP, f/2.0, 1/4.0\", 1.12µm", "features": null, "video": "1440p@30fps, 1080p@30fps"},
+  "sound": {"speakers": "Yes, with stereo speakers with DTS", "jack": "No"},
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "No",
+    "gps": "No",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": "No"
+  },
+  "features": {
+    "sensors": "Accelerometer, compass",
+    "fingerprint": null,
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "8200 mAh",
+    "capacity": "8200 mAh",
+    "wired_charging": "18W wired",
+    "wireless_charging": null,
+    "reverse_charging": "Reverse wired",
+    "bypass_charging": "Bypass charging"
+  },
+  "software": {"android": "Android 16", "custom_ui": "XOS 16.3", "updates": null},
+  "images": ["https://fdn2.gsmarena.com/vv/bigpic/infinix-xpad-30-pro.jpg"],
+  "id": "I11",
+  "catalog_brand": "Infinix",
+  "catalog_model": "Xpad 30 Pro",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/infinix_xpad_30_pro-14913.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

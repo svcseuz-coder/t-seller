@@ -1,0 +1,76 @@
+{
+  "gsmarena_name": "Infinix Smart 20",
+  "release": {"announced": "2026, March 04", "status": "Available. Released 2026, March"},
+  "body": {
+    "dimensions": "167.7 x 78.8 x 7.7 mm (6.60 x 3.10 x 0.30 in)",
+    "weight": "185 g (6.53 oz)",
+    "build": "Glass front, plastic back, plastic frame",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP64",
+    "colors": "Shadow Black, Cloudline Blue, Polaris Titanium, Sunlike Orange"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz, 700 nits (HBM)",
+    "size": "6.78 inches, 109.5 cm2 (~82.9% screen-to-body ratio)",
+    "resolution": "720 x 1576 pixels, 19.5:9 ratio (~259 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": "700 nits (HBM)",
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, XOS 16",
+    "chipset": "Mediatek Helio G81 Ultimate (12 nm)",
+    "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+    "gpu": "Mali-G52 MC2"
+  },
+  "memory": {
+    "ram": "4GB",
+    "storage": "64GB, 128GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm, AF",
+    "features": "Dual-LED flash, panorama",
+    "video": "1440p@30fps, 1080p@30fps",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP, f/2.0, (wide), 1/4.0\", 1.12µm",
+    "features": null,
+    "video": "1440p@30fps, 1080p@30fps"
+  },
+  "sound": {"speakers": "Yes", "jack": "Yes"},
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer, proximity, compass",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "5200 mAh",
+    "capacity": "5200 mAh",
+    "wired_charging": "15W wired",
+    "wireless_charging": null,
+    "reverse_charging": "5W reverse wired",
+    "bypass_charging": null
+  },
+  "software": {"android": "Android 16", "custom_ui": "XOS 16", "updates": null},
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/infinix-smart20.jpg"
+  ],
+  "id": "I07",
+  "catalog_brand": "Infinix",
+  "catalog_model": "Smart 20",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/infinix_smart_20-14502.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "T12",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Spark 50 5G",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50_5g-14566.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05",
+  "gsmarena_name": "Tecno Spark 50",
+  "release": {
+    "announced": "2026, March 27",
+    "status": "Available. Released 2026, April 03"
+  },
+  "body": {
+    "dimensions": "167.9 x 79.3 x 8.2 mm (6.61 x 3.12 x 0.32 in)",
+    "weight": "210 g (7.41 oz)",
+    "build": null,
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP64 dust tight and water resistant (water splashes)",
+    "colors": "Fantasy Purple, Mint Green, Ink Black, Champagne Gold"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz",
+    "size": "6.78 inches, 112.1 cm2 (~84.2% screen-to-body ratio)",
+    "resolution": "720 x 1576 pixels, 19.5:9 ratio (~256 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, HIOS 16",
+    "chipset": "Mediatek Dimensity 6400 (6 nm)",
+    "cpu": "Octa-core (2x2.5 GHz Cortex-A76 & 6x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G57 MC2"
+  },
+  "memory": {
+    "ram": "4GB, 6GB, 8GB",
+    "storage": "128GB, 256GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "50 MP, f/1.9, (wide), PDAF",
+    "features": "LED flash",
+    "video": "Yes",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP, f/2.0, (wide)",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes",
+    "jack": "Yes"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.3, A2DP, LE",
+    "nfc": "No",
+    "gps": "GPS",
+    "usb": "USB Type-C",
+    "network_5g": "SA/NSA"
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted); unspecified sensors",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6500 mAh",
+    "capacity": "6500 mAh",
+    "wired_charging": "45W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark50.jpg"
+  ]
+}

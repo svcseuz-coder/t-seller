@@ -1,0 +1,86 @@
+{
+  "id": "T18",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Spark 50c",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50c-15016.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05",
+  "gsmarena_name": "Tecno Spark 50c",
+  "release": {
+    "announced": "2026, September 17",
+    "status": "Available. Released 2026, September"
+  },
+  "body": {
+    "dimensions": "167.8 x 79.2 x 7.9 mm (6.61 x 3.12 x 0.31 in)",
+    "weight": null,
+    "build": "Glass front, plastic back, plastic frame",
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68/IP69 dust tight and water resistant (high pressure water jets; immersible up to 1.5m for 30 min) Drop resistant up to 1.7m",
+    "colors": "Burgundy Red, Forge Orange, Basalt Titanium, Eclipse Black"
+  },
+  "display": {
+    "type": "IPS LCD, 120Hz",
+    "size": "6.78 inches, 111.0 cm2 (~83.5% screen-to-body ratio)",
+    "resolution": "720 x 1600 pixels, 20:9 ratio (~259 ppi density)",
+    "refresh_rate": "120Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, HIOS 16",
+    "chipset": "Mediatek Helio G81 (12 nm)",
+    "cpu": "Octa-core (2x2.0 GHz Cortex-A75 & 6x1.7 GHz Cortex-A55)",
+    "gpu": "Mali-G52 MC2"
+  },
+  "memory": {
+    "ram": "4GB",
+    "storage": "64GB, 128GB, 256GB",
+    "card_slot": "microSDXC (dedicated slot)"
+  },
+  "main_camera": {
+    "modules": "13 MP",
+    "features": "Dual-LED",
+    "video": "Yes",
+    "ois": null,
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "8 MP",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "Yes"
+  },
+  "comms": {
+    "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+    "bluetooth": "5.4, A2DP, LE",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C, OTG",
+    "network_5g": null
+  },
+  "features": {
+    "sensors": "Fingerprint (side-mounted), accelerometer",
+    "fingerprint": "side-mounted",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "Li-Po",
+    "capacity": "5200 mAh",
+    "wired_charging": "15W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": null
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-spark-50c.jpg"
+  ]
+}

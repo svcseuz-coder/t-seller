@@ -1,0 +1,86 @@
+{
+  "id": "T13",
+  "catalog_brand": "TECNO",
+  "catalog_model": "Camon 50 Pro 5G",
+  "catalog_year": 2026,
+  "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50_pro_5g-14538.php",
+  "match_status": "matched",
+  "fetched_at": "2026-11-05",
+  "gsmarena_name": "Tecno Camon 50 Pro",
+  "release": {
+    "announced": "2026, March 10",
+    "status": "Available. Released 2026, March 10"
+  },
+  "body": {
+    "dimensions": "162.4 x 77 x 7.8 mm (6.39 x 3.03 x 0.31 in)",
+    "weight": null,
+    "build": null,
+    "sim": "Nano-SIM + Nano-SIM",
+    "ip_rating": "IP68/IP69K dust tight and water resistant (high pressure water jets; immersible up to 2m for 30 min) MIL-STD-810H compliant",
+    "colors": "Moonshadow Black, Cypress Green, Nebula Titanium, Misty Purple"
+  },
+  "display": {
+    "type": "AMOLED, 144Hz",
+    "size": "6.78 inches, 112.1 cm2 (~89.6% screen-to-body ratio)",
+    "resolution": "1208 x 2644 pixels, 19.5:9 ratio (~429 ppi density)",
+    "refresh_rate": "144Hz",
+    "brightness": null,
+    "protection": null
+  },
+  "platform": {
+    "os": "Android 16, up to 3 major OS updates, HIOS 16",
+    "chipset": "Mediatek Dimensity 7400 Ultimate (4 nm)",
+    "cpu": "Octa-core (4x2.6 GHz Cortex-A78 & 4x2.0 GHz Cortex-A55)",
+    "gpu": "Mali-G615 MC2"
+  },
+  "memory": {
+    "ram": "8GB, 12GB",
+    "storage": "256GB, 512GB",
+    "card_slot": "Unspecified"
+  },
+  "main_camera": {
+    "modules": "50 MP, f/1.8, 23mm (wide), 1/1.56\", 1.0µm, PDAF, OIS; 50 MP, f/2.4, 70mm (telephoto), AF, OIS, 3x optical zoom; 8 MP, f/2.2, 14mm, 112˚ (ultrawide), 1/4.0\", 1.12µm",
+    "features": "LED flash, HDR, panorama",
+    "video": "Yes",
+    "ois": "Yes",
+    "eis": null
+  },
+  "selfie_camera": {
+    "modules": "50 MP, (wide)",
+    "features": null,
+    "video": "Yes"
+  },
+  "sound": {
+    "speakers": "Yes, with stereo speakers",
+    "jack": "No"
+  },
+  "comms": {
+    "wlan": "Yes",
+    "bluetooth": "Yes",
+    "nfc": "Yes",
+    "gps": "GPS",
+    "usb": "USB Type-C 2.0, OTG",
+    "network_5g": "SA/NSA"
+  },
+  "features": {
+    "sensors": "Fingerprint (under display, optical), accelerometer, proximity, compass",
+    "fingerprint": "under display, optical",
+    "face_unlock": null
+  },
+  "battery": {
+    "type": "6500 mAh",
+    "capacity": "6500 mAh",
+    "wired_charging": "45W wired",
+    "wireless_charging": null,
+    "reverse_charging": null,
+    "bypass_charging": null
+  },
+  "software": {
+    "android": "Android 16",
+    "custom_ui": "HIOS 16",
+    "updates": "up to 3 major OS updates"
+  },
+  "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/tecno-camon-50-pro.jpg"
+  ]
+}
