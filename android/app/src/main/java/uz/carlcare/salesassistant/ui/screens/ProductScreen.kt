@@ -1,14 +1,15 @@
 package uz.carlcare.salesassistant.ui.screens
 
+import android.content.Intent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
@@ -16,7 +17,11 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.PhoneAndroid
+import androidx.compose.material.icons.outlined.Share
+import androidx.compose.material.icons.outlined.StarBorder
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
@@ -40,6 +45,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextOverflow
@@ -47,6 +53,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
 import uz.carlcare.salesassistant.R
+import uz.carlcare.salesassistant.core.data.ProductShareText
+import uz.carlcare.salesassistant.core.data.ShareLine
 import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
 import uz.carlcare.salesassistant.core.design.BrandColors
 import uz.carlcare.salesassistant.core.design.Pill
@@ -77,6 +85,8 @@ internal val FIELD_ORDER = mapOf(
 @Composable
 fun ProductScreen(viewModel: ProductViewModel, onBack: () -> Unit) {
     val item by viewModel.item.collectAsStateWithLifecycle()
+    val isFavorite by viewModel.isFavorite.collectAsStateWithLifecycle()
+    var shareOpen by rememberSaveable { mutableStateOf(false) }
 
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
@@ -92,6 +102,20 @@ fun ProductScreen(viewModel: ProductViewModel, onBack: () -> Unit) {
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Outlined.ArrowBack, contentDescription = stringResource(R.string.back))
+                    }
+                },
+                actions = {
+                    IconButton(onClick = viewModel::toggleFavorite, enabled = item != null) {
+                        Icon(
+                            imageVector = if (isFavorite) Icons.Filled.Star else Icons.Outlined.StarBorder,
+                            contentDescription = stringResource(
+                                if (isFavorite) R.string.remove_favorite else R.string.add_favorite,
+                            ),
+                            tint = if (isFavorite) BrandColors.Favorite else MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
+                    IconButton(onClick = { shareOpen = true }, enabled = item != null) {
+                        Icon(Icons.Outlined.Share, contentDescription = stringResource(R.string.share))
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = MaterialTheme.colorScheme.background),
@@ -237,7 +261,89 @@ fun ProductScreen(viewModel: ProductViewModel, onBack: () -> Unit) {
                 }
             }
         }
+
+        if (shareOpen) {
+            SharePreviewDialog(
+                data = data,
+                variant = selected,
+                onDismiss = { shareOpen = false },
+            )
+        }
     }
+}
+
+private fun shareTitle(data: ProductWithSpecs, variant: String): String {
+    val base = "${data.product.brand} ${data.product.model}"
+    return if (data.variants().size > 1) "$base · $variant" else base
+}
+
+@Composable
+private fun shareMessage(data: ProductWithSpecs, variant: String): String {
+    val specs = data.specsFor(variant)
+    fun value(group: String, field: String) = specs[group]?.get(field)
+    val displayLabel = stringResource(R.string.share_spec_display)
+    val chipsetLabel = stringResource(R.string.share_spec_chipset)
+    val memoryLabel = stringResource(R.string.share_spec_memory)
+    val cameraLabel = stringResource(R.string.share_spec_camera)
+    val batteryLabel = stringResource(R.string.share_spec_battery)
+    val protectionLabel = stringResource(R.string.share_spec_protection)
+    val lines = buildList {
+        ProductShareText.displayLine(
+            type = value("display", "type"),
+            size = value("display", "size"),
+            resolution = value("display", "resolution"),
+            refresh = value("display", "refresh_rate"),
+        )?.let { add(ShareLine(displayLabel, it)) }
+        ProductShareText.chipsetLine(value("platform", "chipset"))?.let { add(ShareLine(chipsetLabel, it)) }
+        ProductShareText.memoryLine(value("memory", "ram"), value("memory", "storage"))
+            ?.let { add(ShareLine(memoryLabel, it)) }
+        ProductShareText.cameraLine(value("main_camera", "modules"))?.let { add(ShareLine(cameraLabel, it)) }
+        ProductShareText.batteryLine(value("battery", "capacity"), value("battery", "wired_charging"))
+            ?.let { add(ShareLine(batteryLabel, it)) }
+        ProductShareText.protectionLine(value("body", "ip_rating"))?.let { add(ShareLine(protectionLabel, it)) }
+    }
+    return ProductShareText.build(shareTitle(data, variant), lines, stringResource(R.string.footer_credit))
+}
+
+@Composable
+private fun SharePreviewDialog(data: ProductWithSpecs, variant: String, onDismiss: () -> Unit) {
+    val text = shareMessage(data, variant)
+    val context = LocalContext.current
+    val chooserTitle = stringResource(R.string.share_chooser)
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.share_title)) },
+        text = {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 360.dp)
+                    .verticalScroll(rememberScrollState()),
+            ) {
+                Text(text, style = MaterialTheme.typography.bodySmall)
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = {
+                    val send = Intent(Intent.ACTION_SEND).apply {
+                        type = "text/plain"
+                        putExtra(Intent.EXTRA_TEXT, text)
+                        putExtra(Intent.EXTRA_SUBJECT, shareTitle(data, variant))
+                    }
+                    context.startActivity(Intent.createChooser(send, chooserTitle))
+                    onDismiss()
+                },
+            ) {
+                Text(stringResource(R.string.share_send))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.share_close))
+            }
+        },
+    )
 }
 
 internal fun groupLabel(group: String): Int = when (group) {

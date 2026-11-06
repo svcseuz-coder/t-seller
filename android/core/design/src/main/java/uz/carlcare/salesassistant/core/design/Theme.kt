@@ -13,6 +13,7 @@ import androidx.compose.ui.unit.sp
 object BrandColors {
     val Tecno = Color(0xFF00A8E8)
     val Infinix = Color(0xFF22C55E)
+    val Favorite = Color(0xFFF2A93B)
     val DarkBackground = Color(0xFF0B0F14)
     val DarkSurface = Color(0xFF131A23)
     val LightBackground = Color(0xFFF4F6F9)

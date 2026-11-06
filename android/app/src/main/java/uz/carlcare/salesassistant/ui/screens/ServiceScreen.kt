@@ -3,8 +3,6 @@ package uz.carlcare.salesassistant.ui.screens
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.ExperimentalLayoutApi
-import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -101,7 +99,7 @@ fun ServiceScreen(viewModel: ServiceViewModel, onBack: () -> Unit, onOpenWarrant
         ) {
             support?.let { info ->
                 item { SupportCard(info, accent, uri) }
-                item { QuickLinks(accent, uri, onOpenWarranty) }
+                item { QuickLinks(accent, onOpenWarranty) }
             }
 
             item {
@@ -237,45 +235,20 @@ private fun SupportCard(info: SupportInfoEntity, accent: Color, uri: androidx.co
     }
 }
 
-@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun QuickLinks(accent: Color, uri: androidx.compose.ui.platform.UriHandler, onOpenWarranty: () -> Unit) {
-    FlowRow(
-        modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        verticalArrangement = Arrangement.spacedBy(8.dp),
-    ) {
-        AssistChip(
-            onClick = onOpenWarranty,
-            label = { Text(stringResource(R.string.warranty_terms)) },
-            leadingIcon = {
-                Icon(
-                    Icons.Outlined.Assignment,
-                    contentDescription = null,
-                    tint = accent,
-                    modifier = Modifier.size(16.dp),
-                )
-            },
-        )
-        listOf(
-            R.string.warranty_check to "https://www.carlcare.com/uz/warranty-check",
-            R.string.repair_status to "https://www.carlcare.com/uz/repair-status",
-            R.string.service_policy to "https://www.carlcare.com/uz/service-policy/",
-        ).forEach { (label, url) ->
-            AssistChip(
-                onClick = { uri.openUri(url) },
-                label = { Text(stringResource(label)) },
-                leadingIcon = {
-                    Icon(
-                        Icons.Outlined.ArrowOutward,
-                        contentDescription = null,
-                        tint = accent,
-                        modifier = Modifier.size(16.dp),
-                    )
-                },
+private fun QuickLinks(accent: Color, onOpenWarranty: () -> Unit) {
+    AssistChip(
+        onClick = onOpenWarranty,
+        label = { Text(stringResource(R.string.warranty_terms)) },
+        leadingIcon = {
+            Icon(
+                Icons.Outlined.Assignment,
+                contentDescription = null,
+                tint = accent,
+                modifier = Modifier.size(16.dp),
             )
-        }
-    }
+        },
+    )
 }
 
 @Composable

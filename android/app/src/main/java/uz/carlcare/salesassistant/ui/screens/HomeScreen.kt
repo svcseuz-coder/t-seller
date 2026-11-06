@@ -15,6 +15,9 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.statusBarsPadding
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
@@ -23,13 +26,16 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.CompareArrows
 import androidx.compose.material.icons.automirrored.outlined.MenuBook
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.ArrowOutward
 import androidx.compose.material.icons.outlined.AutoAwesome
 import androidx.compose.material.icons.outlined.Build
 import androidx.compose.material.icons.outlined.Check
 import androidx.compose.material.icons.outlined.Close
+import androidx.compose.material.icons.outlined.PhoneAndroid
 import androidx.compose.material.icons.outlined.Quiz
 import androidx.compose.material.icons.outlined.Search
+import androidx.compose.material.icons.outlined.StarBorder
 import androidx.compose.material.icons.outlined.Translate
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -51,6 +57,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.painterResource
@@ -62,7 +69,9 @@ import androidx.compose.ui.unit.dp
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import coil.compose.AsyncImage
 import uz.carlcare.salesassistant.R
+import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
 import uz.carlcare.salesassistant.core.design.BrandColors
 import uz.carlcare.salesassistant.core.design.FeatureTile
 import uz.carlcare.salesassistant.core.design.Pill
@@ -76,8 +85,12 @@ fun HomeScreen(
     onSearch: (String) -> Unit,
     onOpenBrand: (String) -> Unit,
     onOpenTool: (String) -> Unit,
+    onOpenProduct: (String) -> Unit,
 ) {
     val items by viewModel.items.collectAsStateWithLifecycle()
+    val favorites by viewModel.favorites.collectAsStateWithLifecycle()
+    val recent by viewModel.recent.collectAsStateWithLifecycle()
+    val favoriteIds by viewModel.favoriteIds.collectAsStateWithLifecycle()
     var query by rememberSaveable { mutableStateOf("") }
     val focus = LocalFocusManager.current
     val tecno = items.count { it.product.brand == "TECNO" }
@@ -132,6 +145,34 @@ fun HomeScreen(
                 unfocusedContainerColor = MaterialTheme.colorScheme.surface,
             ),
         )
+
+        if (favorites.isNotEmpty()) {
+            SectionTitle(stringResource(R.string.favorites))
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                items(favorites, key = { it.product.id }) { data ->
+                    MiniProductCard(
+                        data = data,
+                        favorite = true,
+                        onToggleFavorite = { viewModel.toggleFavorite(data.product.id) },
+                        onClick = { onOpenProduct(data.product.id) },
+                    )
+                }
+            }
+        }
+
+        if (recent.isNotEmpty()) {
+            SectionTitle(stringResource(R.string.recent))
+            LazyRow(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                items(recent, key = { it.product.id }) { data ->
+                    MiniProductCard(
+                        data = data,
+                        favorite = data.product.id in favoriteIds,
+                        onToggleFavorite = { viewModel.toggleFavorite(data.product.id) },
+                        onClick = { onOpenProduct(data.product.id) },
+                    )
+                }
+            }
+        }
 
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
             BrandCard(
@@ -283,6 +324,81 @@ private fun Header() {
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+        }
+    }
+}
+
+@Composable
+private fun MiniProductCard(
+    data: ProductWithSpecs,
+    favorite: Boolean,
+    onToggleFavorite: () -> Unit,
+    onClick: () -> Unit,
+) {
+    val product = data.product
+    val accent = if (product.brand == "TECNO") BrandColors.Tecno else BrandColors.Infinix
+    Card(
+        onClick = onClick,
+        modifier = Modifier.width(152.dp),
+        shape = RoundedCornerShape(20.dp),
+        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+    ) {
+        Column {
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(104.dp)
+                    .background(Color.White),
+                contentAlignment = Alignment.Center,
+            ) {
+                if (product.imageUrl != null) {
+                    AsyncImage(
+                        model = product.imageUrl,
+                        contentDescription = product.model,
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(8.dp),
+                        contentScale = ContentScale.Fit,
+                    )
+                } else {
+                    Icon(
+                        Icons.Outlined.PhoneAndroid,
+                        contentDescription = null,
+                        modifier = Modifier.size(40.dp),
+                        tint = accent,
+                    )
+                }
+            }
+            Row(
+                modifier = Modifier.padding(start = 10.dp, end = 2.dp, top = 6.dp, bottom = 8.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                Column(Modifier.weight(1f)) {
+                    Text(
+                        text = product.model,
+                        style = MaterialTheme.typography.titleSmall,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                    Text(
+                        text = "${product.brand} · ${product.year}",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis,
+                    )
+                }
+                IconButton(onClick = onToggleFavorite, modifier = Modifier.size(32.dp)) {
+                    Icon(
+                        imageVector = if (favorite) Icons.Filled.Star else Icons.Outlined.StarBorder,
+                        contentDescription = stringResource(
+                            if (favorite) R.string.remove_favorite else R.string.add_favorite,
+                        ),
+                        modifier = Modifier.size(18.dp),
+                        tint = if (favorite) BrandColors.Favorite else MaterialTheme.colorScheme.onSurfaceVariant,
+                    )
+                }
+            }
         }
     }
 }

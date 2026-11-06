@@ -25,4 +25,28 @@ interface CatalogDao {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertSpecs(specs: List<SpecEntity>)
+
+    @Query("SELECT product_id FROM favorites ORDER BY added_at DESC")
+    fun observeFavoriteIds(): Flow<List<String>>
+
+    @Query("SELECT product_id FROM favorites")
+    suspend fun favoriteIds(): List<String>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertFavorite(favorite: FavoriteEntity)
+
+    @Query("DELETE FROM favorites WHERE product_id = :id")
+    suspend fun deleteFavorite(id: String)
+
+    @Query("SELECT product_id FROM recent_views ORDER BY viewed_at DESC")
+    fun observeRecentIds(): Flow<List<String>>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertRecentView(view: RecentViewEntity)
+
+    @Query(
+        "DELETE FROM recent_views WHERE product_id NOT IN " +
+            "(SELECT product_id FROM recent_views ORDER BY viewed_at DESC LIMIT :keep)",
+    )
+    suspend fun trimRecentViews(keep: Int)
 }

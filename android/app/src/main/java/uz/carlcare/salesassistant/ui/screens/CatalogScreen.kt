@@ -21,7 +21,9 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
+import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.Search
+import androidx.compose.material.icons.outlined.StarBorder
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -65,6 +67,7 @@ fun CatalogScreen(
     onOpenProduct: (String) -> Unit,
 ) {
     val items by viewModel.items.collectAsStateWithLifecycle()
+    val favoriteIds by viewModel.favoriteIds.collectAsStateWithLifecycle()
     var query by rememberSaveable { mutableStateOf(viewModel.initialQuery) }
     var seriesFilter by rememberSaveable { mutableStateOf<String?>(null) }
 
@@ -165,7 +168,12 @@ fun CatalogScreen(
                     verticalArrangement = Arrangement.spacedBy(12.dp),
                 ) {
                     items(shown, key = { it.product.id }) { item ->
-                        ProductCard(item = item, onClick = { onOpenProduct(item.product.id) })
+                        ProductCard(
+                            item = item,
+                            favorite = item.product.id in favoriteIds,
+                            onToggleFavorite = { viewModel.toggleFavorite(item.product.id) },
+                            onClick = { onOpenProduct(item.product.id) },
+                        )
                     }
                 }
             }
@@ -174,7 +182,12 @@ fun CatalogScreen(
 }
 
 @Composable
-private fun ProductCard(item: ProductWithSpecs, onClick: () -> Unit) {
+private fun ProductCard(
+    item: ProductWithSpecs,
+    favorite: Boolean,
+    onToggleFavorite: () -> Unit,
+    onClick: () -> Unit,
+) {
     val product = item.product
     val accent = if (product.brand == "TECNO") BrandColors.Tecno else BrandColors.Infinix
     val variants = item.variants()
@@ -221,6 +234,16 @@ private fun ProductCard(item: ProductWithSpecs, onClick: () -> Unit) {
                         overflow = TextOverflow.Ellipsis,
                     )
                     Pill(text = product.series, accent = accent)
+                    IconButton(onClick = onToggleFavorite, modifier = Modifier.size(36.dp)) {
+                        Icon(
+                            imageVector = if (favorite) Icons.Filled.Star else Icons.Outlined.StarBorder,
+                            contentDescription = stringResource(
+                                if (favorite) R.string.remove_favorite else R.string.add_favorite,
+                            ),
+                            modifier = Modifier.size(20.dp),
+                            tint = if (favorite) BrandColors.Favorite else MaterialTheme.colorScheme.onSurfaceVariant,
+                        )
+                    }
                 }
                 Text(
                     text = product.year.toString(),

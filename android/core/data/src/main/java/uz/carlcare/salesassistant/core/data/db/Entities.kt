@@ -39,6 +39,18 @@ data class SpecEntity(
     val value: String,
 )
 
+@Entity(tableName = "favorites")
+data class FavoriteEntity(
+    @PrimaryKey @ColumnInfo(name = "product_id") val productId: String,
+    @ColumnInfo(name = "added_at") val addedAt: Long,
+)
+
+@Entity(tableName = "recent_views")
+data class RecentViewEntity(
+    @PrimaryKey @ColumnInfo(name = "product_id") val productId: String,
+    @ColumnInfo(name = "viewed_at") val viewedAt: Long,
+)
+
 @Entity(tableName = "service_centers")
 data class ServiceCenterEntity(
     @PrimaryKey val id: Int,

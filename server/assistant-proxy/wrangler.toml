@@ -1,0 +1,13 @@
+name = "t-seller-assistant"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Any OpenAI-compatible chat-completions endpoint can be used.
+[vars]
+LLM_BASE_URL = "https://api.openai.com/v1"
+LLM_MODEL = "gpt-4o-mini"
+# Optional shared token. Leave empty to disable the header check.
+APP_TOKEN = ""
+
+# Secrets (never committed):
+#   wrangler secret put LLM_API_KEY

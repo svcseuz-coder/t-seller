@@ -4,6 +4,9 @@ plugins {
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+val assistantProxyUrl = providers.gradleProperty("assistantProxyUrl").orElse("").get()
+val assistantAppToken = providers.gradleProperty("assistantToken").orElse("").get()
+
 android {
     namespace = "uz.carlcare.salesassistant"
     compileSdk = 35
@@ -12,10 +15,13 @@ android {
         applicationId = "uz.carlcare.salesassistant"
         minSdk = 29
         targetSdk = 35
-        versionCode = 5
-        versionName = "1.3.0"
+        versionCode = 11
+        versionName = "1.7.0"
 
         vectorDrawables { useSupportLibrary = true }
+
+        buildConfigField("String", "ASSISTANT_PROXY_URL", "\"$assistantProxyUrl\"")
+        buildConfigField("String", "ASSISTANT_APP_TOKEN", "\"$assistantAppToken\"")
     }
 
     buildTypes {
@@ -35,6 +41,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     packaging {
         resources.excludes += "/META-INF/{AL2.0,LGPL2.1}"

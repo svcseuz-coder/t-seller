@@ -4,12 +4,15 @@ import android.content.Context
 import androidx.room.withTransaction
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
 import uz.carlcare.salesassistant.core.data.db.AppDatabase
+import uz.carlcare.salesassistant.core.data.db.FavoriteEntity
 import uz.carlcare.salesassistant.core.data.db.ProductEntity
 import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
+import uz.carlcare.salesassistant.core.data.db.RecentViewEntity
 import uz.carlcare.salesassistant.core.data.db.SpecEntity
 
 class CatalogRepository(
@@ -29,6 +32,36 @@ class CatalogRepository(
         }
 
     fun observeProduct(id: String): Flow<ProductWithSpecs?> = dao.observeProduct(id)
+
+    fun observeFavoriteIds(): Flow<Set<String>> =
+        dao.observeFavoriteIds().map { it.toSet() }
+
+    fun observeFavorites(): Flow<List<ProductWithSpecs>> =
+        combine(dao.observeFavoriteIds(), dao.observeAll()) { ids, items ->
+            selectInOrder(ids, items)
+        }
+
+    fun observeRecent(): Flow<List<ProductWithSpecs>> =
+        combine(
+            dao.observeRecentIds(),
+            dao.observeFavoriteIds(),
+            dao.observeAll(),
+        ) { recent, favoriteIds, items ->
+            selectInOrder(recent - favoriteIds.toSet(), items).take(RECENT_LIMIT)
+        }
+
+    suspend fun toggleFavorite(id: String) = withContext(Dispatchers.IO) {
+        if (id in dao.favoriteIds()) {
+            dao.deleteFavorite(id)
+        } else {
+            dao.insertFavorite(FavoriteEntity(id, System.currentTimeMillis()))
+        }
+    }
+
+    suspend fun markViewed(id: String) = withContext(Dispatchers.IO) {
+        dao.insertRecentView(RecentViewEntity(id, System.currentTimeMillis()))
+        dao.trimRecentViews(RECENT_LIMIT)
+    }
 
     suspend fun seedIfEmpty() = withContext(Dispatchers.IO) {
         if (dao.count() > 0) return@withContext
@@ -102,6 +135,15 @@ class CatalogRepository(
             }
         }
     }
+
+    companion object {
+        const val RECENT_LIMIT = 8
+    }
+}
+
+internal fun selectInOrder(ids: List<String>, items: List<ProductWithSpecs>): List<ProductWithSpecs> {
+    val byId = items.associateBy { it.product.id }
+    return ids.mapNotNull { byId[it] }
 }
 
 private fun JSONObject.optStringOrNull(key: String): String? =

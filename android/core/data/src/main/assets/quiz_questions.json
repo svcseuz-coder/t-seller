@@ -1,0 +1,1116 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-06",
+  "questions": [
+    {
+      "id": "q_display_hz",
+      "category": "display",
+      "ru": {
+        "question": "Что означает частота обновления экрана 120 Гц?",
+        "options": [
+          "Экран обновляет картинку 120 раз в секунду",
+          "Экран поддерживает 120 приложений одновременно",
+          "Яркость экрана 120 нит",
+          "Экран заряжается за 120 секунд"
+        ],
+        "answer": 0,
+        "explanation": "Герцы — это частота обновления: чем выше, тем плавнее прокрутка и анимации."
+      },
+      "en": {
+        "question": "What does a 120 Hz screen refresh rate mean?",
+        "options": [
+          "The screen redraws the picture 120 times per second",
+          "The screen runs 120 apps at the same time",
+          "Screen brightness is 120 nits",
+          "The screen charges in 120 seconds"
+        ],
+        "answer": 0,
+        "explanation": "Hertz is the refresh rate: the higher it is, the smoother scrolling and animations feel."
+      },
+      "uz": {
+        "question": "Ekranning 120 Gts yangilanish chastotasi nimani bildiradi?",
+        "options": [
+          "Ekran tasvirni sekundiga 120 marta yangilaydi",
+          "Ekran bir vaqtda 120 ta ilovani qo'llab-quvvatlaydi",
+          "Ekran yorqinligi 120 nit",
+          "Ekran 120 soniyada zaryadlanadi"
+        ],
+        "answer": 0,
+        "explanation": "Gerts — yangilanish chastotasi: qanchalik yuqori bo'lsa, aylantirish va animatsiyalar shunchalik silliq."
+      }
+    },
+    {
+      "id": "q_display_camon50",
+      "category": "display",
+      "ru": {
+        "question": "Какой тип экрана у TECNO Camon 50 4G?",
+        "options": [
+          "AMOLED",
+          "IPS LCD",
+          "TFT LCD",
+          "OLED бывает только у Infinix"
+        ],
+        "answer": 0,
+        "explanation": "У всей серии Camon 50 — AMOLED 144 Гц; IPS LCD стоит в линейках Spark и Hot."
+      },
+      "en": {
+        "question": "What screen type does the TECNO Camon 50 4G use?",
+        "options": [
+          "AMOLED",
+          "IPS LCD",
+          "TFT LCD",
+          "OLED is available only on Infinix"
+        ],
+        "answer": 0,
+        "explanation": "The whole Camon 50 series uses AMOLED 144 Hz; IPS LCD is used in the Spark and Hot lines."
+      },
+      "uz": {
+        "question": "TECNO Camon 50 4G ekrani qanday turda?",
+        "options": [
+          "AMOLED",
+          "IPS LCD",
+          "TFT LCD",
+          "OLED faqat Infinix'da bo'ladi"
+        ],
+        "answer": 0,
+        "explanation": "Butun Camon 50 seriyasida AMOLED 144 Gts; IPS LCD Spark va Hot seriyalarida."
+      }
+    },
+    {
+      "id": "q_display_90hz",
+      "category": "display",
+      "ru": {
+        "question": "У какой модели экран 90 Гц?",
+        "options": [
+          "Infinix Xpad 30 Pro",
+          "TECNO Pova 8 Pro 5G",
+          "Infinix Hot 70 Pro 5G",
+          "TECNO Camon 50 4G"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro — планшет с экраном 90 Гц; остальные модели в списке — 144 Гц."
+      },
+      "en": {
+        "question": "Which model has a 90 Hz screen?",
+        "options": [
+          "Infinix Xpad 30 Pro",
+          "TECNO Pova 8 Pro 5G",
+          "Infinix Hot 70 Pro 5G",
+          "TECNO Camon 50 4G"
+        ],
+        "answer": 0,
+        "explanation": "The Xpad 30 Pro is a tablet with a 90 Hz screen; the other listed models are 144 Hz."
+      },
+      "uz": {
+        "question": "Qaysi modelda 90 Gts ekran bor?",
+        "options": [
+          "Infinix Xpad 30 Pro",
+          "TECNO Pova 8 Pro 5G",
+          "Infinix Hot 70 Pro 5G",
+          "TECNO Camon 50 4G"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro — 90 Gts ekranli planshet; ro'yxatdagi qolganlari 144 Gts."
+      }
+    },
+    {
+      "id": "q_display_hbm",
+      "category": "display",
+      "ru": {
+        "question": "Что такое HBM-яркость?",
+        "options": [
+          "Режим повышенной яркости на солнце",
+          "Максимальная яркость вспышки",
+          "Яркость в тёмной теме",
+          "Минимальная яркость ночью"
+        ],
+        "answer": 0,
+        "explanation": "HBM (High Brightness Mode) — пиковая яркость для солнца; её указывают отдельно от типичной."
+      },
+      "en": {
+        "question": "What is HBM brightness?",
+        "options": [
+          "A high-brightness mode for use in sunlight",
+          "The maximum flash brightness",
+          "Brightness in dark theme",
+          "The minimum brightness at night"
+        ],
+        "answer": 0,
+        "explanation": "HBM (High Brightness Mode) is the peak brightness for sunlight; it is listed separately from typical brightness."
+      },
+      "uz": {
+        "question": "HBM yorqinligi nima?",
+        "options": [
+          "Quyoshda yuqori yorqinlik rejimi",
+          "Chaqnoq uchun maksimal yorqinlik",
+          "Tungi mavzudagi yorqinlik",
+          "Tunda minimal yorqinlik"
+        ],
+        "answer": 0,
+        "explanation": "HBM (High Brightness Mode) — quyosh uchun eng yuqori yorqinlik; u odatiy yorqinlikdan alohida ko'rsatiladi."
+      }
+    },
+    {
+      "id": "q_platform_note60pro",
+      "category": "platform",
+      "ru": {
+        "question": "Какой чипсет у Infinix Note 60 Pro 5G?",
+        "options": [
+          "Snapdragon 7s Gen 4",
+          "Dimensity 8400 Ultimate",
+          "Helio G200 Ultimate",
+          "Unisoc T7250"
+        ],
+        "answer": 0,
+        "explanation": "Note 60 Pro 5G — единственная модель каталога на Qualcomm Snapdragon; остальные на MediaTek."
+      },
+      "en": {
+        "question": "Which chipset does the Infinix Note 60 Pro 5G use?",
+        "options": [
+          "Snapdragon 7s Gen 4",
+          "Dimensity 8400 Ultimate",
+          "Helio G200 Ultimate",
+          "Unisoc T7250"
+        ],
+        "answer": 0,
+        "explanation": "The Note 60 Pro 5G is the only catalog model on a Qualcomm Snapdragon; the rest use MediaTek."
+      },
+      "uz": {
+        "question": "Infinix Note 60 Pro 5G qaysi chipsetda?",
+        "options": [
+          "Snapdragon 7s Gen 4",
+          "Dimensity 8400 Ultimate",
+          "Helio G200 Ultimate",
+          "Unisoc T7250"
+        ],
+        "answer": 0,
+        "explanation": "Note 60 Pro 5G — katalogdagi yagona Qualcomm Snapdragon modeli; qolganlari MediaTek."
+      }
+    },
+    {
+      "id": "q_platform_nm",
+      "category": "platform",
+      "ru": {
+        "question": "Что означает техпроцесс чипа 4 нм?",
+        "options": [
+          "Размер элементов чипа: меньше — обычно эффективнее",
+          "Чип работает на частоте 4 нм",
+          "Скорость интернета до 4 нм/с",
+          "Количество ядер — четыре"
+        ],
+        "answer": 0,
+        "explanation": "Нанометры — грубый ориентир эффективности: меньше техпроцесс — обычно ниже нагрев и расход, но результат зависит от всей системы."
+      },
+      "en": {
+        "question": "What does a 4 nm chip process mean?",
+        "options": [
+          "The size of chip elements: smaller is usually more efficient",
+          "The chip runs at 4 nm frequency",
+          "Internet speed up to 4 nm/s",
+          "The chip has four cores"
+        ],
+        "answer": 0,
+        "explanation": "Nanometers are a rough efficiency guide: a smaller process usually means less heat and power draw, but the whole system matters."
+      },
+      "uz": {
+        "question": "Chipning 4 nm texjarayoni nimani bildiradi?",
+        "options": [
+          "Chip elementlarining o'lchami: kichikroq — odatda samaraliroq",
+          "Chip 4 nm chastotada ishlaydi",
+          "Internet tezligi 4 nm/s",
+          "Yadrolar soni — to'rtta"
+        ],
+        "answer": 0,
+        "explanation": "Nanometr — samaradorlikning taxminiy ko'rsatkichi: kichikroq texjarayon odatda kamroq isit va sarf, lekin natija butun tizimga bog'liq."
+      }
+    },
+    {
+      "id": "q_platform_gt50",
+      "category": "platform",
+      "ru": {
+        "question": "Какой чипсет у Infinix GT 50 Pro 5G?",
+        "options": [
+          "MediaTek Dimensity 8400 Ultimate",
+          "Snapdragon 7s Gen 4",
+          "Helio G100 Ultimate",
+          "Dimensity 6400"
+        ],
+        "answer": 0,
+        "explanation": "GT 50 Pro 5G — игровая GT-серия на Dimensity 8400 Ultimate, одном из самых мощных чипов каталога."
+      },
+      "en": {
+        "question": "Which chipset does the Infinix GT 50 Pro 5G use?",
+        "options": [
+          "MediaTek Dimensity 8400 Ultimate",
+          "Snapdragon 7s Gen 4",
+          "Helio G100 Ultimate",
+          "Dimensity 6400"
+        ],
+        "answer": 0,
+        "explanation": "The GT 50 Pro 5G is the gaming GT series on Dimensity 8400 Ultimate, one of the most powerful chips in the catalog."
+      },
+      "uz": {
+        "question": "Infinix GT 50 Pro 5G qaysi chipsetda?",
+        "options": [
+          "MediaTek Dimensity 8400 Ultimate",
+          "Snapdragon 7s Gen 4",
+          "Helio G100 Ultimate",
+          "Dimensity 6400"
+        ],
+        "answer": 0,
+        "explanation": "GT 50 Pro 5G — o'yin GT seriyasi, Dimensity 8400 Ultimate'da; bu katalogdagi eng kuchli chiplardan biri."
+      }
+    },
+    {
+      "id": "q_memory_xpad",
+      "category": "memory",
+      "ru": {
+        "question": "Сколько ОЗУ максимум у планшета Xpad 30 Pro?",
+        "options": [
+          "8 ГБ",
+          "12 ГБ",
+          "6 ГБ",
+          "4 ГБ"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro: 4/6/8 ГБ ОЗУ и 128/256 ГБ накопителя."
+      },
+      "en": {
+        "question": "What is the maximum RAM of the Xpad 30 Pro tablet?",
+        "options": [
+          "8 GB",
+          "12 GB",
+          "6 GB",
+          "4 GB"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro: 4/6/8 GB RAM and 128/256 GB storage."
+      },
+      "uz": {
+        "question": "Xpad 30 Pro planshetida eng ko'p qancha operativ xotira?",
+        "options": [
+          "8 GB",
+          "12 GB",
+          "6 GB",
+          "4 GB"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro: 4/6/8 GB operativ va 128/256 GB xotira."
+      }
+    },
+    {
+      "id": "q_memory_ram_vs_storage",
+      "category": "memory",
+      "ru": {
+        "question": "Что важнее для количества одновременно открытых приложений?",
+        "options": [
+          "Объём ОЗУ",
+          "Объём накопителя",
+          "Разрешение экрана",
+          "Ёмкость батареи"
+        ],
+        "answer": 0,
+        "explanation": "ОЗУ держит приложения в памяти; накопитель хранит файлы и на многозадачность не влияет."
+      },
+      "en": {
+        "question": "What matters most for the number of apps open at the same time?",
+        "options": [
+          "The amount of RAM",
+          "The amount of storage",
+          "Screen resolution",
+          "Battery capacity"
+        ],
+        "answer": 0,
+        "explanation": "RAM keeps apps in memory; storage holds files and does not affect multitasking."
+      },
+      "uz": {
+        "question": "Bir vaqtda ochiq ilovalar soni uchun nima muhim?",
+        "options": [
+          "Operativ xotira hajmi",
+          "Xotira (disk) hajmi",
+          "Ekran o'lchamlari",
+          "Batareya sig'imi"
+        ],
+        "answer": 0,
+        "explanation": "Operativ xotira ilovalarni xotirada ushlab turadi; disk fayllar uchun va ko'p vazifalilikka ta'sir qilmaydi."
+      }
+    },
+    {
+      "id": "q_memory_hot60i",
+      "category": "memory",
+      "ru": {
+        "question": "Какие варианты памяти у Infinix Hot 60i?",
+        "options": [
+          "4/6/8 ГБ ОЗУ, 128/256 ГБ",
+          "Только 12 ГБ ОЗУ",
+          "8 ГБ ОЗУ, 512 ГБ",
+          "4 ГБ ОЗУ, 64 ГБ"
+        ],
+        "answer": 0,
+        "explanation": "Hot 60i продаётся в вариантах 4/6/8 ГБ ОЗУ и 128/256 ГБ накопителя."
+      },
+      "en": {
+        "question": "Which memory options does the Infinix Hot 60i have?",
+        "options": [
+          "4/6/8 GB RAM, 128/256 GB",
+          "12 GB RAM only",
+          "8 GB RAM, 512 GB",
+          "4 GB RAM, 64 GB"
+        ],
+        "answer": 0,
+        "explanation": "The Hot 60i comes with 4/6/8 GB RAM and 128/256 GB storage."
+      },
+      "uz": {
+        "question": "Infinix Hot 60i xotirasining qanday variantlari bor?",
+        "options": [
+          "4/6/8 GB operativ, 128/256 GB",
+          "Faqat 12 GB operativ",
+          "8 GB operativ, 512 GB",
+          "4 GB operativ, 64 GB"
+        ],
+        "answer": 0,
+        "explanation": "Hot 60i 4/6/8 GB operativ va 128/256 GB xotira variantlarida sotiladi."
+      }
+    },
+    {
+      "id": "q_camera_200mp",
+      "category": "camera",
+      "ru": {
+        "question": "У какой модели камера 200 МП?",
+        "options": [
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Ultra 5G",
+          "Infinix GT 30 Pro",
+          "TECNO Pova 8 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "200 МП — только у Note 60 Ultra 5G; у GT 30 Pro 108 МП, у остальных в списке 50 МП."
+      },
+      "en": {
+        "question": "Which model has a 200 MP camera?",
+        "options": [
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Ultra 5G",
+          "Infinix GT 30 Pro",
+          "TECNO Pova 8 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "200 MP is only on the Note 60 Ultra 5G; the GT 30 Pro has 108 MP and the others listed have 50 MP."
+      },
+      "uz": {
+        "question": "Qaysi modelda 200 MP kamera bor?",
+        "options": [
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Ultra 5G",
+          "Infinix GT 30 Pro",
+          "TECNO Pova 8 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "200 MP — faqat Note 60 Ultra 5G'da; GT 30 Pro'da 108 MP, ro'yxatdagi qolganlarida 50 MP."
+      }
+    },
+    {
+      "id": "q_camera_ois",
+      "category": "camera",
+      "ru": {
+        "question": "Что даёт оптическая стабилизация (OIS)?",
+        "options": [
+          "Меньше смаза при съёмке в темноте и на ходу",
+          "Увеличивает мегапиксели",
+          "Ускоряет зарядку",
+          "Делает экран ярче"
+        ],
+        "answer": 0,
+        "explanation": "OIS компенсирует дрожание рук — помогает в основном в тёмных сценах и в видео."
+      },
+      "en": {
+        "question": "What does optical image stabilization (OIS) do?",
+        "options": [
+          "Reduces blur when shooting in the dark or while moving",
+          "Increases megapixels",
+          "Speeds up charging",
+          "Makes the screen brighter"
+        ],
+        "answer": 0,
+        "explanation": "OIS compensates for hand shake; it mainly helps in low light and in video."
+      },
+      "uz": {
+        "question": "Optik stabilizatsiya (OIS) nima beradi?",
+        "options": [
+          "Qorong'ida va harakatda suratga olishda xiralikni kamaytiradi",
+          "Megapiksellarni oshiradi",
+          "Quvvatlashni tezlashtiradi",
+          "Ekran yorqinligini oshiradi"
+        ],
+        "answer": 0,
+        "explanation": "OIS qo'l titrashini qoplaydi — asosan qorong'i sahnalar va videoda yordam beradi."
+      }
+    },
+    {
+      "id": "q_camera_mp_myth",
+      "category": "camera",
+      "ru": {
+        "question": "Правда ли, что чем больше мегапикселей, тем всегда лучше фото?",
+        "options": [
+          "Нет: качество определяют сенсор, апертура и обработка",
+          "Да, всегда",
+          "Да, но только на AMOLED-экране",
+          "Нет, мегапиксели не влияют вообще"
+        ],
+        "answer": 0,
+        "explanation": "Мегапиксели — это разрешение; свет и размер сенсора важнее. Поэтому 50 МП может снимать лучше 108 МП."
+      },
+      "en": {
+        "question": "Is it true that more megapixels always means better photos?",
+        "options": [
+          "No: the sensor, aperture and processing decide quality",
+          "Yes, always",
+          "Yes, but only on an AMOLED screen",
+          "No, megapixels have no effect at all"
+        ],
+        "answer": 0,
+        "explanation": "Megapixels are resolution; light and sensor size matter more. That is why 50 MP can shoot better than 108 MP."
+      },
+      "uz": {
+        "question": "Megapiksellar qancha ko'p bo'lsa, surat har doim shunchalik yaxshimi?",
+        "options": [
+          "Yo'q: sifat sensor, diafragma va ishlov berishga bog'liq",
+          "Ha, har doim",
+          "Ha, lekin faqat AMOLED ekranda",
+          "Yo'q, megapiksellar umuman ta'sir qilmaydi"
+        ],
+        "answer": 0,
+        "explanation": "Megapiksel — o'lcham; yorug'lik va sensor o'lchami muhimroq. Shuning uchun 50 MP ba'zan 108 MP'dan yaxshi surat oladi."
+      }
+    },
+    {
+      "id": "q_camera_ultra_tele",
+      "category": "camera",
+      "ru": {
+        "question": "Есть ли у TECNO Camon 50 Ultra 5G телеобъектив?",
+        "options": [
+          "Да, 50 МП с 3-кратным оптическим зумом",
+          "Нет, только широкоугольная камера",
+          "Да, но только цифровой зум",
+          "Да, 200 МП"
+        ],
+        "answer": 0,
+        "explanation": "Camon 50 Ultra 5G: 50 МП основная + 50 МП телефото 3x — редкость в среднем сегменте."
+      },
+      "en": {
+        "question": "Does the TECNO Camon 50 Ultra 5G have a telephoto camera?",
+        "options": [
+          "Yes, 50 MP with 3x optical zoom",
+          "No, only a wide camera",
+          "Yes, but digital zoom only",
+          "Yes, 200 MP"
+        ],
+        "answer": 0,
+        "explanation": "Camon 50 Ultra 5G: 50 MP main + 50 MP 3x telephoto — rare in the mid-range segment."
+      },
+      "uz": {
+        "question": "TECNO Camon 50 Ultra 5G'da telefoto kamera bormi?",
+        "options": [
+          "Ha, 50 MP, 3x optik zum",
+          "Yo'q, faqat keng burchakli kamera",
+          "Ha, lekin faqat raqamli zum",
+          "Ha, 200 MP"
+        ],
+        "answer": 0,
+        "explanation": "Camon 50 Ultra 5G: 50 MP asosiy + 50 MP telefoto 3x — o'rta segmentda kam uchraydi."
+      }
+    },
+    {
+      "id": "q_battery_8000",
+      "category": "battery",
+      "ru": {
+        "question": "У какой модели батарея 8000 мА·ч?",
+        "options": [
+          "TECNO Pova 8 5G",
+          "TECNO Spark 50 4G",
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "8000 мА·ч — у Pova 8 5G и Pova Curve 2 5G; это самые ёмкие батареи каталога."
+      },
+      "en": {
+        "question": "Which model has an 8000 mAh battery?",
+        "options": [
+          "TECNO Pova 8 5G",
+          "TECNO Spark 50 4G",
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "8000 mAh is on the Pova 8 5G and Pova Curve 2 5G; these are the largest batteries in the catalog."
+      },
+      "uz": {
+        "question": "Qaysi modelda 8000 mA·soat batareya bor?",
+        "options": [
+          "TECNO Pova 8 5G",
+          "TECNO Spark 50 4G",
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "8000 mA·soat — Pova 8 5G va Pova Curve 2 5G'da; bu katalogdagi eng katta batareyalar."
+      }
+    },
+    {
+      "id": "q_battery_100w",
+      "category": "battery",
+      "ru": {
+        "question": "Какая модель каталога заряжается на 100 Вт?",
+        "options": [
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Pro 4G",
+          "Infinix Hot 70",
+          "TECNO Spark 50c"
+        ],
+        "answer": 0,
+        "explanation": "Note 60 Ultra 5G: 100 Вт — 50 % за 18 минут. У остальных в списке 15–60 Вт."
+      },
+      "en": {
+        "question": "Which catalog model charges at 100 W?",
+        "options": [
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Pro 4G",
+          "Infinix Hot 70",
+          "TECNO Spark 50c"
+        ],
+        "answer": 0,
+        "explanation": "Note 60 Ultra 5G: 100 W — 50 % in 18 minutes. The other listed models use 15–60 W."
+      },
+      "uz": {
+        "question": "Katalogdagi qaysi model 100 Vt quvvatlanadi?",
+        "options": [
+          "Infinix Note 60 Ultra 5G",
+          "TECNO Camon 50 Pro 4G",
+          "Infinix Hot 70",
+          "TECNO Spark 50c"
+        ],
+        "answer": 0,
+        "explanation": "Note 60 Ultra 5G: 100 Vt — 18 daqiqada 50 %. Ro'yxatdagi qolganlari 15–60 Vt."
+      }
+    },
+    {
+      "id": "q_battery_spark50",
+      "category": "battery",
+      "ru": {
+        "question": "Сколько мА·ч у TECNO Spark 50 4G?",
+        "options": [
+          "7000",
+          "6000",
+          "5200",
+          "6500"
+        ],
+        "answer": 0,
+        "explanation": "Spark 50 4G — 7000 мА·ч, но заряжается всего на 18 Вт."
+      },
+      "en": {
+        "question": "How many mAh does the TECNO Spark 50 4G have?",
+        "options": [
+          "7000",
+          "6000",
+          "5200",
+          "6500"
+        ],
+        "answer": 0,
+        "explanation": "The Spark 50 4G has 7000 mAh but charges at only 18 W."
+      },
+      "uz": {
+        "question": "TECNO Spark 50 4G batareyasi qancha?",
+        "options": [
+          "7000",
+          "6000",
+          "5200",
+          "6500"
+        ],
+        "answer": 0,
+        "explanation": "Spark 50 4G — 7000 mA·soat, lekin atigi 18 Vt quvvatlanadi."
+      }
+    },
+    {
+      "id": "q_battery_bypass",
+      "category": "battery",
+      "ru": {
+        "question": "Что такое режим обхода батареи (bypass)?",
+        "options": [
+          "Питание идёт от зарядки, батарея не участвует",
+          "Телефон выключается на зарядке",
+          "Батарея заряжается за 5 минут",
+          "Экран отключается при зарядке"
+        ],
+        "answer": 0,
+        "explanation": "Bypass полезен в играх и навигации: телефон работает от сети и меньше греется, батарея не изнашивается."
+      },
+      "en": {
+        "question": "What is battery bypass mode?",
+        "options": [
+          "Power comes from the charger and the battery is not used",
+          "The phone turns off while charging",
+          "The battery charges in 5 minutes",
+          "The screen turns off while charging"
+        ],
+        "answer": 0,
+        "explanation": "Bypass is useful for gaming and navigation: the phone runs from the network, heats less and the battery does not wear."
+      },
+      "uz": {
+        "question": "Batareya bypass rejimi nima?",
+        "options": [
+          "Quvvat to'g'ridan-to'g'ri quvvatlagichdan keladi, batareya ishtirok etmaydi",
+          "Telefon quvvatlashda o'chadi",
+          "Batareya 5 daqiqada to'ladi",
+          "Quvvatlashda ekran o'chadi"
+        ],
+        "answer": 0,
+        "explanation": "Bypass o'yinlar va navigatsiyada foydali: telefon tarmoqdan ishlaydi, kamroq qiziydi, batareya eskimaydi."
+      }
+    },
+    {
+      "id": "q_conn_spark50_nfc",
+      "category": "connectivity",
+      "ru": {
+        "question": "Есть ли NFC у TECNO Spark 50 5G?",
+        "options": [
+          "Нет",
+          "Да, для оплаты",
+          "Да, только для передачи файлов",
+          "Только в версии 256 ГБ"
+        ],
+        "answer": 0,
+        "explanation": "У Spark 50 5G NFC нет, а у Spark 50 4G — есть. Это частая ошибка при консультации."
+      },
+      "en": {
+        "question": "Does the TECNO Spark 50 5G have NFC?",
+        "options": [
+          "No",
+          "Yes, for payments",
+          "Yes, for file transfer only",
+          "Only in the 256 GB version"
+        ],
+        "answer": 0,
+        "explanation": "The Spark 50 5G has no NFC, while the Spark 50 4G does. This is a common consultation mistake."
+      },
+      "uz": {
+        "question": "TECNO Spark 50 5G'da NFC bormi?",
+        "options": [
+          "Yo'q",
+          "Ha, to'lov uchun",
+          "Ha, faqat fayl uzatish uchun",
+          "Faqat 256 GB versiyada"
+        ],
+        "answer": 0,
+        "explanation": "Spark 50 5G'da NFC yo'q, Spark 50 4G'da esa bor. Maslahat berishda bu ko'p uchraydigan xato."
+      }
+    },
+    {
+      "id": "q_conn_5g",
+      "category": "connectivity",
+      "ru": {
+        "question": "Что нужно, чтобы покупатель пользовался 5G?",
+        "options": [
+          "Поддержка 5G в телефоне, покрытие сети и тариф оператора",
+          "Только купить 5G-телефон",
+          "Только сим-карта нового образца",
+          "Только включить 5G в настройках"
+        ],
+        "answer": 0,
+        "explanation": "Без покрытия и тарифа 5G телефон будет работать в 4G; обещать «мгновенный 5G» нельзя."
+      },
+      "en": {
+        "question": "What does a buyer need to actually use 5G?",
+        "options": [
+          "5G support in the phone, network coverage and an operator plan",
+          "Just buy a 5G phone",
+          "Just a new SIM card",
+          "Just enable 5G in settings"
+        ],
+        "answer": 0,
+        "explanation": "Without coverage and a suitable plan a 5G phone runs on 4G; do not promise instant 5G."
+      },
+      "uz": {
+        "question": "Xaridor 5G'dan foydalanishi uchun nima kerak?",
+        "options": [
+          "Telefonda 5G, tarmoq qamrovi va operator tarifi",
+          "Faqat 5G-telefon sotib olish",
+          "Faqat yangi SIM-karta",
+          "Faqat sozlamalarda 5G'ni yoqish"
+        ],
+        "answer": 0,
+        "explanation": "Qamrov va tarifsiz 5G-telefon 4G'da ishlaydi; «darhol 5G» deb va'da bermang."
+      }
+    },
+    {
+      "id": "q_conn_hot60i_nfc",
+      "category": "connectivity",
+      "ru": {
+        "question": "Какая особенность NFC у Infinix Hot 60i?",
+        "options": [
+          "Передача данных, но не оплата — зависит от региона",
+          "Полноценные оплаты во всех регионах",
+          "NFC нет",
+          "NFC только для беспроводной зарядки"
+        ],
+        "answer": 0,
+        "explanation": "У Hot 60i NFC заявлен в режиме передачи данных; оплаты зависят от рынка — уточняйте, а не обещайте."
+      },
+      "en": {
+        "question": "What is special about NFC on the Infinix Hot 60i?",
+        "options": [
+          "Data transfer but not payments — market dependent",
+          "Full payments in every region",
+          "There is no NFC",
+          "NFC is for wireless charging only"
+        ],
+        "answer": 0,
+        "explanation": "The Hot 60i lists NFC for data transfer; payments depend on the market — check, do not promise."
+      },
+      "uz": {
+        "question": "Infinix Hot 60i'dagi NFC'ning o'ziga xosligi nimada?",
+        "options": [
+          "Ma'lumot uzatadi, lekin to'lovni qo'llab-quvvatlamaydi — mintaqaga bog'liq",
+          "Barcha mintaqalarda to'lovlar ishlaydi",
+          "NFC yo'q",
+          "NFC faqat simsiz quvvatlash uchun"
+        ],
+        "answer": 0,
+        "explanation": "Hot 60i'da NFC ma'lumot uzatish rejimida; to'lovlar bozorga bog'liq — aniqlashtiring, va'da bermang."
+      }
+    },
+    {
+      "id": "q_dur_ip68",
+      "category": "durability",
+      "ru": {
+        "question": "Что означает IP68?",
+        "options": [
+          "Защита от пыли и погружения в воду в лабораторных условиях",
+          "Телефон можно постоянно использовать под водой",
+          "Защита только от пыли",
+          "Защита только от брызг"
+        ],
+        "answer": 0,
+        "explanation": "IP68 — пыленепроницаемость и погружение по стандарту; со временем защита изнашивается."
+      },
+      "en": {
+        "question": "What does IP68 mean?",
+        "options": [
+          "Dust protection and water immersion resistance tested in a lab",
+          "The phone can be used under water all the time",
+          "Dust protection only",
+          "Splash protection only"
+        ],
+        "answer": 0,
+        "explanation": "IP68 means dust tight and immersion resistant per the standard; the protection degrades over time."
+      },
+      "uz": {
+        "question": "IP68 nimani bildiradi?",
+        "options": [
+          "Changdan himoya va laboratoriya sharoitida suvga cho'kishga chidamlilik",
+          "Telefondan doim suv ostida foydalanish mumkin",
+          "Faqat changdan himoya",
+          "Faqat suv sachrashidan himoya"
+        ],
+        "answer": 0,
+        "explanation": "IP68 — standart bo'yicha chang o'tkazmaslik va cho'kishga chidamlilik; vaqt o'tishi bilan himoya zaiflashadi."
+      }
+    },
+    {
+      "id": "q_dur_ip64",
+      "category": "durability",
+      "ru": {
+        "question": "У какой модели защита только IP64?",
+        "options": [
+          "TECNO Pova 8 5G",
+          "TECNO Camon 50 4G",
+          "TECNO Spark 50c",
+          "Infinix Hot 70 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "У Pova 8 5G IP64 — брызги, но не погружение. Обещать купание нельзя."
+      },
+      "en": {
+        "question": "Which model is rated only IP64?",
+        "options": [
+          "TECNO Pova 8 5G",
+          "TECNO Camon 50 4G",
+          "TECNO Spark 50c",
+          "Infinix Hot 70 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "The Pova 8 5G is IP64 — splashes, not immersion. Never promise swimming."
+      },
+      "uz": {
+        "question": "Qaysi modelda himoya faqat IP64?",
+        "options": [
+          "TECNO Pova 8 5G",
+          "TECNO Camon 50 4G",
+          "TECNO Spark 50c",
+          "Infinix Hot 70 Pro 5G"
+        ],
+        "answer": 0,
+        "explanation": "Pova 8 5G'da IP64 — sachrash, lekin cho'kish emas. Cho'milishga va'da bermang."
+      }
+    },
+    {
+      "id": "q_dur_swim",
+      "category": "durability",
+      "ru": {
+        "question": "Можно ли обещать покупателю, что с IP68-телефоном можно плавать?",
+        "options": [
+          "Нет: защита лабораторная и деградирует со временем",
+          "Да, в любой воде",
+          "Да, если вода пресная",
+          "Да, но только в море"
+        ],
+        "answer": 0,
+        "explanation": "Не обещайте купание: IP-рейтинг проверен в лаборатории на чистой воде, при ударах и износе он снижается."
+      },
+      "en": {
+        "question": "Can you promise a buyer that an IP68 phone is safe for swimming?",
+        "options": [
+          "No: the rating is lab-tested and degrades over time",
+          "Yes, in any water",
+          "Yes, if the water is fresh",
+          "Yes, but only in the sea"
+        ],
+        "answer": 0,
+        "explanation": "Do not promise swimming: the IP rating is lab-tested in clean water and drops with shocks and wear."
+      },
+      "uz": {
+        "question": "IP68 telefoni bilan suzish mumkin deb va'da berish mumkinmi?",
+        "options": [
+          "Yo'q: himoya laboratoriya sharoitida va vaqt o'tishi bilan zaiflashadi",
+          "Ha, har qanday suvda",
+          "Ha, agar suv chuchuk bo'lsa",
+          "Ha, lekin faqat dengizda"
+        ],
+        "answer": 0,
+        "explanation": "Suzishga va'da bermang: IP reytingi laboratoriyada toza suvda tekshirilgan, zarbalar va eskirishda pasayadi."
+      }
+    },
+    {
+      "id": "q_service_covered",
+      "category": "service",
+      "ru": {
+        "question": "Что покрывает гарантия?",
+        "options": [
+          "Производственные дефекты не по вине пользователя в гарантийный срок",
+          "Любые поломки, включая разбитый экран",
+          "Только программные ошибки",
+          "Только аксессуары"
+        ],
+        "answer": 0,
+        "explanation": "Гарантия — на заводские дефекты в установленный срок; окончательное решение — после диагностики."
+      },
+      "en": {
+        "question": "What does the warranty cover?",
+        "options": [
+          "Manufacturing defects not caused by the user within the warranty period",
+          "Any damage, including a broken screen",
+          "Software errors only",
+          "Accessories only"
+        ],
+        "answer": 0,
+        "explanation": "The warranty covers factory defects within the warranty period; the final decision follows diagnostics."
+      },
+      "uz": {
+        "question": "Kafolat nimani qoplaydi?",
+        "options": [
+          "Kafolat muddatida foydalanuvchi aybi bo'lmagan ishlab chiqarish nuqsonlari",
+          "Har qanday buzilish, shu jumladan singan ekran",
+          "Faqat dasturiy xatolar",
+          "Faqat aksessuarlar"
+        ],
+        "answer": 0,
+        "explanation": "Kafolat — belgilangan muddatda zavod nuqsonlari; yakuniy qaror diagnostikadan keyin."
+      }
+    },
+    {
+      "id": "q_service_not_covered",
+      "category": "service",
+      "ru": {
+        "question": "Что из этого — негарантийный случай?",
+        "options": [
+          "Трещина на экране после падения",
+          "Динамик хрипит без внешних повреждений",
+          "Телефон не включается после сбоя прошивки",
+          "Камера не работает при заводском браке"
+        ],
+        "answer": 0,
+        "explanation": "Механические повреждения, жидкость, самостоятельный ремонт и неоригинальные аксессуары — не гарантийные случаи."
+      },
+      "en": {
+        "question": "Which of these is NOT a warranty case?",
+        "options": [
+          "A cracked screen after a drop",
+          "The speaker crackles with no external damage",
+          "The phone will not turn on after a firmware failure",
+          "The camera fails due to a factory defect"
+        ],
+        "answer": 0,
+        "explanation": "Mechanical damage, liquid, self-repair and non-original accessories are not warranty cases."
+      },
+      "uz": {
+        "question": "Quyidagilardan qaysi biri kafolatsiz holat?",
+        "options": [
+          "Yiqilishdan keyin ekrandagi yoriq",
+          "Tashqi zararsiz karnay xirillashi",
+          "Proshivka xatosidan keyin telefon yonmaydi",
+          "Zavod nuqsonidan kamera ishlamaydi"
+        ],
+        "answer": 0,
+        "explanation": "Mexanik shikastlanish, suyuqlik, mustaqil ta'mirlash va nooriginal aksessuarlar — kafolatsiz holatlar."
+      }
+    },
+    {
+      "id": "q_service_where",
+      "category": "service",
+      "ru": {
+        "question": "Куда направить покупателя по гарантии?",
+        "options": [
+          "В авторизованный сервисный центр Carlcare",
+          "В любой ремонт у метро",
+          "В магазин за новым телефоном",
+          "На сайт GSMArena"
+        ],
+        "answer": 0,
+        "explanation": "Гарантийный ремонт — только в авторизованном сервисном центре; адреса есть в разделе «Сервисная поддержка»."
+      },
+      "en": {
+        "question": "Where should you send a buyer for warranty service?",
+        "options": [
+          "An authorized Carlcare service center",
+          "Any repair shop nearby",
+          "A store to buy a new phone",
+          "The GSMArena website"
+        ],
+        "answer": 0,
+        "explanation": "Warranty repair is done only at an authorized service center; addresses are in the Service support section."
+      },
+      "uz": {
+        "question": "Xaridorni kafolat bo'yicha qayerga yuborish kerak?",
+        "options": [
+          "Carlcare vakolatli servis markaziga",
+          "Metro yonidagi har qanday ustaxonaga",
+          "Do'konga yangi telefon uchun",
+          "GSMArena saytiga"
+        ],
+        "answer": 0,
+        "explanation": "Kafolatli ta'mirlash — faqat vakolatli servis markazida; manzillar «Servis xizmati» bo'limida."
+      }
+    },
+    {
+      "id": "q_catalog_tecno_count",
+      "category": "catalog",
+      "ru": {
+        "question": "Сколько моделей TECNO в каталоге приложения?",
+        "options": [
+          "19",
+          "30",
+          "11",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "В каталоге 30 моделей: 19 TECNO и 11 Infinix."
+      },
+      "en": {
+        "question": "How many TECNO models are in the app catalog?",
+        "options": [
+          "19",
+          "30",
+          "11",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "The catalog has 30 models: 19 TECNO and 11 Infinix."
+      },
+      "uz": {
+        "question": "Ilova katalogida nechta TECNO modeli bor?",
+        "options": [
+          "19",
+          "30",
+          "11",
+          "12"
+        ],
+        "answer": 0,
+        "explanation": "Katalogda 30 model: 19 TECNO va 11 Infinix."
+      }
+    },
+    {
+      "id": "q_catalog_tablet",
+      "category": "catalog",
+      "ru": {
+        "question": "Какая модель в каталоге — планшет?",
+        "options": [
+          "Infinix Xpad 30 Pro",
+          "Infinix Note Edge 5G",
+          "TECNO Pova Curve 2 5G",
+          "Infinix GT 30 Pro"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro — планшет: 8200 мА·ч, экран 1600×2560, камера 8 МП."
+      },
+      "en": {
+        "question": "Which catalog model is a tablet?",
+        "options": [
+          "Infinix Xpad 30 Pro",
+          "Infinix Note Edge 5G",
+          "TECNO Pova Curve 2 5G",
+          "Infinix GT 30 Pro"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro is a tablet: 8200 mAh, 1600×2560 screen, 8 MP camera."
+      },
+      "uz": {
+        "question": "Katalogdagi qaysi model planshet?",
+        "options": [
+          "Infinix Xpad 30 Pro",
+          "Infinix Note Edge 5G",
+          "TECNO Pova Curve 2 5G",
+          "Infinix GT 30 Pro"
+        ],
+        "answer": 0,
+        "explanation": "Xpad 30 Pro — planshet: 8200 mA·soat, 1600×2560 ekran, 8 MP kamera."
+      }
+    },
+    {
+      "id": "q_catalog_hot60i_variants",
+      "category": "catalog",
+      "ru": {
+        "question": "Сколько вариантов у Infinix Hot 60i в каталоге?",
+        "options": [
+          "Два: 4G и 5G",
+          "Один: только 4G",
+          "Три: 4G, 5G и LTE",
+          "Hot 60i нет в каталоге"
+        ],
+        "answer": 0,
+        "explanation": "Hot 60i — одна карточка с переключателем 4G/5G; в Узбекистане продаются оба варианта."
+      },
+      "en": {
+        "question": "How many variants of the Infinix Hot 60i are in the catalog?",
+        "options": [
+          "Two: 4G and 5G",
+          "One: 4G only",
+          "Three: 4G, 5G and LTE",
+          "The Hot 60i is not in the catalog"
+        ],
+        "answer": 0,
+        "explanation": "The Hot 60i is one card with a 4G/5G switch; both variants are sold in Uzbekistan."
+      },
+      "uz": {
+        "question": "Katalogda Infinix Hot 60i'ning nechta varianti bor?",
+        "options": [
+          "Ikkita: 4G va 5G",
+          "Bitta: faqat 4G",
+          "Uchta: 4G, 5G va LTE",
+          "Hot 60i katalogda yo'q"
+        ],
+        "answer": 0,
+        "explanation": "Hot 60i — bitta karta, 4G/5G almashtirgichi bilan; O'zbekistonda ikkalasi ham sotiladi."
+      }
+    }
+  ]
+}

@@ -9,6 +9,10 @@ class SalesAssistantApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        container = AppContainer(this)
+        container = AppContainer(
+            context = this,
+            assistantProxyUrl = BuildConfig.ASSISTANT_PROXY_URL,
+            assistantAppToken = BuildConfig.ASSISTANT_APP_TOKEN,
+        )
     }
 }

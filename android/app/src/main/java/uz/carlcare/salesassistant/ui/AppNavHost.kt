@@ -9,12 +9,13 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import uz.carlcare.salesassistant.core.data.AppContainer
+import uz.carlcare.salesassistant.ui.screens.AssistantScreen
 import uz.carlcare.salesassistant.ui.screens.CatalogScreen
 import uz.carlcare.salesassistant.ui.screens.CompareScreen
 import uz.carlcare.salesassistant.ui.screens.GuideScreen
 import uz.carlcare.salesassistant.ui.screens.HomeScreen
-import uz.carlcare.salesassistant.ui.screens.PlaceholderScreen
 import uz.carlcare.salesassistant.ui.screens.ProductScreen
+import uz.carlcare.salesassistant.ui.screens.QuizScreen
 import uz.carlcare.salesassistant.ui.screens.ServiceScreen
 import uz.carlcare.salesassistant.ui.screens.WarrantyScreen
 
@@ -48,6 +49,7 @@ fun AppNavHost(container: AppContainer) {
                 onSearch = { nav.navigate(Routes.catalog("ALL", it)) },
                 onOpenBrand = { nav.navigate(Routes.catalog(it)) },
                 onOpenTool = { nav.navigate(it) },
+                onOpenProduct = { nav.navigate(Routes.product(it)) },
             )
         }
         composable(
@@ -95,10 +97,16 @@ fun AppNavHost(container: AppContainer) {
             GuideScreen(viewModel = vm, onBack = { nav.popBackStack() })
         }
         composable(Routes.ASSISTANT) {
-            PlaceholderScreen(Routes.ASSISTANT, onBack = { nav.popBackStack() })
+            val vm: AssistantViewModel = viewModel(
+                factory = AppViewModelFactory.assistant(container.assistantRepository),
+            )
+            AssistantScreen(viewModel = vm, onBack = { nav.popBackStack() })
         }
         composable(Routes.QUIZ) {
-            PlaceholderScreen(Routes.QUIZ, onBack = { nav.popBackStack() })
+            val vm: QuizViewModel = viewModel(
+                factory = AppViewModelFactory.quiz(container.quizRepository),
+            )
+            QuizScreen(viewModel = vm, onBack = { nav.popBackStack() })
         }
         composable(Routes.SERVICE) {
             val vm: ServiceViewModel = viewModel(
