@@ -65,6 +65,22 @@
     <string name="warranty_check">Kafolatni tekshirish</string>
     <string name="repair_status">Ta\'mir holati</string>
     <string name="service_policy">Xizmat shartlari</string>
+    <string name="warranty_terms">Kafolat shartlari</string>
+    <string name="warranty_covered_title">Kafolat bilan qoplangan holatlar</string>
+    <string name="warranty_covered_text">Kafolat belgilangan kafolat muddati ichida foydalanuvchi aybi bo\'lmagan holda yuzaga kelgan ishlab chiqarish nuqsonlari va nosozliklarni qoplaydi.</string>
+    <string name="warranty_excluded_title">Kafolat bilan qoplanmaydigan holatlar</string>
+    <string name="warranty_excluded_intro">Kafolat quyidagi zararlar uchun amal qilmaydi:</string>
+    <string-array name="warranty_excluded_cases">
+        <item>Mexanik shikastlanish (yoriqlar, chiplar, deformatsiya)</item>
+        <item>Suyuqlik tushish yoki namlik ta\'siri</item>
+        <item>Foydalanish qoidalariga amal qilmaslik</item>
+        <item>Mustaqil ta\'mirlash yoki vakolatsiz shaxslarning aralashuvi</item>
+        <item>Nosozlikka sabab bo\'lgan nooriginal aksessuarlardan foydalanish</item>
+        <item>Tashqi omillar ta\'siri (yong\'in, kuchlanish tebranishlari va boshqalar)</item>
+    </string-array>
+    <string name="warranty_how_title">Kafolatli xizmatni qanday olish mumkin?</string>
+    <string name="warranty_how_text">Vakolatli servis markaziga murojaat qiling. Mutaxassislar diagnostika o\'tkazib, nosozlik sababini aniqlaydi.</string>
+    <string name="warranty_important">Muhim: kafolatli xizmat bo\'yicha yakuniy qaror diagnostika natijalari va aniq qurilmaning kafolat shartlari asosida qabul qilinadi.</string>
     <string name="service_data_note">Ma\'lumotlar Carlcare Uzbekistan rasmiy saytidan.</string>
     <string name="service_source_note">Manba: carlcare.com/uz · tekshirilgan %1$s</string>
 

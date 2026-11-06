@@ -67,6 +67,22 @@
     <string name="warranty_check">Проверка гарантии</string>
     <string name="repair_status">Статус ремонта</string>
     <string name="service_policy">Условия сервиса</string>
+    <string name="warranty_terms">Условия гарантии</string>
+    <string name="warranty_covered_title">Гарантийные случаи</string>
+    <string name="warranty_covered_text">Гарантия распространяется на производственные дефекты и неисправности, возникшие не по вине пользователя в течение установленного гарантийного срока.</string>
+    <string name="warranty_excluded_title">Негарантийные случаи</string>
+    <string name="warranty_excluded_intro">Гарантия не распространяется на повреждения, возникшие в результате:</string>
+    <string-array name="warranty_excluded_cases">
+        <item>Механических повреждений (трещины, сколы, деформация)</item>
+        <item>Попадания жидкости или воздействия влаги</item>
+        <item>Нарушения правил эксплуатации</item>
+        <item>Самостоятельного ремонта или вмешательства неавторизованных лиц</item>
+        <item>Использования неоригинальных аксессуаров, если они стали причиной неисправности</item>
+        <item>Воздействия внешних факторов (пожар, перепады напряжения и другие)</item>
+    </string-array>
+    <string name="warranty_how_title">Как получить гарантийное обслуживание?</string>
+    <string name="warranty_how_text">Обратитесь в авторизованный сервисный центр. Специалисты проведут диагностику и определят причину неисправности.</string>
+    <string name="warranty_important">Важно: окончательное решение о гарантийном обслуживании принимается на основании результатов диагностики и условий гарантии конкретного устройства.</string>
     <string name="service_data_note">Данные с официального сайта Carlcare Uzbekistan.</string>
     <string name="service_source_note">Источник: carlcare.com/uz · проверено %1$s</string>
 

@@ -65,6 +65,22 @@
     <string name="warranty_check">Warranty check</string>
     <string name="repair_status">Repair status</string>
     <string name="service_policy">Service policy</string>
+    <string name="warranty_terms">Warranty terms</string>
+    <string name="warranty_covered_title">Covered by warranty</string>
+    <string name="warranty_covered_text">Warranty covers manufacturing defects and malfunctions that occurred through no fault of the user within the warranty period.</string>
+    <string name="warranty_excluded_title">Not covered by warranty</string>
+    <string name="warranty_excluded_intro">Warranty does not cover damage caused by:</string>
+    <string-array name="warranty_excluded_cases">
+        <item>Mechanical damage (cracks, chips, deformation)</item>
+        <item>Exposure to liquid or moisture</item>
+        <item>Failure to follow the operating instructions</item>
+        <item>Self-repair or tampering by unauthorized persons</item>
+        <item>Use of non-original accessories if they caused the malfunction</item>
+        <item>External factors (fire, power surges and others)</item>
+    </string-array>
+    <string name="warranty_how_title">How to get warranty service?</string>
+    <string name="warranty_how_text">Visit an authorized service center. Specialists will run diagnostics and determine the cause of the malfunction.</string>
+    <string name="warranty_important">Important: the final decision on warranty service is made based on the diagnostic results and the warranty terms of the specific device.</string>
     <string name="service_data_note">Data from the official Carlcare Uzbekistan website.</string>
     <string name="service_source_note">Source: carlcare.com/uz · checked %1$s</string>
 

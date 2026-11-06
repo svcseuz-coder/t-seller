@@ -19,6 +19,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.outlined.ArrowOutward
+import androidx.compose.material.icons.outlined.Assignment
 import androidx.compose.material.icons.outlined.Close
 import androidx.compose.material.icons.outlined.Email
 import androidx.compose.material.icons.outlined.Phone
@@ -64,7 +65,7 @@ import uz.carlcare.salesassistant.ui.ServiceViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ServiceScreen(viewModel: ServiceViewModel, onBack: () -> Unit) {
+fun ServiceScreen(viewModel: ServiceViewModel, onBack: () -> Unit, onOpenWarranty: () -> Unit) {
     val support by viewModel.support.collectAsStateWithLifecycle()
     val centers by viewModel.centers.collectAsStateWithLifecycle()
     var query by rememberSaveable { mutableStateOf("") }
@@ -100,7 +101,7 @@ fun ServiceScreen(viewModel: ServiceViewModel, onBack: () -> Unit) {
         ) {
             support?.let { info ->
                 item { SupportCard(info, accent, uri) }
-                item { QuickLinks(accent, uri) }
+                item { QuickLinks(accent, uri, onOpenWarranty) }
             }
 
             item {
@@ -238,12 +239,24 @@ private fun SupportCard(info: SupportInfoEntity, accent: Color, uri: androidx.co
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun QuickLinks(accent: Color, uri: androidx.compose.ui.platform.UriHandler) {
+private fun QuickLinks(accent: Color, uri: androidx.compose.ui.platform.UriHandler, onOpenWarranty: () -> Unit) {
     FlowRow(
         modifier = Modifier.fillMaxWidth(),
         horizontalArrangement = Arrangement.spacedBy(8.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
+        AssistChip(
+            onClick = onOpenWarranty,
+            label = { Text(stringResource(R.string.warranty_terms)) },
+            leadingIcon = {
+                Icon(
+                    Icons.Outlined.Assignment,
+                    contentDescription = null,
+                    tint = accent,
+                    modifier = Modifier.size(16.dp),
+                )
+            },
+        )
         listOf(
             R.string.warranty_check to "https://www.carlcare.com/uz/warranty-check",
             R.string.repair_status to "https://www.carlcare.com/uz/repair-status",

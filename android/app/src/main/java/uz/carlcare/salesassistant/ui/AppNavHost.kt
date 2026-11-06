@@ -16,6 +16,7 @@ import uz.carlcare.salesassistant.ui.screens.HomeScreen
 import uz.carlcare.salesassistant.ui.screens.PlaceholderScreen
 import uz.carlcare.salesassistant.ui.screens.ProductScreen
 import uz.carlcare.salesassistant.ui.screens.ServiceScreen
+import uz.carlcare.salesassistant.ui.screens.WarrantyScreen
 
 object Routes {
     const val HOME = "home"
@@ -26,6 +27,7 @@ object Routes {
     const val ASSISTANT = "assistant"
     const val QUIZ = "quiz"
     const val SERVICE = "service"
+    const val WARRANTY = "warranty"
 
     fun catalog(brand: String, query: String = "") =
         "catalog/$brand?q=${Uri.encode(query)}"
@@ -102,7 +104,14 @@ fun AppNavHost(container: AppContainer) {
             val vm: ServiceViewModel = viewModel(
                 factory = AppViewModelFactory.service(container.serviceRepository),
             )
-            ServiceScreen(viewModel = vm, onBack = { nav.popBackStack() })
+            ServiceScreen(
+                viewModel = vm,
+                onBack = { nav.popBackStack() },
+                onOpenWarranty = { nav.navigate(Routes.WARRANTY) },
+            )
+        }
+        composable(Routes.WARRANTY) {
+            WarrantyScreen(onBack = { nav.popBackStack() })
         }
     }
 }
