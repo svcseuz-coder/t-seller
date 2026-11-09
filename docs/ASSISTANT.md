@@ -19,10 +19,20 @@ Build-time Gradle properties:
 
 | Property | BuildConfig field | Purpose |
 |---|---|---|
-| `assistantProxyUrl` | `ASSISTANT_PROXY_URL` | Worker URL. Empty → the screen shows “not connected” and disables input. |
-| `assistantToken` | `ASSISTANT_APP_TOKEN` | Optional `X-App-Token` header checked by the Worker. |
+| `assistantProxyUrl` | `ASSISTANT_PROXY_URL` | Proxy URL. Empty → the screen shows “not connected” and disables input. |
+| `assistantToken` | `ASSISTANT_APP_TOKEN` | `X-App-Token` header checked by the proxy. |
 
-The provider API key exists only as the Worker secret `LLM_API_KEY`. It must never be added to Gradle properties or source.
+The provider API key exists only as the proxy secret `LLM_API_KEY`. It must never be added to Gradle properties or source.
+
+## Live deployment (2026-11-06)
+
+- Proxy: **https://t-seller-assistant.pages.dev** — Cloudflare Pages project `t-seller-assistant` with `_worker.js` (same code as `worker.js`).
+- Provider: Gemini API free tier, model `gemini-3.1-flash-lite`, key stored as the Pages secret `LLM_API_KEY`.
+- `wrangler.toml` `[vars]` and the `DEFAULTS` block in `worker.js` hold the endpoint, model and app token; redeploy with `cp worker.js dist/_worker.js && wrangler pages deploy dist --project-name t-seller-assistant`.
+- `*.workers.dev` is blocked at the TLS level by the local ISP, so the Worker copy (`t-seller-assistant.svcseuz.workers.dev`) is not used; `*.pages.dev` is reachable.
+- App build: `gradlew :app:assembleRelease -PassistantProxyUrl=https://t-seller-assistant.pages.dev -PassistantToken=<token>`, shipped as v1.8.0.
+- Verified on-device (SM-S936B, 2026-11-06): RU answer with a source line (“Самую большую ёмкость… 8000 мА·ч”), EN answer via the IME send button, and the same flow in the installed release APK; screenshots `docs/screenshots/89…91`.
+- Free-tier caveats: request-per-minute/day quotas apply and Google may change them; on the free tier the prompts may be used to improve Google's products. Only catalog context and the seller's question are sent.
 
 ## Failure states
 

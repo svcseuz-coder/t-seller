@@ -1,13 +1,28 @@
 // T-Seller AI proxy. The API key lives only in a Worker secret; the APK never sees it.
 const JSON_HEADERS = { "content-type": "application/json; charset=utf-8" };
 
+const DEFAULTS = {
+  LLM_BASE_URL: "https://generativelanguage.googleapis.com/v1beta/openai",
+  LLM_MODEL: "gemini-3.1-flash-lite",
+  APP_TOKEN: "33eb43d762d3b71467d4e96fd52b839e",
+};
+
 export default {
   async fetch(request, env) {
+    const baseUrl = env.LLM_BASE_URL || DEFAULTS.LLM_BASE_URL;
+    const model = env.LLM_MODEL || DEFAULTS.LLM_MODEL;
+    const appToken = env.APP_TOKEN ?? DEFAULTS.APP_TOKEN;
+    const apiKey = env.LLM_API_KEY;
+
     if (request.method === "OPTIONS") return new Response(null, { status: 204 });
     if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405);
 
-    if (env.APP_TOKEN && request.headers.get("x-app-token") !== env.APP_TOKEN) {
+    if (appToken && request.headers.get("x-app-token") !== appToken) {
       return json({ error: "unauthorized" }, 401);
+    }
+    if (!apiKey) {
+      console.log("missing_llm_api_key");
+      return json({ error: "llm_unavailable" }, 502);
     }
 
     let body;
@@ -37,14 +52,14 @@ export default {
     ];
 
     try {
-      const response = await fetch(`${env.LLM_BASE_URL.replace(/\/$/, "")}/chat/completions`, {
+      const response = await fetch(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
         method: "POST",
         headers: {
           "content-type": "application/json",
-          authorization: `Bearer ${env.LLM_API_KEY}`,
+          authorization: `Bearer ${apiKey}`,
         },
         body: JSON.stringify({
-          model: env.LLM_MODEL,
+          model,
           messages,
           temperature: 0.2,
           max_tokens: 600,
