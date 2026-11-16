@@ -141,7 +141,7 @@
     <string name="service_source_note">Manba: carlcare.com/uz · tekshirilgan %1$s</string>
     <string name="post_send">Pochta orqali yuborish</string>
     <string name="post_intro_title">Servis markaziga bepul yetkazib berish</string>
-    <string name="post_intro_text">Shahringizda Carlcare servis markazi bo\'lmasa, telefonni istalgan EMU Express filialiga topshiring — u Carlcare\'ga diagnostika va ta\'mirga yetkaziladi va o\'sha filialga qaytariladi. Xizmat bepul.</string>
+    <string name="post_intro_text">Shahringizda Carlcare servis markazi bo\'lmasa, telefonni istalgan EMU Express filialiga topshiring — u Carlcare\'ga diagnostika va ta\'mirga yetkaziladi va o\'sha filialga qaytariladi. Yetkazib berish to\'lovi qabul qiluvchi tomon (Carlcare) hisobidan qoplanadi.</string>
     <string name="post_search_hint">Shahar, tuman yoki manzil</string>
     <string name="post_days_mon_sun">Du–Yak</string>
     <string name="post_days_mon_sat">Du–Sha</string>

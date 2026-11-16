@@ -141,7 +141,7 @@
     <string name="service_source_note">Source: carlcare.com/uz · checked %1$s</string>
     <string name="post_send">Send by post</string>
     <string name="post_intro_title">Free delivery to the service center</string>
-    <string name="post_intro_text">If your city has no Carlcare service center, hand the phone in at any EMU Express branch: it will be delivered to Carlcare for diagnostics and repair and returned to the same branch. Delivery is free of charge.</string>
+    <string name="post_intro_text">If your city has no Carlcare service center, hand the phone in at any EMU Express branch: it will be delivered to Carlcare for diagnostics and repair and returned to the same branch. Delivery is paid by the receiving party (Carlcare).</string>
     <string name="post_search_hint">City, district or address</string>
     <string name="post_days_mon_sun">Mon–Sun</string>
     <string name="post_days_mon_sat">Mon–Sat</string>

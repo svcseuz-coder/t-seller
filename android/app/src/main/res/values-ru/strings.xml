@@ -143,7 +143,7 @@
     <string name="service_source_note">Источник: carlcare.com/uz · проверено %1$s</string>
     <string name="post_send">Отправка почтой</string>
     <string name="post_intro_title">Бесплатная доставка в сервисный центр</string>
-    <string name="post_intro_text">Если в вашем городе нет сервисного центра Carlcare, передайте телефон в любой филиал EMU Express — его доставят в Carlcare на диагностику и ремонт и вернут в тот же филиал. Услуга бесплатная.</string>
+    <string name="post_intro_text">Если в вашем городе нет сервисного центра Carlcare, передайте телефон в любой филиал EMU Express — его доставят в Carlcare на диагностику и ремонт и вернут в тот же филиал. Оплата доставки осуществляется за счёт принимающей стороны (Carlcare).</string>
     <string name="post_search_hint">Город, район или адрес</string>
     <string name="post_days_mon_sun">Пн–Вс</string>
     <string name="post_days_mon_sat">Пн–Сб</string>
