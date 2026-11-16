@@ -22,6 +22,8 @@ data class ProductEntity(
     @ColumnInfo(name = "gsmarena_name") val gsmarenaName: String?,
     @ColumnInfo(name = "match_note") val matchNote: String?,
     @ColumnInfo(name = "fetched_at") val fetchedAt: String?,
+    val source: String? = null,
+    @ColumnInfo(name = "checked_at") val checkedAt: String? = null,
     @ColumnInfo(name = "image_url") val imageUrl: String?,
     @ColumnInfo(name = "variant_labels") val variantLabels: String?,
 )

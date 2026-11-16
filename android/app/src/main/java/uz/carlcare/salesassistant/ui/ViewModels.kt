@@ -19,6 +19,8 @@ import uz.carlcare.salesassistant.core.data.AssistantResult
 import uz.carlcare.salesassistant.core.data.CatalogRepository
 import uz.carlcare.salesassistant.core.data.GuideCard
 import uz.carlcare.salesassistant.core.data.GuideRepository
+import uz.carlcare.salesassistant.core.data.PostBranch
+import uz.carlcare.salesassistant.core.data.PostBranchRepository
 import uz.carlcare.salesassistant.core.data.QuizQuestion
 import uz.carlcare.salesassistant.core.data.QuizRepository
 import uz.carlcare.salesassistant.core.data.SearchText
@@ -147,6 +149,44 @@ class ServiceViewModel(repository: ServiceRepository) : ViewModel() {
 
     fun search(value: String) {
         query.value = value
+    }
+}
+
+class PostDeliveryViewModel(repository: PostBranchRepository) : ViewModel() {
+    private val query = MutableStateFlow("")
+    private val selectedRegions = MutableStateFlow<Set<String>>(emptySet())
+
+    val checkedAt: StateFlow<String> = repository.observeBranches()
+        .map { it.checkedAt }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), "")
+
+    val regions: StateFlow<List<String>> = repository.observeBranches()
+        .map { data -> data.branches.map { it.region }.distinct() }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    val selected: StateFlow<Set<String>> = selectedRegions
+
+    val branches: StateFlow<List<PostBranch>> =
+        combine(repository.observeBranches(), query, selectedRegions) { data, q, regions ->
+            data.branches.filter { branch ->
+                (regions.isEmpty() || branch.region in regions) &&
+                    SearchText.matches(
+                        "${branch.city} ${branch.region} ${branch.name} ${branch.address}",
+                        q,
+                    )
+            }
+        }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    fun search(value: String) {
+        query.value = value
+    }
+
+    fun applyRegions(value: Set<String>) {
+        selectedRegions.value = value
+    }
+
+    fun clearRegions() {
+        selectedRegions.value = emptySet()
     }
 }
 
@@ -298,6 +338,10 @@ object AppViewModelFactory {
 
     fun guide(repository: GuideRepository) = viewModelFactory {
         initializer { GuideViewModel(repository) }
+    }
+
+    fun postDelivery(repository: PostBranchRepository) = viewModelFactory {
+        initializer { PostDeliveryViewModel(repository) }
     }
 
     fun quiz(repository: QuizRepository) = viewModelFactory {

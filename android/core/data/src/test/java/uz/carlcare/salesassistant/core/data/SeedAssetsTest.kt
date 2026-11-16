@@ -17,25 +17,47 @@ class SeedAssetsTest {
     }
 
     @Test
-    fun `catalog bundle keeps the agreed 30 models`() {
-        val items = asset("products.json").getJSONArray("items")
-        assertEquals(30, items.length())
+    fun `catalog bundle keeps the agreed 39 models`() {
+        val root = asset("products.json")
+        val items = root.getJSONArray("items")
+        assertEquals(39, items.length())
+        assertEquals("2026-11-16.2", root.getString("seed_version"))
 
         val ids = mutableSetOf<String>()
         var tecno = 0
         var infinix = 0
+        var itel = 0
         for (i in 0 until items.length()) {
             val product = items.getJSONObject(i)
             assertTrue("blank id", product.getString("id").isNotBlank())
             assertTrue("duplicate id ${product.getString("id")}", ids.add(product.getString("id")))
             assertTrue("no specs for ${product.getString("id")}", product.getJSONObject("specs").length() > 0)
+            assertTrue("no photo for ${product.getString("id")}", product.getJSONArray("images").length() > 0)
             when (product.getString("brand")) {
                 "TECNO" -> tecno++
                 "Infinix" -> infinix++
+                "iTel" -> itel++
             }
         }
         assertEquals(19, tecno)
-        assertEquals(11, infinix)
+        assertEquals(13, infinix)
+        assertEquals(7, itel)
+    }
+
+    @Test
+    fun `new sales department models are present`() {
+        val items = asset("products.json").getJSONArray("items")
+        val products = (0 until items.length()).map { items.getJSONObject(it) }
+        val models = products.map { it.getString("model") }
+
+        for (model in listOf("Xpad 20", "Xpad 20 Pro")) {
+            assertTrue("missing $model", model in models)
+        }
+        val itelModels = products.filter { it.getString("brand") == "iTel" }.map { it.getString("model") }
+        assertEquals(
+            listOf("A100C", "A300+", "A300C", "City 200", "City 200s", "Power 80", "S26 Ultra").sorted(),
+            itelModels.sorted(),
+        )
     }
 
     @Test

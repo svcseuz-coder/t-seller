@@ -29,9 +29,12 @@ import androidx.compose.material.icons.automirrored.outlined.MenuBook
 import androidx.compose.material.icons.filled.Star
 import androidx.compose.material.icons.outlined.ArrowOutward
 import androidx.compose.material.icons.outlined.AutoAwesome
+import androidx.compose.material.icons.outlined.BrightnessAuto
 import androidx.compose.material.icons.outlined.Build
 import androidx.compose.material.icons.outlined.Check
 import androidx.compose.material.icons.outlined.Close
+import androidx.compose.material.icons.outlined.DarkMode
+import androidx.compose.material.icons.outlined.LightMode
 import androidx.compose.material.icons.outlined.PhoneAndroid
 import androidx.compose.material.icons.outlined.Quiz
 import androidx.compose.material.icons.outlined.Search
@@ -59,9 +62,11 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
@@ -73,11 +78,14 @@ import coil.compose.AsyncImage
 import uz.carlcare.salesassistant.R
 import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
 import uz.carlcare.salesassistant.core.design.BrandColors
+import uz.carlcare.salesassistant.core.design.brandAccent
 import uz.carlcare.salesassistant.core.design.FeatureTile
 import uz.carlcare.salesassistant.core.design.Pill
 import uz.carlcare.salesassistant.core.design.SectionTitle
 import uz.carlcare.salesassistant.ui.HomeViewModel
 import uz.carlcare.salesassistant.ui.Routes
+import uz.carlcare.salesassistant.ui.ThemeMode
+import uz.carlcare.salesassistant.ui.ThemeSetting
 
 @Composable
 fun HomeScreen(
@@ -95,6 +103,7 @@ fun HomeScreen(
     val focus = LocalFocusManager.current
     val tecno = items.count { it.product.brand == "TECNO" }
     val infinix = items.count { it.product.brand == "Infinix" }
+    val itel = items.count { it.product.brand == "iTel" }
 
     Column(
         modifier = Modifier
@@ -109,7 +118,9 @@ fun HomeScreen(
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.End,
+            verticalAlignment = Alignment.CenterVertically,
         ) {
+            ThemeMenu()
             LanguageMenu()
         }
         Header()
@@ -189,6 +200,13 @@ fun HomeScreen(
                 onClick = { onOpenBrand("Infinix") },
                 modifier = Modifier.weight(1f),
             )
+            BrandCard(
+                name = stringResource(R.string.brand_itel),
+                count = itel,
+                accent = BrandColors.Itel,
+                onClick = { onOpenBrand("iTel") },
+                modifier = Modifier.weight(1f),
+            )
         }
 
         SectionTitle(stringResource(R.string.tools))
@@ -255,6 +273,47 @@ fun HomeScreen(
 }
 
 @Composable
+private fun ThemeMenu() {
+    var expanded by rememberSaveable { mutableStateOf(false) }
+    val context = LocalContext.current
+    val current = ThemeSetting.mode
+
+    Box {
+        IconButton(onClick = { expanded = true }) {
+            Icon(
+                when (current) {
+                    ThemeMode.System -> Icons.Outlined.BrightnessAuto
+                    ThemeMode.Light -> Icons.Outlined.LightMode
+                    ThemeMode.Dark -> Icons.Outlined.DarkMode
+                },
+                contentDescription = stringResource(R.string.theme),
+                tint = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+            listOf(
+                ThemeMode.System to R.string.theme_system,
+                ThemeMode.Light to R.string.theme_light,
+                ThemeMode.Dark to R.string.theme_dark,
+            ).forEach { (mode, label) ->
+                DropdownMenuItem(
+                    text = { Text(stringResource(label)) },
+                    leadingIcon = {
+                        if (mode == current) {
+                            Icon(Icons.Outlined.Check, contentDescription = null)
+                        }
+                    },
+                    onClick = {
+                        expanded = false
+                        if (mode != current) ThemeSetting.update(context, mode)
+                    },
+                )
+            }
+        }
+    }
+}
+
+@Composable
 private fun LanguageMenu() {
     var expanded by rememberSaveable { mutableStateOf(false) }
     val overrides = AppCompatDelegate.getApplicationLocales()
@@ -308,13 +367,14 @@ private fun Header() {
                     listOf(
                         BrandColors.Tecno.copy(alpha = 0.22f),
                         BrandColors.Infinix.copy(alpha = 0.16f),
+                        BrandColors.Itel.copy(alpha = 0.14f),
                     ),
                 ),
             )
             .padding(22.dp),
     ) {
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            Pill(text = "TECNO · INFINIX", accent = BrandColors.Tecno)
+            Pill(text = "TECNO · INFINIX · ITEL", accent = BrandColors.Tecno)
             Text(
                 text = stringResource(R.string.app_name),
                 style = MaterialTheme.typography.headlineMedium,
@@ -336,7 +396,7 @@ private fun MiniProductCard(
     onClick: () -> Unit,
 ) {
     val product = data.product
-    val accent = if (product.brand == "TECNO") BrandColors.Tecno else BrandColors.Infinix
+    val accent = brandAccent(product.brand)
     Card(
         onClick = onClick,
         modifier = Modifier.width(152.dp),
@@ -425,29 +485,24 @@ private fun BrandCard(
                         listOf(accent.copy(alpha = 0.20f), Color.Transparent),
                     ),
                 )
-                .padding(16.dp),
+                .padding(14.dp),
         ) {
             Column(
                 modifier = Modifier.fillMaxSize(),
                 verticalArrangement = Arrangement.SpaceBetween,
             ) {
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    verticalAlignment = Alignment.CenterVertically,
-                ) {
-                    Text(name, style = MaterialTheme.typography.titleMedium, color = accent)
-                    Icon(
-                        Icons.Outlined.ArrowOutward,
-                        contentDescription = null,
-                        tint = accent,
-                        modifier = Modifier.size(18.dp),
-                    )
-                }
+                Text(
+                    text = name,
+                    style = MaterialTheme.typography.titleSmall,
+                    color = accent,
+                    maxLines = 1,
+                    modifier = Modifier.padding(end = 16.dp),
+                )
                 Column {
                     Text(
                         text = if (count > 0) stringResource(R.string.models_count, count) else "—",
-                        style = MaterialTheme.typography.titleLarge,
+                        style = MaterialTheme.typography.titleSmall.copy(fontWeight = FontWeight.SemiBold),
+                        maxLines = 1,
                     )
                     Text(
                         text = stringResource(R.string.catalog),
@@ -456,6 +511,14 @@ private fun BrandCard(
                     )
                 }
             }
+            Icon(
+                Icons.Outlined.ArrowOutward,
+                contentDescription = null,
+                tint = accent,
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .size(16.dp),
+            )
         }
     }
 }

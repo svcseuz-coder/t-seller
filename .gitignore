@@ -36,3 +36,6 @@ docs/T-Seller-v1.7.0.apk
 # Wrangler deploy staging
 server/assistant-proxy/dist/
 .wrangler/
+
+# Python tooling
+__pycache__/

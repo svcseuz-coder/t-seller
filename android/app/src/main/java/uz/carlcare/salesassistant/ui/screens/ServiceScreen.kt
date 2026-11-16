@@ -3,6 +3,8 @@ package uz.carlcare.salesassistant.ui.screens
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -20,6 +22,7 @@ import androidx.compose.material.icons.outlined.ArrowOutward
 import androidx.compose.material.icons.outlined.Assignment
 import androidx.compose.material.icons.outlined.Close
 import androidx.compose.material.icons.outlined.Email
+import androidx.compose.material.icons.outlined.LocalShipping
 import androidx.compose.material.icons.outlined.Phone
 import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.AssistChip
@@ -63,7 +66,12 @@ import uz.carlcare.salesassistant.ui.ServiceViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ServiceScreen(viewModel: ServiceViewModel, onBack: () -> Unit, onOpenWarranty: () -> Unit) {
+fun ServiceScreen(
+    viewModel: ServiceViewModel,
+    onBack: () -> Unit,
+    onOpenWarranty: () -> Unit,
+    onOpenPost: () -> Unit,
+) {
     val support by viewModel.support.collectAsStateWithLifecycle()
     val centers by viewModel.centers.collectAsStateWithLifecycle()
     var query by rememberSaveable { mutableStateOf("") }
@@ -99,7 +107,7 @@ fun ServiceScreen(viewModel: ServiceViewModel, onBack: () -> Unit, onOpenWarrant
         ) {
             support?.let { info ->
                 item { SupportCard(info, accent, uri) }
-                item { QuickLinks(accent, onOpenWarranty) }
+                item { QuickLinks(accent, onOpenWarranty, onOpenPost) }
             }
 
             item {
@@ -235,20 +243,35 @@ private fun SupportCard(info: SupportInfoEntity, accent: Color, uri: androidx.co
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-private fun QuickLinks(accent: Color, onOpenWarranty: () -> Unit) {
-    AssistChip(
-        onClick = onOpenWarranty,
-        label = { Text(stringResource(R.string.warranty_terms)) },
-        leadingIcon = {
-            Icon(
-                Icons.Outlined.Assignment,
-                contentDescription = null,
-                tint = accent,
-                modifier = Modifier.size(16.dp),
-            )
-        },
-    )
+private fun QuickLinks(accent: Color, onOpenWarranty: () -> Unit, onOpenPost: () -> Unit) {
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        AssistChip(
+            onClick = onOpenWarranty,
+            label = { Text(stringResource(R.string.warranty_terms)) },
+            leadingIcon = {
+                Icon(
+                    Icons.Outlined.Assignment,
+                    contentDescription = null,
+                    tint = accent,
+                    modifier = Modifier.size(16.dp),
+                )
+            },
+        )
+        AssistChip(
+            onClick = onOpenPost,
+            label = { Text(stringResource(R.string.post_send)) },
+            leadingIcon = {
+                Icon(
+                    Icons.Outlined.LocalShipping,
+                    contentDescription = null,
+                    tint = accent,
+                    modifier = Modifier.size(16.dp),
+                )
+            },
+        )
+    }
 }
 
 @Composable

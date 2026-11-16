@@ -57,6 +57,7 @@ import uz.carlcare.salesassistant.core.data.ProductShareText
 import uz.carlcare.salesassistant.core.data.ShareLine
 import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
 import uz.carlcare.salesassistant.core.design.BrandColors
+import uz.carlcare.salesassistant.core.design.brandAccent
 import uz.carlcare.salesassistant.core.design.Pill
 import uz.carlcare.salesassistant.core.design.SpecRow
 import uz.carlcare.salesassistant.ui.ProductViewModel
@@ -131,7 +132,7 @@ fun ProductScreen(viewModel: ProductViewModel, onBack: () -> Unit) {
         }
 
         val product = data.product
-        val accent = if (product.brand == "TECNO") BrandColors.Tecno else BrandColors.Infinix
+        val accent = brandAccent(product.brand)
         val variants = data.variants()
         var selected by rememberSaveable(product.id) { mutableStateOf(variants.first()) }
         val groupValues = data.specsFor(selected)
@@ -246,8 +247,13 @@ fun ProductScreen(viewModel: ProductViewModel, onBack: () -> Unit) {
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
+            val checkedAt = product.checkedAt
             Text(
-                text = stringResource(R.string.source_note, product.fetchedAt ?: "—"),
+                text = if (checkedAt != null) {
+                    stringResource(R.string.specs_source_note, product.source ?: "—", checkedAt)
+                } else {
+                    stringResource(R.string.source_note, product.fetchedAt ?: "—")
+                },
                 modifier = Modifier.padding(horizontal = 20.dp),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,

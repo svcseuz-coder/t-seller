@@ -1,0 +1,2968 @@
+{
+  "checkedAt": "2026-11-16",
+  "source": "EMU Express filiallar ro'yxati (16.11.2026, 12:54, Asia/Tashkent)",
+  "exportNote": "Ma'lumotlar olingan vaqt: 16.11.2026, 12:54 (GMT+05:00, Asia/Tashkent)",
+  "branches": [
+    {
+      "id": 1,
+      "name": "Andijon Chem",
+      "region": "Andijon viloyati",
+      "city": "Andijon shahri",
+      "address": "Sogʻlom Avlod 6-koʻchasi, 172",
+      "phones": [
+        "998933810549",
+        "998933812526"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.733913,
+      "lng": 72.326265
+    },
+    {
+      "id": 2,
+      "name": "Andijon Eski shahar",
+      "region": "Andijon viloyati",
+      "city": "Andijon shahri",
+      "address": "Oʻzbekiston koʻchasi, 56",
+      "phones": [
+        "998933819155",
+        "998933884605"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.783156,
+      "lng": 72.339452
+    },
+    {
+      "id": 3,
+      "name": "Andijon Yangi shahar",
+      "region": "Andijon viloyati",
+      "city": "Andijon shahri",
+      "address": "Amir Temur shoh koʻchasi, 11",
+      "phones": [
+        "998933812527",
+        "998933889857"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.756008,
+      "lng": 72.341761
+    },
+    {
+      "id": 4,
+      "name": "Kuyganyor",
+      "region": "Andijon viloyati",
+      "city": "Andijon tumani",
+      "address": "A. Qodiriy ko'chasi, 74, Kuyganyor",
+      "phones": [
+        "998933784237",
+        "998887173311"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.85113,
+      "lng": 72.321441
+    },
+    {
+      "id": 5,
+      "name": "Asaka",
+      "region": "Andijon viloyati",
+      "city": "Asaka tumani",
+      "address": "Umid koʻchasi, 90",
+      "phones": [
+        "998933881646"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.648263,
+      "lng": 72.237547
+    },
+    {
+      "id": 6,
+      "name": "Baliqchi",
+      "region": "Andijon viloyati",
+      "city": "Baliqchi tumani",
+      "address": "Baliqchi shoh ko'chasi, 8",
+      "phones": [
+        "998933774738",
+        "9989396412005"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.904382,
+      "lng": 71.843367
+    },
+    {
+      "id": 7,
+      "name": "Chinobod",
+      "region": "Andijon viloyati",
+      "city": "Baliqchi tumani",
+      "address": "Xidirov ko'chasi, 2, Chinobod",
+      "phones": [
+        "998933811338"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.877236,
+      "lng": 71.97956
+    },
+    {
+      "id": 8,
+      "name": "Boʻston",
+      "region": "Andijon viloyati",
+      "city": "Bo‘z tumani",
+      "address": "ulitsa Amira Temura, 88А",
+      "phones": [
+        "998933778295",
+        "998507032000"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.68955,
+      "lng": 71.929318
+    },
+    {
+      "id": 9,
+      "name": "Buloqboshi",
+      "region": "Andijon viloyati",
+      "city": "Buloqboshi tumani",
+      "address": "Mirza Kalom Ismoiliy koʻchasi, 1",
+      "phones": [
+        "998933775298",
+        "998332581885"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.626543,
+      "lng": 72.500044
+    },
+    {
+      "id": 10,
+      "name": "Izboskan",
+      "region": "Andijon viloyati",
+      "city": "Izboskan tumani",
+      "address": "Ch. Azimov koʻchasi, 51",
+      "phones": [
+        "998933811453",
+        "998901737775"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.895337,
+      "lng": 72.251633
+    },
+    {
+      "id": 11,
+      "name": "Jalaquduq",
+      "region": "Andijon viloyati",
+      "city": "Jalaquduq tumani",
+      "address": "O'zbekiston ko'chasi, 57",
+      "phones": [
+        "998774283756",
+        "998916040777"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.718811,
+      "lng": 72.643189
+    },
+    {
+      "id": 12,
+      "name": "Marhamat",
+      "region": "Andijon viloyati",
+      "city": "Marhamat tumani",
+      "address": "Mustaqillik koʻchasi, 84",
+      "phones": [
+        "998933812063",
+        "998905475508"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.507768,
+      "lng": 72.333541
+    },
+    {
+      "id": 13,
+      "name": "Oltinkoʻl",
+      "region": "Andijon viloyati",
+      "city": "Oltinko‘l tumani",
+      "address": "Oltinkoʻl koʻchasi, 64",
+      "phones": [
+        "998933817848",
+        "998902200404"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.80062,
+      "lng": 72.164344
+    },
+    {
+      "id": 14,
+      "name": "Paxtaobod",
+      "region": "Andijon viloyati",
+      "city": "Paxtaobod tumani",
+      "address": "Z. Xabibiy koʻchasi, Paxtaobod",
+      "phones": [
+        "998933990194",
+        "998970179393"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.934298,
+      "lng": 72.497444
+    },
+    {
+      "id": 15,
+      "name": "Qoʻrgʻontepa",
+      "region": "Andijon viloyati",
+      "city": "Qo‘rg‘ontepa tumani",
+      "address": "Mustaqillik koʻchasi, 72",
+      "phones": [
+        "998933811482"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.725938,
+      "lng": 72.760771
+    },
+    {
+      "id": 16,
+      "name": "Shahrixon",
+      "region": "Andijon viloyati",
+      "city": "Shahrixon tumani",
+      "address": "Yangi Toshkent koʻchasi, 2, Shahrixon",
+      "phones": [
+        "998933811545"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.710949,
+      "lng": 72.050464
+    },
+    {
+      "id": 17,
+      "name": "Oqoltin",
+      "region": "Andijon viloyati",
+      "city": "Ulug‘nor tumani",
+      "address": "Oqoltin shaharchasi, Navoiy shoh ko'chasi, 2",
+      "phones": [
+        "998933991453",
+        "998889998847"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.744071,
+      "lng": 71.706675
+    },
+    {
+      "id": 18,
+      "name": "Xonobod",
+      "region": "Andijon viloyati",
+      "city": "Xonobod shahri",
+      "address": "Xonobod koʻchasi, 134, Xonobod",
+      "phones": [
+        "998933990650",
+        "998934442283"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.797072,
+      "lng": 72.998207
+    },
+    {
+      "id": 19,
+      "name": "Xo'jaobod",
+      "region": "Andijon viloyati",
+      "city": "Xo‘jaobod tumani",
+      "address": "Alisher Navoiy ko'chasi, 10",
+      "phones": [
+        "998933811458",
+        "998336401411"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.66921,
+      "lng": 72.561463
+    },
+    {
+      "id": 20,
+      "name": "Buxoro Karvonbozor",
+      "region": "Buxoro viloyati",
+      "city": "Buxoro shahri",
+      "address": "Gazli shossesi, 121, Buxoro",
+      "phones": [
+        "998933817383",
+        "998933812646"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.807019,
+      "lng": 64.423175
+    },
+    {
+      "id": 21,
+      "name": "Buxoro Mikrorayon",
+      "region": "Buxoro viloyati",
+      "city": "Buxoro shahri",
+      "address": "Mirzo Abdulazim Somiy ko'chasi, 48/1",
+      "phones": [
+        "998933815474"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.743269,
+      "lng": 64.40458
+    },
+    {
+      "id": 22,
+      "name": "Buxoro Vokzal",
+      "region": "Buxoro viloyati",
+      "city": "Buxoro shahri",
+      "address": "Jalol Ikromiy ko'chasi, 19",
+      "phones": [
+        "998933812464",
+        "998933819150"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.77137,
+      "lng": 64.430253
+    },
+    {
+      "id": 23,
+      "name": "Galaosiyo",
+      "region": "Buxoro viloyati",
+      "city": "Buxoro tumani",
+      "address": "Oybek ko'chasi, 179",
+      "phones": [
+        "998933811784",
+        "998914004651"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.855169,
+      "lng": 64.441681
+    },
+    {
+      "id": 24,
+      "name": "Gijduvon",
+      "region": "Buxoro viloyati",
+      "city": "G‘ijduvon tumani",
+      "address": "Gʻijduvon, Yusuf Hamadoniy koʻchasi, 90",
+      "phones": [
+        "998933817505",
+        "998933817393"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.095181,
+      "lng": 64.68021
+    },
+    {
+      "id": 25,
+      "name": "Jondor",
+      "region": "Buxoro viloyati",
+      "city": "Jondor tumani",
+      "address": "Mahmud Tarobiy koʻchasi, 67A",
+      "phones": [
+        "998933881454"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.739323,
+      "lng": 64.171116
+    },
+    {
+      "id": 26,
+      "name": "Kogon",
+      "region": "Buxoro viloyati",
+      "city": "Kogon tumani",
+      "address": "Buxoro shoh koʻchasi, 46",
+      "phones": [
+        "998933817808"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.726172,
+      "lng": 64.545355
+    },
+    {
+      "id": 27,
+      "name": "Olot",
+      "region": "Buxoro viloyati",
+      "city": "Olot tumani",
+      "address": "Ma'rifat ko'chasi, 25, Olot, Buxoro viloyati",
+      "phones": [
+        "998933881795"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.414883,
+      "lng": 63.803131
+    },
+    {
+      "id": 28,
+      "name": "Peshku",
+      "region": "Buxoro viloyati",
+      "city": "Peshku tumani",
+      "address": "Tinchlik koʻchasi, 2",
+      "phones": [
+        "998933811314",
+        "998934548375"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.030991,
+      "lng": 64.39383
+    },
+    {
+      "id": 29,
+      "name": "Qorako'l",
+      "region": "Buxoro viloyati",
+      "city": "Qorako‘l tumani",
+      "address": "Ulugʻbek koʻchasi, 32",
+      "phones": [
+        "998933881424"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.515633,
+      "lng": 63.840668
+    },
+    {
+      "id": 30,
+      "name": "Qorovulbozor",
+      "region": "Buxoro viloyati",
+      "city": "Qorovulbozor tumani",
+      "address": "Geologlar ko'chasi, 2",
+      "phones": [
+        "998933813128",
+        "998996704007"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.498556,
+      "lng": 64.796768
+    },
+    {
+      "id": 31,
+      "name": "Romitan",
+      "region": "Buxoro viloyati",
+      "city": "Romitan tumani",
+      "address": "Amir Temur koʻchasi, 12",
+      "phones": [
+        "998933811379"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.925692,
+      "lng": 64.381181
+    },
+    {
+      "id": 32,
+      "name": "Shofirkon",
+      "region": "Buxoro viloyati",
+      "city": "Shofirkon tumani",
+      "address": "Muxtor Ashrafiy ko`chasi, 27, Shofirkon",
+      "phones": [
+        "998933812957",
+        "998882805060"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.119447,
+      "lng": 64.49937
+    },
+    {
+      "id": 33,
+      "name": "Vobkent",
+      "region": "Buxoro viloyati",
+      "city": "Vobkent tumani",
+      "address": "Imom al-Buxoriy koʻchasi, 16A",
+      "phones": [
+        "998933991932",
+        "998919237757"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.01918,
+      "lng": 64.523301
+    },
+    {
+      "id": 34,
+      "name": "Bagʻdod",
+      "region": "Farg‘ona viloyati",
+      "city": "Bag‘dod tumani",
+      "address": "Mustaqillik koʻchasi, 13, Bagʻdod",
+      "phones": [
+        "998933880867",
+        "998900571919"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.458615,
+      "lng": 71.214205
+    },
+    {
+      "id": 35,
+      "name": "Beshariq",
+      "region": "Farg‘ona viloyati",
+      "city": "Beshariq tumani",
+      "address": "Beshariq, Oltin Vodiy koʻchasi, 45",
+      "phones": [
+        "998933818525"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.436361,
+      "lng": 70.603788
+    },
+    {
+      "id": 36,
+      "name": "Buvayda",
+      "region": "Farg‘ona viloyati",
+      "city": "Buvayda tumani",
+      "address": "Nurli Yoʻl koʻchasi, 937A",
+      "phones": [
+        "998933784922",
+        "998932552010"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.556114,
+      "lng": 71.14244
+    },
+    {
+      "id": 37,
+      "name": "Farg'ona Festival",
+      "region": "Farg‘ona viloyati",
+      "city": "Farg‘ona shahri",
+      "address": "Qomus koʻchasi, 18",
+      "phones": [
+        "998933819151",
+        "998933811252"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.382441,
+      "lng": 71.78468
+    },
+    {
+      "id": 38,
+      "name": "Farg'ona Qirguli",
+      "region": "Farg‘ona viloyati",
+      "city": "Farg‘ona shahri",
+      "address": "Yangi Asr koʻchasi, 21B",
+      "phones": [
+        "998933889854"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.433284,
+      "lng": 71.7565
+    },
+    {
+      "id": 39,
+      "name": "Farg'ona Yormozor",
+      "region": "Farg‘ona viloyati",
+      "city": "Farg‘ona shahri",
+      "address": "Ahmad Al-Fargʻoniy shoh koʻchasi, 261",
+      "phones": [
+        "998933811770"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.406796,
+      "lng": 71.739971
+    },
+    {
+      "id": 40,
+      "name": "Vodil",
+      "region": "Farg‘ona viloyati",
+      "city": "Farg‘ona tumani",
+      "address": "Peshvozov koʻchasi, 84",
+      "phones": [
+        "998933991923",
+        "998900407733"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.177684,
+      "lng": 71.728805
+    },
+    {
+      "id": 41,
+      "name": "Furqat",
+      "region": "Farg‘ona viloyati",
+      "city": "Furqat tumani",
+      "address": "Navbahor koʻchasi, 695",
+      "phones": [
+        "998933774536",
+        "998955201212"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.483622,
+      "lng": 70.771057
+    },
+    {
+      "id": 42,
+      "name": "Quva",
+      "region": "Farg‘ona viloyati",
+      "city": "Kuva tumani",
+      "address": "Ahmad Yassaviy ko'chasi, 44",
+      "phones": [
+        "998933811470",
+        "998902909393"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.524308,
+      "lng": 72.066037
+    },
+    {
+      "id": 43,
+      "name": "Margilan",
+      "region": "Farg‘ona viloyati",
+      "city": "Marg‘ilon shahri",
+      "address": "Mustaqillik ko‘chasi, 326",
+      "phones": [
+        "998933814585"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.482908,
+      "lng": 71.720908
+    },
+    {
+      "id": 44,
+      "name": "Oltiariq",
+      "region": "Farg‘ona viloyati",
+      "city": "Oltiariq tumani",
+      "address": "Oʻzbekiston koʻchasi 26",
+      "phones": [
+        "998933787544",
+        "998908360092"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.391165,
+      "lng": 71.474393
+    },
+    {
+      "id": 45,
+      "name": "Yaypan",
+      "region": "Farg‘ona viloyati",
+      "city": "O‘zbekiston tumani",
+      "address": "Ziyokor koʻchasi, 27",
+      "phones": [
+        "998933889853"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.377083,
+      "lng": 70.811849
+    },
+    {
+      "id": 46,
+      "name": "Quqon bozor",
+      "region": "Farg‘ona viloyati",
+      "city": "Qo‘qon shahri",
+      "address": "Usmon Nosir koʻchasi, 67",
+      "phones": [
+        "998933811172"
+      ],
+      "hours": "Se-Ya 09:00-18:00",
+      "lat": 40.550135,
+      "lng": 70.962115
+    },
+    {
+      "id": 47,
+      "name": "Quqon Charhiy",
+      "region": "Farg‘ona viloyati",
+      "city": "Qo‘qon shahri",
+      "address": "Asqarali Charxiy koʻchasi, 25J",
+      "phones": [
+        "998933811646"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.542954,
+      "lng": 70.935709
+    },
+    {
+      "id": 48,
+      "name": "Quqon Navoiy",
+      "region": "Farg‘ona viloyati",
+      "city": "Qo‘qon shahri",
+      "address": "Alisher Navoiy koʻchasi, 44В",
+      "phones": [
+        "998933816171",
+        "998933810397"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.53963,
+      "lng": 70.967231
+    },
+    {
+      "id": 49,
+      "name": "Quvasoy",
+      "region": "Farg‘ona viloyati",
+      "city": "Quvasoy shahri",
+      "address": "Alisher Navoiy ko'chasi, 24",
+      "phones": [
+        "998933772342",
+        "998903026001"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.2975,
+      "lng": 71.978545
+    },
+    {
+      "id": 50,
+      "name": "Rishton",
+      "region": "Farg‘ona viloyati",
+      "city": "Rishton tumani",
+      "address": "Rishton koʻchasi, 11",
+      "phones": [
+        "998933811378"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.361306,
+      "lng": 71.272742
+    },
+    {
+      "id": 51,
+      "name": "Toshloq",
+      "region": "Farg‘ona viloyati",
+      "city": "Toshloq tumani",
+      "address": "Alisher Navoiy koʻchasi, 93",
+      "phones": [
+        "998931831390"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.487318,
+      "lng": 71.76512
+    },
+    {
+      "id": 52,
+      "name": "Uchko'prik",
+      "region": "Farg‘ona viloyati",
+      "city": "Uchko‘prik tumani",
+      "address": "Shodlik koʻchasi, 83",
+      "phones": [
+        "998933814528",
+        "998774270427"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.544037,
+      "lng": 71.059596
+    },
+    {
+      "id": 53,
+      "name": "Yozyovon",
+      "region": "Farg‘ona viloyati",
+      "city": "Yozyovon tumani",
+      "address": "Alisher Navoiy koʻchasi, 4",
+      "phones": [
+        "998933778357",
+        "998902070000"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.659853,
+      "lng": 71.740546
+    },
+    {
+      "id": 54,
+      "name": "Arnasoy",
+      "region": "Jizzax viloyati",
+      "city": "Arnasoy tumani",
+      "address": "Gʻoliblar shaharchasi",
+      "phones": [
+        "998933814247",
+        "998938270657"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.496554,
+      "lng": 67.875676
+    },
+    {
+      "id": 55,
+      "name": "Baxmal",
+      "region": "Jizzax viloyati",
+      "city": "Baxmal tumani",
+      "address": "Navbahor koʻchasi, 338",
+      "phones": [
+        "998933882695",
+        "998972951212"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.736493,
+      "lng": 67.64721
+    },
+    {
+      "id": 56,
+      "name": "Doʻstlik",
+      "region": "Jizzax viloyati",
+      "city": "Do‘stlik tumani",
+      "address": "Doʻstlik koʻchasi",
+      "phones": [
+        "998933774724",
+        "998974369889"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.524679,
+      "lng": 68.039639
+    },
+    {
+      "id": 57,
+      "name": "Forish",
+      "region": "Jizzax viloyati",
+      "city": "Forish tumani",
+      "address": "Fayzobod koʻchasi, 416",
+      "phones": [
+        "998933990137",
+        "998943469999"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.416588,
+      "lng": 67.181164
+    },
+    {
+      "id": 58,
+      "name": "G'allaorol",
+      "region": "Jizzax viloyati",
+      "city": "G‘allaorol tumani",
+      "address": "Mustaqillik ko'chasi, 1",
+      "phones": [
+        "998933815941"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.00502,
+      "lng": 67.593994
+    },
+    {
+      "id": 59,
+      "name": "Jizzax Xayrabod",
+      "region": "Jizzax viloyati",
+      "city": "Jizzax shahri",
+      "address": "D. Yovkacharov koʻchasi, 5",
+      "phones": [
+        "998933811416"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.068324,
+      "lng": 67.872041
+    },
+    {
+      "id": 60,
+      "name": "Jizzax Zargarlik",
+      "region": "Jizzax viloyati",
+      "city": "Jizzax shahri",
+      "address": "Zargarlik dahasi, 14А",
+      "phones": [
+        "998933814808",
+        "998933813262"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.139253,
+      "lng": 67.828335
+    },
+    {
+      "id": 61,
+      "name": "Gagarin",
+      "region": "Jizzax viloyati",
+      "city": "Mirzacho‘l tumani",
+      "address": "Oʻzbekiston koʻchasi, 1, Gagarin",
+      "phones": [
+        "998933881246",
+        "998937661408"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.6659,
+      "lng": 68.163786
+    },
+    {
+      "id": 62,
+      "name": "Paxtakor",
+      "region": "Jizzax viloyati",
+      "city": "Paxtakor tumani",
+      "address": "Do'stlik avtomobil yo'li, Paxtakor",
+      "phones": [
+        "998774283760",
+        "998990257706"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.314422,
+      "lng": 67.96679
+    },
+    {
+      "id": 63,
+      "name": "Sharof Rashidov",
+      "region": "Jizzax viloyati",
+      "city": "Sharof Rashidov tumani",
+      "address": "Shifokor koʻchasi, 109",
+      "phones": [
+        "998933772743",
+        "998915672628"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.215108,
+      "lng": 67.908946
+    },
+    {
+      "id": 64,
+      "name": "Yangiobod",
+      "region": "Jizzax viloyati",
+      "city": "Yangiobod tumani",
+      "address": "Mustaqillik koʻchasi, 5, Yangiabad",
+      "phones": [
+        "998500446246",
+        "998995652828"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.91312,
+      "lng": 68.7788
+    },
+    {
+      "id": 65,
+      "name": "Zafarobod",
+      "region": "Jizzax viloyati",
+      "city": "Zafarobod tumani",
+      "address": "Mustaqillik ko'chasi, 46А",
+      "phones": [
+        "998933771453",
+        "998932400022"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.387785,
+      "lng": 67.817342
+    },
+    {
+      "id": 66,
+      "name": "Zarbdor",
+      "region": "Jizzax viloyati",
+      "city": "Zarbdor tumani",
+      "address": "Mustaqillik shoh koʻchasi",
+      "phones": [
+        "998933775118",
+        "998994286468"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.090171,
+      "lng": 68.166068
+    },
+    {
+      "id": 67,
+      "name": "Zomin",
+      "region": "Jizzax viloyati",
+      "city": "Zomin tumani",
+      "address": "Mustaqillik koʻchasi, 42, Qayirma MFY, Zomin tumani",
+      "phones": [
+        "998933811419"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.964062,
+      "lng": 68.397187
+    },
+    {
+      "id": 68,
+      "name": "Chortoq",
+      "region": "Namangan viloyati",
+      "city": "Chortoq tumani",
+      "address": "Namangan ko'chasi, 5",
+      "phones": [
+        "998933778521"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.076964,
+      "lng": 71.807991
+    },
+    {
+      "id": 69,
+      "name": "Chust",
+      "region": "Namangan viloyati",
+      "city": "Chust tumani",
+      "address": "Ipak Yo'li ko'chasi, 7, Чуст",
+      "phones": [
+        "998933811201"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.993606,
+      "lng": 71.231866
+    },
+    {
+      "id": 70,
+      "name": "Kosonsoy",
+      "region": "Namangan viloyati",
+      "city": "Kosonsoy tumani",
+      "address": "Me'mor ko`chasi, 176, Kosonsoy",
+      "phones": [
+        "998933881653"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.245043,
+      "lng": 71.54755
+    },
+    {
+      "id": 71,
+      "name": "Jumashuy",
+      "region": "Namangan viloyati",
+      "city": "Mingbuloq tumani",
+      "address": "Boʻston koʻchasi, Jomashoʻy",
+      "phones": [
+        "998933881541",
+        "998884092323"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.862142,
+      "lng": 71.457964
+    },
+    {
+      "id": 72,
+      "name": "Namangan Lola",
+      "region": "Namangan viloyati",
+      "city": "Namangan shahri",
+      "address": "Soxibkor berk ko‘chasi, 10",
+      "phones": [
+        "998933812898",
+        "998933810392"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.974906,
+      "lng": 71.719121
+    },
+    {
+      "id": 73,
+      "name": "Namangan Mikrorayon",
+      "region": "Namangan viloyati",
+      "city": "Namangan shahri",
+      "address": "Xotira ko'chasi, 17А",
+      "phones": [
+        "998933812421",
+        "998933819160"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.996001,
+      "lng": 71.61294
+    },
+    {
+      "id": 74,
+      "name": "Namangan Sardoba",
+      "region": "Namangan viloyati",
+      "city": "Namangan shahri",
+      "address": "Alisher Navoiy koʻchasi, 5А",
+      "phones": [
+        "998933887990"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.993905,
+      "lng": 71.669282
+    },
+    {
+      "id": 75,
+      "name": "Toshbuloq",
+      "region": "Namangan viloyati",
+      "city": "Namangan tumani",
+      "address": "Mustaqillik koʻchasi, 91A",
+      "phones": [
+        "998933784520",
+        "998930093311"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.932198,
+      "lng": 71.606317
+    },
+    {
+      "id": 76,
+      "name": "Xaqqulobod",
+      "region": "Namangan viloyati",
+      "city": "Norin tumani",
+      "address": "Haqqulobod, 2",
+      "phones": [
+        "998933886467"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.914972,
+      "lng": 72.110984
+    },
+    {
+      "id": 77,
+      "name": "Pop",
+      "region": "Namangan viloyati",
+      "city": "Pop tumani",
+      "address": "Hazratibob koʻchasi, 3",
+      "phones": [
+        "998933812838"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.875935,
+      "lng": 71.096461
+    },
+    {
+      "id": 78,
+      "name": "To'raqo'rg'on",
+      "region": "Namangan viloyati",
+      "city": "To‘raqo‘rg‘on tumani",
+      "address": "Kosonsoy ko'chasi, 6",
+      "phones": [
+        "998933813144"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.002634,
+      "lng": 71.50353
+    },
+    {
+      "id": 79,
+      "name": "Uchqo'rg'on",
+      "region": "Namangan viloyati",
+      "city": "Uchqo‘rg‘on tumani",
+      "address": "Mustaqillik koʻchasi, 22, Uchqoʻrgʻon",
+      "phones": [
+        "998933811382"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.116046,
+      "lng": 72.07215
+    },
+    {
+      "id": 80,
+      "name": "Uychi",
+      "region": "Namangan viloyati",
+      "city": "Uychi tumani",
+      "address": "Abu Rayxon Beruniy koʻchasi, 34A",
+      "phones": [
+        "998933774134",
+        "998940000220"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.028982,
+      "lng": 71.846107
+    },
+    {
+      "id": 81,
+      "name": "Yangiqoʻrgʻon",
+      "region": "Namangan viloyati",
+      "city": "Yangiqo‘rg‘on tumani",
+      "address": "Beshbuloq mfy, Do'stlik ko'chasi, 25-uy",
+      "phones": [
+        "998774283753",
+        "998945044447"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.186858,
+      "lng": 71.726308
+    },
+    {
+      "id": 82,
+      "name": "Navoiy Karmana",
+      "region": "Navoiy viloyati",
+      "city": "Karmana tumani",
+      "address": "Lyubaton ko'chasi, 230",
+      "phones": [
+        "998933819101",
+        "998933819171"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.147996,
+      "lng": 65.344952
+    },
+    {
+      "id": 83,
+      "name": "Konimex",
+      "region": "Navoiy viloyati",
+      "city": "Konimex tumani",
+      "address": "Ibn Sino koʻchasi, 7",
+      "phones": [
+        "998933819616",
+        "998943771997"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.275048,
+      "lng": 65.139538
+    },
+    {
+      "id": 84,
+      "name": "Beshrabot",
+      "region": "Navoiy viloyati",
+      "city": "Navbahor tumani",
+      "address": "Lolazor koʻchasi, 201",
+      "phones": [
+        "998933780132",
+        "998333252555"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.22903,
+      "lng": 65.302772
+    },
+    {
+      "id": 85,
+      "name": "Navoiy Voskhod",
+      "region": "Navoiy viloyati",
+      "city": "Navoiy shahri",
+      "address": "Janubiy ko'chasi, 27A",
+      "phones": [
+        "998933819808",
+        "998933810848"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.090234,
+      "lng": 65.380141
+    },
+    {
+      "id": 86,
+      "name": "Nurota",
+      "region": "Navoiy viloyati",
+      "city": "Nurota tumani",
+      "address": "M. Raximov koʻchasi, 3",
+      "phones": [
+        "998933813078",
+        "998938154444"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.564545,
+      "lng": 65.693033
+    },
+    {
+      "id": 87,
+      "name": "Qiziltepa",
+      "region": "Navoiy viloyati",
+      "city": "Qiziltepa tumani",
+      "address": "Mustaqillik ko'chasi, 13",
+      "phones": [
+        "998933811175",
+        "998883237002"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.039518,
+      "lng": 64.842896
+    },
+    {
+      "id": 88,
+      "name": "Uchquduq",
+      "region": "Navoiy viloyati",
+      "city": "Uchquduq tumani",
+      "address": "Amir Temur koʻchasi, 6 A",
+      "phones": [
+        "998933881019"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.156723,
+      "lng": 63.566004
+    },
+    {
+      "id": 89,
+      "name": "Xatirchi",
+      "region": "Navoiy viloyati",
+      "city": "Xatirchi tumani",
+      "address": "Qurbonova ko'chasi, 22",
+      "phones": [
+        "998933888901",
+        "998880682060"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.027115,
+      "lng": 65.970334
+    },
+    {
+      "id": 90,
+      "name": "Zarafshon",
+      "region": "Navoiy viloyati",
+      "city": "Zarafshon shahri",
+      "address": "Marvarid shoh koʻchasi, 21",
+      "phones": [
+        "998933815242"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.572178,
+      "lng": 64.204461
+    },
+    {
+      "id": 91,
+      "name": "Chiroqchi",
+      "region": "Qashqadaryo viloyati",
+      "city": "Chiroqchi tumani",
+      "address": "Mustaqillik koʻchasi, 64",
+      "phones": [
+        "998933817167",
+        "998943314102"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.032515,
+      "lng": 66.577038
+    },
+    {
+      "id": 92,
+      "name": "Karashina",
+      "region": "Qashqadaryo viloyati",
+      "city": "Dehqonobod tumani",
+      "address": "Semurgʻ koʻchasi, 2, Dehqonobod",
+      "phones": [
+        "998933811517",
+        "998943348414"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.349036,
+      "lng": 66.494349
+    },
+    {
+      "id": 93,
+      "name": "Guzor",
+      "region": "Qashqadaryo viloyati",
+      "city": "G‘uzor tumani",
+      "address": "Oʻzbekiston koʻchasi, 3/14",
+      "phones": [
+        "998933810646",
+        "998958657500"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.624045,
+      "lng": 66.252603
+    },
+    {
+      "id": 94,
+      "name": "Kasbi",
+      "region": "Qashqadaryo viloyati",
+      "city": "Kasbi tumani",
+      "address": "Mustaqillik koʻchasi, 22, Mugʻlon",
+      "phones": [
+        "998933775392",
+        "998992409191"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.92472,
+      "lng": 65.409856
+    },
+    {
+      "id": 95,
+      "name": "Kitob",
+      "region": "Qashqadaryo viloyati",
+      "city": "Kitob tumani",
+      "address": "Buyuk Ipak yo'li ko'chasi, 44",
+      "phones": [
+        "998933889851"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.117591,
+      "lng": 66.871524
+    },
+    {
+      "id": 96,
+      "name": "Koson",
+      "region": "Qashqadaryo viloyati",
+      "city": "Koson tumani",
+      "address": "Kuxna Kalʻa koʻchasi, 36",
+      "phones": [
+        "998933810472",
+        "998912232223"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.029394,
+      "lng": 65.579538
+    },
+    {
+      "id": 97,
+      "name": "Koʻkdala",
+      "region": "Qashqadaryo viloyati",
+      "city": "Ko‘kdala tumani",
+      "address": "Umar Xayyom ko'chasi,, 2",
+      "phones": [
+        "998933785487",
+        "998942989788"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.215262,
+      "lng": 66.247743
+    },
+    {
+      "id": 98,
+      "name": "Mirishkor",
+      "region": "Qashqadaryo viloyati",
+      "city": "Mirishkor tumani",
+      "address": "X.X. Niyoziy koʻchasi, 2, Yangi Mirishkor",
+      "phones": [
+        "998933775186",
+        "998976773797"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.846372,
+      "lng": 65.271041
+    },
+    {
+      "id": 99,
+      "name": "Muborak",
+      "region": "Qashqadaryo viloyati",
+      "city": "Muborak tumani",
+      "address": "Muborak koʻchasi, 179",
+      "phones": [
+        "998933813439",
+        "998973135888"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.25787,
+      "lng": 65.157089
+    },
+    {
+      "id": 100,
+      "name": "Nishon",
+      "region": "Qashqadaryo viloyati",
+      "city": "Nishon tumani",
+      "address": "O`zbekiston ko`chasi, 49",
+      "phones": [
+        "998933772932",
+        "998952999000"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.654122,
+      "lng": 65.700431
+    },
+    {
+      "id": 101,
+      "name": "Qamashi",
+      "region": "Qashqadaryo viloyati",
+      "city": "Qamashi tumani",
+      "address": "Amir Temur koʻchasi, 62",
+      "phones": [
+        "998933784487",
+        "998973108300"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.811561,
+      "lng": 66.477783
+    },
+    {
+      "id": 102,
+      "name": "Qarshi Komilon",
+      "region": "Qashqadaryo viloyati",
+      "city": "Qarshi shahri",
+      "address": "Islom Karimov ko'chasi, 295",
+      "phones": [
+        "998933812808",
+        "998933817151"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 38.860459,
+      "lng": 65.796923
+    },
+    {
+      "id": 103,
+      "name": "Qarshi Osiyo Bozor",
+      "region": "Qashqadaryo viloyati",
+      "city": "Qarshi shahri",
+      "address": "Jayhun koʻchasi, 7/75",
+      "phones": [
+        "998933812954",
+        "998933817151"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 38.815346,
+      "lng": 65.813848
+    },
+    {
+      "id": 104,
+      "name": "Beshkent",
+      "region": "Qashqadaryo viloyati",
+      "city": "Qarshi tumani",
+      "address": "Amir Temur koʻchasi, 26, Beshkent",
+      "phones": [
+        "998933881684"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.821721,
+      "lng": 65.654702
+    },
+    {
+      "id": 105,
+      "name": "Shahrisabz Chinor Tagi",
+      "region": "Qashqadaryo viloyati",
+      "city": "Shahrisabz tumani",
+      "address": "Chilonzor koʻchasi, 89",
+      "phones": [
+        "998933811716",
+        "998933812383"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.050491,
+      "lng": 66.820724
+    },
+    {
+      "id": 106,
+      "name": "Shahrisabz Navro'z bog'i",
+      "region": "Qashqadaryo viloyati",
+      "city": "Shahrisabz tumani",
+      "address": "Ipak Yoʻli koʻchasi, 107",
+      "phones": [
+        "998933812383",
+        "998933811716"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.072353,
+      "lng": 66.83449
+    },
+    {
+      "id": 107,
+      "name": "Yakkabogʻ",
+      "region": "Qashqadaryo viloyati",
+      "city": "Yakkabog‘ tumani",
+      "address": "Amir Temur koʻchasi, 63 B",
+      "phones": [
+        "998933782352"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.980433,
+      "lng": 66.678836
+    },
+    {
+      "id": 108,
+      "name": "Mangʻit",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Amudaryo tumani",
+      "address": "Tadbrkorlar koʻchasi, 11 Mangʻit",
+      "phones": [
+        "998933812510"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.113895,
+      "lng": 60.059252
+    },
+    {
+      "id": 109,
+      "name": "Beruniy",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Beruniy tumani",
+      "address": "Xalqlar Do'stligi ko'chasi, 4",
+      "phones": [
+        "998933811798"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.688805,
+      "lng": 60.741102
+    },
+    {
+      "id": 110,
+      "name": "Chimboy",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Chimboy tumani",
+      "address": "Beruniy koʻchasi, 60А",
+      "phones": [
+        "998933773448"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.933761,
+      "lng": 59.773961
+    },
+    {
+      "id": 111,
+      "name": "Ellikqalʼa",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Ellikqala tumani",
+      "address": "Xalqlar Doʻstligi koʻchasi, 32",
+      "phones": [
+        "998933782039",
+        "998973572262"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.843155,
+      "lng": 60.915568
+    },
+    {
+      "id": 112,
+      "name": "Kegeyli",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Kegeyli tumani",
+      "address": "Dosliq shoh koʻchasi, 23",
+      "phones": [
+        "998933772859",
+        "998937082214"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.777824,
+      "lng": 59.610334
+    },
+    {
+      "id": 113,
+      "name": "Nukus Mikrorayon",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Nukus shahri",
+      "address": "21-kichik nohiya, 78Б",
+      "phones": [
+        "998933819195",
+        "998933880445"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 42.445713,
+      "lng": 59.628884
+    },
+    {
+      "id": 114,
+      "name": "Nukus Tamojniy",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Nukus shahri",
+      "address": "Sabir Kamalov koʻchasi, 29-20",
+      "phones": [
+        "998933811727",
+        "998931831527"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 42.464301,
+      "lng": 59.609719
+    },
+    {
+      "id": 115,
+      "name": "Aqmangit",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Nukus tumani",
+      "address": "Aqmangit shoh koʼchasi, 42/1",
+      "phones": [
+        "998933995315",
+        "998933659229"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.595985,
+      "lng": 59.54208
+    },
+    {
+      "id": 116,
+      "name": "Qanlikoʻl",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Qanliko‘l tumani",
+      "address": "Gʻarezsizlik koʻchasi, 54/1",
+      "phones": [
+        "998933773576",
+        "998919280083"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.838391,
+      "lng": 59.00681
+    },
+    {
+      "id": 117,
+      "name": "Qoraoʻzak",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Qorao‘zak tumani",
+      "address": "Ajiniyaz koʻchasi, 110",
+      "phones": [
+        "998933774061",
+        "998944342914"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 43.03209,
+      "lng": 60.015806
+    },
+    {
+      "id": 118,
+      "name": "Qoʻngʻirot",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Qo‘ng‘irot tumani",
+      "address": "Tulegen Aybergenov koʻchasi, 85/8",
+      "phones": [
+        "998933811359"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 43.050513,
+      "lng": 58.832914
+    },
+    {
+      "id": 119,
+      "name": "Shumanay",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Shumanay tumani",
+      "address": "Oʻzbekiston koʻchasi, 1Б",
+      "phones": [
+        "998933785675",
+        "998975070303"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.637943,
+      "lng": 58.922808
+    },
+    {
+      "id": 120,
+      "name": "Taxiatosh",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Taqiyatosh tumani",
+      "address": "Ibrayim Yusupov koʼchasi, 67",
+      "phones": [
+        "998933773844",
+        "998905956147"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.329767,
+      "lng": 59.574419
+    },
+    {
+      "id": 121,
+      "name": "Taxtako'pir",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Taxtako‘pir tumani",
+      "address": "Doslik Guzari koʻchasi, 77",
+      "phones": [
+        "998933774335",
+        "998938404141"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 43.01997,
+      "lng": 60.286855
+    },
+    {
+      "id": 122,
+      "name": "Toʻrtkoʻl",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "To‘rtko‘l tumani",
+      "address": "Mustaqillik koʻchasi, 31, Bogʻyop mahalla fuqarolar yigʻini",
+      "phones": [
+        "998933813436"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.552607,
+      "lng": 60.998701
+    },
+    {
+      "id": 123,
+      "name": "Xo'jayli",
+      "region": "Qoraqalpog‘iston Respublikasi",
+      "city": "Xo‘jayli tumani",
+      "address": "G'arezsizlik ko'chasi, 25A",
+      "phones": [
+        "998933818727",
+        "998956057700"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 42.411293,
+      "lng": 59.453533
+    },
+    {
+      "id": 124,
+      "name": "Bulung'ur",
+      "region": "Samarqand viloyati",
+      "city": "Bulung‘ur tumani",
+      "address": "Fozil Yoʻldosh ko'chasi, 15, Bulungʻur",
+      "phones": [
+        "998933881583"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.762057,
+      "lng": 67.270017
+    },
+    {
+      "id": 125,
+      "name": "Jomboy",
+      "region": "Samarqand viloyati",
+      "city": "Jomboy tumani",
+      "address": "Doʻstlik koʻchasi, 277a",
+      "phones": [
+        "998933881799"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.696386,
+      "lng": 67.090352
+    },
+    {
+      "id": 126,
+      "name": "Kattaqorgon",
+      "region": "Samarqand viloyati",
+      "city": "Kattaqo‘rg‘on tumani",
+      "address": "Alisher Navoiy koʻchasi, 189/4",
+      "phones": [
+        "998933813242",
+        "998933812325"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.899387,
+      "lng": 66.256657
+    },
+    {
+      "id": 127,
+      "name": "Kattaqorgon Eski shahar",
+      "region": "Samarqand viloyati",
+      "city": "Kattaqo‘rg‘on tumani",
+      "address": "Buxoro koʻchasi, 6, Kattaqoʻrgʻon",
+      "phones": [
+        "998933812325"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.916537,
+      "lng": 66.246827
+    },
+    {
+      "id": 128,
+      "name": "Payshanba",
+      "region": "Samarqand viloyati",
+      "city": "Kattaqo‘rg‘on tumani",
+      "address": "Alisher Navoiy ko‘chasi, 17, Payshanba shaharchasi",
+      "phones": [
+        "998933776791",
+        "998933776791"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.012702,
+      "lng": 66.230022
+    },
+    {
+      "id": 129,
+      "name": "Oqtosh",
+      "region": "Samarqand viloyati",
+      "city": "Narpay tumani",
+      "address": "Alisher Navoiy koʻchasi, 20/8, Oqtosh",
+      "phones": [
+        "998774283758"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.919269,
+      "lng": 65.93017
+    },
+    {
+      "id": 130,
+      "name": "Nurobod",
+      "region": "Samarqand viloyati",
+      "city": "Nurobod tumani",
+      "address": "Usmonov koʻchasi, 17, Nurobod",
+      "phones": [
+        "998933813379"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.608851,
+      "lng": 66.293602
+    },
+    {
+      "id": 131,
+      "name": "Loyish",
+      "region": "Samarqand viloyati",
+      "city": "Oqdaryo tumani",
+      "address": "Loyish shaharchasi, Amir Temur ko'chasi, 41",
+      "phones": [
+        "998933775429",
+        "998933570959"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.878945,
+      "lng": 66.750467
+    },
+    {
+      "id": 132,
+      "name": "Juma",
+      "region": "Samarqand viloyati",
+      "city": "Pastdarg‘om tumani",
+      "address": "Hamid Olimjon koʻchasi, 28",
+      "phones": [
+        "998933881474",
+        "998913177762"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.712867,
+      "lng": 66.664669
+    },
+    {
+      "id": 133,
+      "name": "Ziyovuddin",
+      "region": "Samarqand viloyati",
+      "city": "Paxtachi tumani",
+      "address": "Istiqlol koʻchasi, 59",
+      "phones": [
+        "998933994580",
+        "998942210117"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.0282,
+      "lng": 65.662598
+    },
+    {
+      "id": 134,
+      "name": "Chelak",
+      "region": "Samarqand viloyati",
+      "city": "Payariq tumani",
+      "address": "Istiqlol ko'chasi, 74",
+      "phones": [
+        "998933784297",
+        "998972886868"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.916385,
+      "lng": 66.859478
+    },
+    {
+      "id": 135,
+      "name": "Samarqand Panjakent",
+      "region": "Samarqand viloyati",
+      "city": "Samarqand shahri",
+      "address": "Panjakent koʻchasi, 182",
+      "phones": [
+        "998933881494"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.646071,
+      "lng": 66.996057
+    },
+    {
+      "id": 136,
+      "name": "Samarqand Tadbirkorlar",
+      "region": "Samarqand viloyati",
+      "city": "Samarqand shahri",
+      "address": "Lolazor koʻchasi, 11",
+      "phones": [
+        "998500446249"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.637579,
+      "lng": 66.946869
+    },
+    {
+      "id": 137,
+      "name": "Samarqand Ulugʻbek",
+      "region": "Samarqand viloyati",
+      "city": "Samarqand shahri",
+      "address": "Samarqand halqa yoʻli, 2А",
+      "phones": [
+        "998933812747",
+        "998915426305"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.676121,
+      "lng": 67.015344
+    },
+    {
+      "id": 138,
+      "name": "Samarqand Uzbekistanski",
+      "region": "Samarqand viloyati",
+      "city": "Samarqand shahri",
+      "address": "Oʻzbekiston koʻchasi, 41",
+      "phones": [
+        "998933812414",
+        "998933819161"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 39.646883,
+      "lng": 66.953729
+    },
+    {
+      "id": 139,
+      "name": "Samarqand Vokzal",
+      "region": "Samarqand viloyati",
+      "city": "Samarqand shahri",
+      "address": "Abu Rayhon Beruniy koʻchasi, 81",
+      "phones": [
+        "998933813369"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.673254,
+      "lng": 66.926905
+    },
+    {
+      "id": 140,
+      "name": "Seliski",
+      "region": "Samarqand viloyati",
+      "city": "Samarqand tumani",
+      "address": "Mahorat 1 Qishlogʻi koʻchasi, 522",
+      "phones": [
+        "998933814878",
+        "998942831777"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.620496,
+      "lng": 66.955804
+    },
+    {
+      "id": 141,
+      "name": "Toyloq",
+      "region": "Samarqand viloyati",
+      "city": "Tayloq tumani",
+      "address": "Katta Tayloq Qishlogʻi koʻchasi, 720",
+      "phones": [
+        "998933783356"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.597628,
+      "lng": 67.103523
+    },
+    {
+      "id": 142,
+      "name": "Urgut",
+      "region": "Samarqand viloyati",
+      "city": "Urgut tumani",
+      "address": "Navoiy shoh ko'chasi, 2А",
+      "phones": [
+        "998933810642"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 39.404124,
+      "lng": 67.244487
+    },
+    {
+      "id": 143,
+      "name": "Boyovut",
+      "region": "Sirdaryo viloyati",
+      "city": "Boyovut tumani",
+      "address": "Tinchlik ko'chasi",
+      "phones": [
+        "998777326764",
+        "998889011144"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.275433,
+      "lng": 69.021944
+    },
+    {
+      "id": 144,
+      "name": "Guliston Oxunboboyev",
+      "region": "Sirdaryo viloyati",
+      "city": "Guliston shahri",
+      "address": "Toshkent Yo'li ko'chasi, 1",
+      "phones": [
+        "998933814131"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.510387,
+      "lng": 68.759217
+    },
+    {
+      "id": 145,
+      "name": "Guliston vokzal",
+      "region": "Sirdaryo viloyati",
+      "city": "Guliston shahri",
+      "address": "Sayxun koʻchasi, 2",
+      "phones": [
+        "998933816191"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.497393,
+      "lng": 68.766466
+    },
+    {
+      "id": 146,
+      "name": "Dehqonobod",
+      "region": "Sirdaryo viloyati",
+      "city": "Guliston tumani",
+      "address": "Sirdaryo ko'chasi, 44",
+      "phones": [
+        "998933991924",
+        "998915019484"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.5319,
+      "lng": 69.032362
+    },
+    {
+      "id": 147,
+      "name": "Sardoba",
+      "region": "Sirdaryo viloyati",
+      "city": "Sardoba tumani",
+      "address": "Do‘stlik ko'chasi, 34, Paxtaobod",
+      "phones": [
+        "998933778213",
+        "998973319933"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.34145,
+      "lng": 68.175563
+    },
+    {
+      "id": 148,
+      "name": "Sayxunobod",
+      "region": "Sirdaryo viloyati",
+      "city": "Sayxunobod tumani",
+      "address": "Shodlik ko'chasi, 3",
+      "phones": [
+        "998933991933",
+        "998994764702"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.708991,
+      "lng": 68.847032
+    },
+    {
+      "id": 149,
+      "name": "Shirin",
+      "region": "Sirdaryo viloyati",
+      "city": "Shirin shahri",
+      "address": "Xalqlar Do'stligi ko'chasi, 22",
+      "phones": [
+        "998933786841",
+        "998903120719"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.223681,
+      "lng": 69.129421
+    },
+    {
+      "id": 150,
+      "name": "Baxt",
+      "region": "Sirdaryo viloyati",
+      "city": "Sirdaryo tumani",
+      "address": "Ulug'ul ko'chasi, 7, Baxt, Sirdaryo tumani",
+      "phones": [
+        "998933783351",
+        "998900200009"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.714565,
+      "lng": 68.693397
+    },
+    {
+      "id": 151,
+      "name": "Sirdaryo",
+      "region": "Sirdaryo viloyati",
+      "city": "Sirdaryo tumani",
+      "address": "Guliston koʻchasi",
+      "phones": [
+        "998933812083",
+        "998915026262"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.828858,
+      "lng": 68.670913
+    },
+    {
+      "id": 152,
+      "name": "Yangiyer",
+      "region": "Sirdaryo viloyati",
+      "city": "Yangiyer shahri",
+      "address": "Amir Temur koʻchasi, 98",
+      "phones": [
+        "998933813292",
+        "998937232426"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.274013,
+      "lng": 68.82904
+    },
+    {
+      "id": 153,
+      "name": "Angor",
+      "region": "Surxondaryo viloyati",
+      "city": "Angor tumani",
+      "address": "Imom At-Termiziy koʻchasi, 39V",
+      "phones": [
+        "998933785769",
+        "998992384673"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.462236,
+      "lng": 67.149373
+    },
+    {
+      "id": 154,
+      "name": "Bandixon",
+      "region": "Surxondaryo viloyati",
+      "city": "Bandixon tumani",
+      "address": "Oʻzbekiston koʻchasi, 56A, Bandixon",
+      "phones": [
+        "998933776783"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.86143,
+      "lng": 67.383779
+    },
+    {
+      "id": 155,
+      "name": "Boysun",
+      "region": "Surxondaryo viloyati",
+      "city": "Boysun tumani",
+      "address": "Istiqbol koʻchasi, 118",
+      "phones": [
+        "998933811039"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.20729,
+      "lng": 67.206641
+    },
+    {
+      "id": 156,
+      "name": "Denov Beshkapa",
+      "region": "Surxondaryo viloyati",
+      "city": "Denov tumani",
+      "address": "N.Rahimov 1-koʻchasi, 29",
+      "phones": [
+        "998933812550"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 38.268612,
+      "lng": 67.878311
+    },
+    {
+      "id": 157,
+      "name": "Denov O'zbegim",
+      "region": "Surxondaryo viloyati",
+      "city": "Denov tumani",
+      "address": "Baxtli El koʻchasi, 242",
+      "phones": [
+        "998933819806"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.27393,
+      "lng": 67.89475
+    },
+    {
+      "id": 158,
+      "name": "Jarqo'rg'on",
+      "region": "Surxondaryo viloyati",
+      "city": "Jarqo‘rg‘on tumani",
+      "address": "Xavdaq koʻchasi, 18",
+      "phones": [
+        "998933881255",
+        "998902252211"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.518449,
+      "lng": 67.416621
+    },
+    {
+      "id": 159,
+      "name": "Muzrabot",
+      "region": "Surxondaryo viloyati",
+      "city": "Muzrabot tumani",
+      "address": "Amir Temur koʻchasi, 72A",
+      "phones": [
+        "998933774932"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.45998,
+      "lng": 66.926941
+    },
+    {
+      "id": 160,
+      "name": "Oltinsoy",
+      "region": "Surxondaryo viloyati",
+      "city": "Oltinsoy tumani",
+      "address": "Oltinsoy ko'chasi, 14",
+      "phones": [
+        "998933784158",
+        "998959200085"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.175145,
+      "lng": 67.728176
+    },
+    {
+      "id": 161,
+      "name": "Qiziriq",
+      "region": "Surxondaryo viloyati",
+      "city": "Qiziriq tumani",
+      "address": "Ko'kterak ko'chasi",
+      "phones": [
+        "998933776322",
+        "998910762200"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.668569,
+      "lng": 67.23547
+    },
+    {
+      "id": 162,
+      "name": "Qumqoʻrgʻon",
+      "region": "Surxondaryo viloyati",
+      "city": "Qumqo‘rg‘on tumani",
+      "address": "Bogʻsaroy koʻchasi, 21",
+      "phones": [
+        "998933785593",
+        "998904107007"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.833433,
+      "lng": 67.591485
+    },
+    {
+      "id": 163,
+      "name": "Sariosiyo",
+      "region": "Surxondaryo viloyati",
+      "city": "Sariosiyo tumani",
+      "address": "Oxunboboyev ko'chasi, 1",
+      "phones": [
+        "998933811595"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.413705,
+      "lng": 67.957524
+    },
+    {
+      "id": 164,
+      "name": "Sherobod",
+      "region": "Surxondaryo viloyati",
+      "city": "Sherobod tumani",
+      "address": "Mustaqillik koʻchasi, 29D, Kattahayot",
+      "phones": [
+        "998933812806"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 37.665792,
+      "lng": 67.027652
+    },
+    {
+      "id": 165,
+      "name": "Shoʻrchi",
+      "region": "Surxondaryo viloyati",
+      "city": "Sho‘rchi tumani",
+      "address": "Amir Temur koʻchasi, 33",
+      "phones": [
+        "998933812660"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.010666,
+      "lng": 67.79198
+    },
+    {
+      "id": 166,
+      "name": "Termiz Bog'ishamol",
+      "region": "Surxondaryo viloyati",
+      "city": "Termiz shahri",
+      "address": "Yangi Davr-1 tor koʻchasi, 32V",
+      "phones": [
+        "998933810393"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 37.254831,
+      "lng": 67.315983
+    },
+    {
+      "id": 167,
+      "name": "Termiz Kurant",
+      "region": "Surxondaryo viloyati",
+      "city": "Termiz shahri",
+      "address": "Alisher Navoiy koʻchasi, 25",
+      "phones": [
+        "998933819181",
+        "998933810352"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 37.236661,
+      "lng": 67.278353
+    },
+    {
+      "id": 168,
+      "name": "Uzun",
+      "region": "Surxondaryo viloyati",
+      "city": "Uzun tumani",
+      "address": "O‘zbekiston ko'chasi, 15",
+      "phones": [
+        "998933774622"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 38.36741,
+      "lng": 68.00101
+    },
+    {
+      "id": 169,
+      "name": "Bek baraka",
+      "region": "Toshkent",
+      "city": "Chilonzor tumani",
+      "address": "Mustaqillik ko'chasi, 4, Eshongʻuzor shaharchasi",
+      "phones": [
+        "998933813272",
+        "998933816787",
+        "998933888303"
+      ],
+      "hours": "Se-Ya 09:00-20:00",
+      "lat": 41.24349,
+      "lng": 69.162621
+    },
+    {
+      "id": 170,
+      "name": "Qatortol",
+      "region": "Toshkent",
+      "city": "Chilonzor tumani",
+      "address": "5-mavze, 29, Chilonzor dahasi",
+      "phones": [
+        "998933811785"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.294374,
+      "lng": 69.214795
+    },
+    {
+      "id": 171,
+      "name": "Zelyoniy bozor",
+      "region": "Toshkent",
+      "city": "Mirabad tumani",
+      "address": "Surxon koʻchasi, 29",
+      "phones": [
+        "998933819858"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.281071,
+      "lng": 69.297721
+    },
+    {
+      "id": 172,
+      "name": "Feruza",
+      "region": "Toshkent",
+      "city": "Mirzo Ulug‘bek tumani",
+      "address": "1-Feruza dahasi, 32",
+      "phones": [
+        "998933813122"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.355165,
+      "lng": 69.362998
+    },
+    {
+      "id": 173,
+      "name": "Mirzo Ulugbek",
+      "region": "Toshkent",
+      "city": "Mirzo Ulug‘bek tumani",
+      "address": "Muhammad Yusuf ko'chasi, 1",
+      "phones": [
+        "998933888303"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.31558,
+      "lng": 69.328038
+    },
+    {
+      "id": 174,
+      "name": "Qoraqamish",
+      "region": "Toshkent",
+      "city": "Olmazor tumani",
+      "address": "Qoraqamish 2-koʻchasi, 2A",
+      "phones": [
+        "998933812096"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.364373,
+      "lng": 69.20903
+    },
+    {
+      "id": 175,
+      "name": "Sebzor",
+      "region": "Toshkent",
+      "city": "Olmazor tumani",
+      "address": "Soybo'yi ko'chasi, 4A",
+      "phones": [
+        "998933896171"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.337248,
+      "lng": 69.258274
+    },
+    {
+      "id": 176,
+      "name": "Massiv-5 Qo'yliq",
+      "region": "Toshkent",
+      "city": "Sergeli tumani",
+      "address": "Xonobodtepa shoh ko‘chasi, 20A",
+      "phones": [
+        "998933811226"
+      ],
+      "hours": "Du-Ya 08:00-20:00",
+      "lat": 41.24358,
+      "lng": 69.299814
+    },
+    {
+      "id": 177,
+      "name": "Sergeli",
+      "region": "Toshkent",
+      "city": "Sergeli tumani",
+      "address": "Sergeli-8A dahasi, 17",
+      "phones": [
+        "998933811808"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.225094,
+      "lng": 69.215992
+    },
+    {
+      "id": 178,
+      "name": "Chorsu",
+      "region": "Toshkent",
+      "city": "Shayxontohur tumani",
+      "address": "Langar koʻchasi, 14",
+      "phones": [
+        "998933778160"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.327338,
+      "lng": 69.228694
+    },
+    {
+      "id": 179,
+      "name": "Ibn Sino",
+      "region": "Toshkent",
+      "city": "Shayxontohur tumani",
+      "address": "2-Ibn Sino dahasi, 1A, Shayxontohur tumani",
+      "phones": [
+        "998933880517"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.338315,
+      "lng": 69.167293
+    },
+    {
+      "id": 180,
+      "name": "Malika",
+      "region": "Toshkent",
+      "city": "Shayxontohur tumani",
+      "address": "Kichik halqa yoʻli, 57",
+      "phones": [
+        "998774283752"
+      ],
+      "hours": "Se-Ya 09:00-18:00",
+      "lat": 41.338283,
+      "lng": 69.272833
+    },
+    {
+      "id": 181,
+      "name": "O'rikzor",
+      "region": "Toshkent",
+      "city": "Uchtepa tumani",
+      "address": "Yusuf Sakkokiy koʻchasi, 66В",
+      "phones": [
+        "998933812131",
+        "998933812124"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.286421,
+      "lng": 69.151983
+    },
+    {
+      "id": 182,
+      "name": "Vatan",
+      "region": "Toshkent",
+      "city": "Uchtepa tumani",
+      "address": "26-mavze, 29A",
+      "phones": [
+        "998933881272"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.275012,
+      "lng": 69.174095
+    },
+    {
+      "id": 183,
+      "name": "Shota Rustaveli",
+      "region": "Toshkent",
+      "city": "Yakkasaroy tumani",
+      "address": "Shota Rustaveli koʻchasi, 37",
+      "phones": [
+        "998933811380"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.290022,
+      "lng": 69.259408
+    },
+    {
+      "id": 184,
+      "name": "Fulfillment",
+      "region": "Toshkent",
+      "city": "Yangihayot tumani",
+      "address": "Rayhon koʻchasi, 107/5",
+      "phones": [
+        "998933811417"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.203001,
+      "lng": 69.24075
+    },
+    {
+      "id": 185,
+      "name": "Kadysheva",
+      "region": "Toshkent",
+      "city": "Yashnobod tumani",
+      "address": "1-mavze, 116",
+      "phones": [
+        "998933811309",
+        "998933811373"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.288003,
+      "lng": 69.35153
+    },
+    {
+      "id": 186,
+      "name": "Shahriston",
+      "region": "Toshkent",
+      "city": "Yunusobod tumani",
+      "address": "Chinobod koʻchasi, 2",
+      "phones": [
+        "998933811783"
+      ],
+      "hours": "Du-Ju 09:00-20:00, Sh-Ya 09:00-18:00",
+      "lat": 41.351466,
+      "lng": 69.28907
+    },
+    {
+      "id": 187,
+      "name": "Yunusobod",
+      "region": "Toshkent",
+      "city": "Yunusobod tumani",
+      "address": "Nurmakon mahalla fuqarolar yigʻini, 51",
+      "phones": [
+        "998508056702"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.372216,
+      "lng": 69.27926
+    },
+    {
+      "id": 188,
+      "name": "Oqqo'rg'on",
+      "region": "Toshkent viloyati",
+      "city": "Akkurgan tumani",
+      "address": "Oxunboboyev koʻchasi, 39, Sobir Rahimov MFY, Oqqoʻrgʻon",
+      "phones": [
+        "998933773274",
+        "998994437489"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.877345,
+      "lng": 69.046489
+    },
+    {
+      "id": 189,
+      "name": "Angren",
+      "region": "Toshkent viloyati",
+      "city": "Angren shahri",
+      "address": "9-mavze, 23, Angren",
+      "phones": [
+        "998933817434"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.010803,
+      "lng": 70.086226
+    },
+    {
+      "id": 190,
+      "name": "Bekabad",
+      "region": "Toshkent viloyati",
+      "city": "Bekobod tumani",
+      "address": "Bekobod, Buyuk Ipak Yoʻli koʻchasi, 5",
+      "phones": [
+        "998933814818"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.213395,
+      "lng": 69.264366
+    },
+    {
+      "id": 191,
+      "name": "Boʻka",
+      "region": "Toshkent viloyati",
+      "city": "Bo‘ka tumani",
+      "address": "Alisher Navoiy ko'chasi, 512",
+      "phones": [
+        "998933784587",
+        "998977704979"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.817431,
+      "lng": 69.204682
+    },
+    {
+      "id": 192,
+      "name": "Gʻazalkent",
+      "region": "Toshkent viloyati",
+      "city": "Bo‘stonliq tumani",
+      "address": "Mustaqillik koʻchasi, 172",
+      "phones": [
+        "998933811343"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.565195,
+      "lng": 69.769669
+    },
+    {
+      "id": 193,
+      "name": "Chinoz",
+      "region": "Toshkent viloyati",
+      "city": "Chinoz tumani",
+      "address": "Samarqand koʻchasi, 34A, Sarbozor mahalla fuqarolar yigʻini",
+      "phones": [
+        "998933882156"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.93414,
+      "lng": 68.762071
+    },
+    {
+      "id": 194,
+      "name": "Chirchiq",
+      "region": "Toshkent viloyati",
+      "city": "Chirchiq shahri",
+      "address": "Alisher Navoiy shoh koʻchasi, 295",
+      "phones": [
+        "998933811797",
+        "998933810268"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.469585,
+      "lng": 69.582631
+    },
+    {
+      "id": 195,
+      "name": "Ohangaron",
+      "region": "Toshkent viloyati",
+      "city": "Ohangaron tumani",
+      "address": "Amir Temur koʻchasi, 25",
+      "phones": [
+        "998933812171",
+        "998933817434"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 40.905049,
+      "lng": 69.637356
+    },
+    {
+      "id": 196,
+      "name": "Olmaliq",
+      "region": "Toshkent viloyati",
+      "city": "Olmaliq shahri",
+      "address": "Ehtirom ko'chasi, 104",
+      "phones": [
+        "998933817150"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.862009,
+      "lng": 69.592341
+    },
+    {
+      "id": 197,
+      "name": "Nurafshon",
+      "region": "Toshkent viloyati",
+      "city": "O‘rtachirchiq tumani",
+      "address": "Toshkent Yoʻli koʻchasi, 102",
+      "phones": [
+        "998933885838"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.04398,
+      "lng": 69.357342
+    },
+    {
+      "id": 198,
+      "name": "Parkent",
+      "region": "Toshkent viloyati",
+      "city": "Parkent tumani",
+      "address": "Alisher Navoiy koʻchasi, 12",
+      "phones": [
+        "998933888645",
+        "998997118080"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.294599,
+      "lng": 69.677492
+    },
+    {
+      "id": 199,
+      "name": "Piskent",
+      "region": "Toshkent viloyati",
+      "city": "Pskent tumani",
+      "address": "Amir Temur koʻchasi, 82",
+      "phones": [
+        "998933811031",
+        "998944747707"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.898528,
+      "lng": 69.351727
+    },
+    {
+      "id": 200,
+      "name": "Qibray",
+      "region": "Toshkent viloyati",
+      "city": "Qibray tumani",
+      "address": "Yongʻoqzor koʻchasi, 2A",
+      "phones": [
+        "998933813102"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.389189,
+      "lng": 69.461285
+    },
+    {
+      "id": 201,
+      "name": "Doʻstobod",
+      "region": "Toshkent viloyati",
+      "city": "Quyichirchiq tumani",
+      "address": "Begimqulov ko'chasi, 42",
+      "phones": [
+        "998933784430",
+        "998977459222"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 40.85838,
+      "lng": 68.929142
+    },
+    {
+      "id": 202,
+      "name": "Keles",
+      "region": "Toshkent viloyati",
+      "city": "Toshkent tumani",
+      "address": "Yuqori Koʻkterak koʻchasi, 23",
+      "phones": [
+        "998933773150",
+        "998938467777"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.417545,
+      "lng": 69.199733
+    },
+    {
+      "id": 203,
+      "name": "Yangiyo'l",
+      "region": "Toshkent viloyati",
+      "city": "Yangiyo‘l tumani",
+      "address": "Samarqand koʻchasi, 315",
+      "phones": [
+        "998933811375",
+        "998933880757"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.110421,
+      "lng": 69.052256
+    },
+    {
+      "id": 204,
+      "name": "Yuqorichirchiq",
+      "region": "Toshkent viloyati",
+      "city": "Yuqorichirchiq tumani",
+      "address": "Hamkorlik ko'chasi, 1",
+      "phones": [
+        "998933786840",
+        "998949433494"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.31384,
+      "lng": 69.526576
+    },
+    {
+      "id": 205,
+      "name": "Eshonguzar",
+      "region": "Toshkent viloyati",
+      "city": "Zangiota tumani",
+      "address": "Mustaqillik ko'chasi, 44, Eshongʻuzor",
+      "phones": [
+        "998933784417",
+        "998993949999"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.250977,
+      "lng": 69.15576
+    },
+    {
+      "id": 206,
+      "name": "Bogʻot",
+      "region": "Xorazm viloyati",
+      "city": "Bog‘ot tumani",
+      "address": "O'zbekiston ko'chasi, 11",
+      "phones": [
+        "998933781452",
+        "998975104010"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.35483,
+      "lng": 60.812316
+    },
+    {
+      "id": 207,
+      "name": "Gurlan",
+      "region": "Xorazm viloyati",
+      "city": "Gurlan tumani",
+      "address": "Mustaqillik ko'chasi, 29, Gurlan",
+      "phones": [
+        "998933814130"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.837821,
+      "lng": 60.390557
+    },
+    {
+      "id": 208,
+      "name": "Qo'shko'pir",
+      "region": "Xorazm viloyati",
+      "city": "Qo‘shko‘pir tumani",
+      "address": "Sharof Rashidov koʻchasi, 49А",
+      "phones": [
+        "998972213820"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.530771,
+      "lng": 60.351165
+    },
+    {
+      "id": 209,
+      "name": "Shovot",
+      "region": "Xorazm viloyati",
+      "city": "Shovot tumani",
+      "address": "Komiljon Otaniyozov koʻchasi, 64, Shavat",
+      "phones": [
+        "998933813221",
+        "998505029174"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.658706,
+      "lng": 60.280786
+    },
+    {
+      "id": 210,
+      "name": "Pitnak",
+      "region": "Xorazm viloyati",
+      "city": "Tuproqqal’a tumani",
+      "address": "Xalqlar Doʻstligi 1-tor koʻchasi, 1/54",
+      "phones": [
+        "998933991408",
+        "998974537888"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.214748,
+      "lng": 61.313533
+    },
+    {
+      "id": 211,
+      "name": "Urganch Gastronom",
+      "region": "Xorazm viloyati",
+      "city": "Urganch shahri",
+      "address": "Al-Xorazmiy shoh koʻchasi, 67",
+      "phones": [
+        "998933811949",
+        "998933817606"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.556255,
+      "lng": 60.630748
+    },
+    {
+      "id": 212,
+      "name": "Urganch Mashʼal",
+      "region": "Xorazm viloyati",
+      "city": "Urganch shahri",
+      "address": "Yogʻdu koʻchasi, 8",
+      "phones": [
+        "998933812803"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.552587,
+      "lng": 60.618659
+    },
+    {
+      "id": 213,
+      "name": "Urganch Sholikor",
+      "region": "Xorazm viloyati",
+      "city": "Urganch shahri",
+      "address": "Tadbirkorlar koʻchasi, 52, Sholikor mahallasi",
+      "phones": [
+        "998933811788"
+      ],
+      "hours": "Du-Ya 09:00-18:00",
+      "lat": 41.581681,
+      "lng": 60.607661
+    },
+    {
+      "id": 214,
+      "name": "Hazarasp",
+      "region": "Xorazm viloyati",
+      "city": "Xazorasp tumani",
+      "address": "E. Gayazov koʻchasi, 18, Hazorasp",
+      "phones": [
+        "998933813431",
+        "998331504433"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.321398,
+      "lng": 61.068605
+    },
+    {
+      "id": 215,
+      "name": "Xiva",
+      "region": "Xorazm viloyati",
+      "city": "Xiva tumani",
+      "address": "Amir Temur koʻchasi, 13",
+      "phones": [
+        "998933813430"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.388401,
+      "lng": 60.363373
+    },
+    {
+      "id": 216,
+      "name": "Xonqa",
+      "region": "Xorazm viloyati",
+      "city": "Xonqa tumani",
+      "address": "Xalqlar Doʻstligi koʻchasi, 25",
+      "phones": [
+        "998777326760",
+        "998995003717"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.471132,
+      "lng": 60.775817
+    },
+    {
+      "id": 217,
+      "name": "Yangiariq",
+      "region": "Xorazm viloyati",
+      "city": "Yangiariq tumani",
+      "address": "Urganch koʻchasi, 24",
+      "phones": [
+        "998933995474"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.370159,
+      "lng": 60.599927
+    },
+    {
+      "id": 218,
+      "name": "Yangibozor",
+      "region": "Xorazm viloyati",
+      "city": "Yangibozor tumani",
+      "address": "Bogʻzor koʻchasi, 7A",
+      "phones": [
+        "998933991402"
+      ],
+      "hours": "Du-Sh 09:00-18:00",
+      "lat": 41.708608,
+      "lng": 60.530071
+    }
+  ]
+}

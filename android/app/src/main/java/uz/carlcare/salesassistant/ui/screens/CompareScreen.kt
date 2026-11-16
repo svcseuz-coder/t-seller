@@ -62,6 +62,7 @@ import uz.carlcare.salesassistant.R
 import uz.carlcare.salesassistant.core.data.SearchText
 import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
 import uz.carlcare.salesassistant.core.design.BrandColors
+import uz.carlcare.salesassistant.core.design.brandAccent
 import uz.carlcare.salesassistant.ui.CompareViewModel
 
 private data class CompareField(
@@ -245,7 +246,7 @@ private fun CompareSlot(
     onRemove: () -> Unit,
 ) {
     val product = data.product
-    val accent = if (product.brand == "TECNO") BrandColors.Tecno else BrandColors.Infinix
+    val accent = brandAccent(product.brand)
     Card(
         modifier = modifier.height(132.dp),
         shape = RoundedCornerShape(16.dp),
@@ -474,11 +475,7 @@ private fun ProductPickerSheet(
             ) {
                 items(filtered, key = { it.product.id }) { data ->
                     val isSelected = data.product.id in selectedIds
-                    val accent = if (data.product.brand == "TECNO") {
-                        BrandColors.Tecno
-                    } else {
-                        BrandColors.Infinix
-                    }
+                    val accent = brandAccent(data.product.brand)
                     Row(
                         modifier = Modifier
                             .fillMaxWidth()

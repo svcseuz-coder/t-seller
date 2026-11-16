@@ -1,11 +1,23 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
-val assistantProxyUrl = providers.gradleProperty("assistantProxyUrl").orElse("").get()
-val assistantAppToken = providers.gradleProperty("assistantToken").orElse("").get()
+val localProps = Properties().apply {
+    val file = rootProject.file("local.properties")
+    if (file.exists()) file.inputStream().use { load(it) }
+}
+
+// -P flag wins, then the gitignored local.properties, then the "not connected" state.
+val assistantProxyUrl = providers.gradleProperty("assistantProxyUrl")
+    .orElse(localProps.getProperty("assistantProxyUrl") ?: "")
+    .get()
+val assistantAppToken = providers.gradleProperty("assistantToken")
+    .orElse(localProps.getProperty("assistantToken") ?: "")
+    .get()
 
 android {
     namespace = "uz.carlcare.salesassistant"
@@ -15,8 +27,8 @@ android {
         applicationId = "uz.carlcare.salesassistant"
         minSdk = 29
         targetSdk = 35
-        versionCode = 12
-        versionName = "1.8.0"
+        versionCode = 16
+        versionName = "2.0.1"
 
         vectorDrawables { useSupportLibrary = true }
 

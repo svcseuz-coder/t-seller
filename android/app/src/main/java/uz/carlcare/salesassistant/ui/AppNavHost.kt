@@ -14,6 +14,7 @@ import uz.carlcare.salesassistant.ui.screens.CatalogScreen
 import uz.carlcare.salesassistant.ui.screens.CompareScreen
 import uz.carlcare.salesassistant.ui.screens.GuideScreen
 import uz.carlcare.salesassistant.ui.screens.HomeScreen
+import uz.carlcare.salesassistant.ui.screens.PostDeliveryScreen
 import uz.carlcare.salesassistant.ui.screens.ProductScreen
 import uz.carlcare.salesassistant.ui.screens.QuizScreen
 import uz.carlcare.salesassistant.ui.screens.ServiceScreen
@@ -29,6 +30,7 @@ object Routes {
     const val QUIZ = "quiz"
     const val SERVICE = "service"
     const val WARRANTY = "warranty"
+    const val POST_DELIVERY = "post_delivery"
 
     fun catalog(brand: String, query: String = "") =
         "catalog/$brand?q=${Uri.encode(query)}"
@@ -116,7 +118,14 @@ fun AppNavHost(container: AppContainer) {
                 viewModel = vm,
                 onBack = { nav.popBackStack() },
                 onOpenWarranty = { nav.navigate(Routes.WARRANTY) },
+                onOpenPost = { nav.navigate(Routes.POST_DELIVERY) },
             )
+        }
+        composable(Routes.POST_DELIVERY) {
+            val vm: PostDeliveryViewModel = viewModel(
+                factory = AppViewModelFactory.postDelivery(container.postBranchRepository),
+            )
+            PostDeliveryScreen(viewModel = vm, onBack = { nav.popBackStack() })
         }
         composable(Routes.WARRANTY) {
             WarrantyScreen(onBack = { nav.popBackStack() })

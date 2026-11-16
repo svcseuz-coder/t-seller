@@ -26,6 +26,12 @@ interface CatalogDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertSpecs(specs: List<SpecEntity>)
 
+    @Query("DELETE FROM specs")
+    suspend fun deleteAllSpecs()
+
+    @Query("DELETE FROM products")
+    suspend fun deleteAllProducts()
+
     @Query("SELECT product_id FROM favorites ORDER BY added_at DESC")
     fun observeFavoriteIds(): Flow<List<String>>
 

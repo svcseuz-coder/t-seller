@@ -13,11 +13,18 @@ import androidx.compose.ui.unit.sp
 object BrandColors {
     val Tecno = Color(0xFF00A8E8)
     val Infinix = Color(0xFF22C55E)
+    val Itel = Color(0xFF7C3AED)
     val Favorite = Color(0xFFF2A93B)
     val DarkBackground = Color(0xFF0B0F14)
     val DarkSurface = Color(0xFF131A23)
     val LightBackground = Color(0xFFF4F6F9)
     val LightSurface = Color(0xFFFFFFFF)
+}
+
+fun brandAccent(brand: String): Color = when (brand.lowercase()) {
+    "tecno" -> BrandColors.Tecno
+    "infinix" -> BrandColors.Infinix
+    else -> BrandColors.Itel
 }
 
 private val DarkScheme = darkColorScheme(

@@ -4,14 +4,19 @@
     <string name="language_en">English</string>
     <string name="language_ru">Русский</string>
     <string name="language_uz">O\'zbek</string>
+    <string name="theme">Тема</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
     <string name="footer_credit">T-Seller · Developed by Carlcare Uzbekistan</string>
-    <string name="tagline">Знания о продуктах и поддержка продаж TECNO и Infinix</string>
-    <string name="search_hint">Поиск моделей или характеристик</string>
+    <string name="tagline">Знания о продуктах и поддержка продаж TECNO, Infinix и iTel</string>
+    <string name="search_hint">Модель или характеристика</string>
     <string name="all_models">Все модели</string>
     <string name="models_count">%1$d моделей</string>
     <string name="catalog">Каталог</string>
     <string name="brand_tecno">TECNO</string>
     <string name="brand_infinix">Infinix</string>
+    <string name="brand_itel">iTel</string>
     <string name="tools">Инструменты</string>
     <string name="compare">Сравнение</string>
     <string name="compare_sub">До трёх устройств рядом</string>
@@ -44,7 +49,7 @@
     <string name="assistant_suggest_3">Как работает bypass-зарядка?</string>
     <string name="quiz">Тест знаний</string>
     <string name="quiz_sub">Проверьте знания о продуктах</string>
-    <string name="quiz_intro_text">Десять вопросов о характеристиках, технологиях и сервисе TECNO и Infinix. После каждого ответа — короткое пояснение, поэтому тест работает и как тренировка.</string>
+    <string name="quiz_intro_text">Десять вопросов о характеристиках, технологиях и сервисе TECNO, Infinix и iTel. После каждого ответа — короткое пояснение, поэтому тест работает и как тренировка.</string>
     <string name="quiz_intro_meta">10 вопросов · около 3 минут</string>
     <string name="quiz_start">Начать тест</string>
     <string name="quiz_progress">%1$d / %2$d</string>
@@ -76,8 +81,9 @@
     <string name="not_verified">Не подтверждено</string>
     <string name="variant">Версия</string>
     <string name="source_note">Источник: GSMArena · проверено %1$s</string>
+    <string name="specs_source_note">Источник: %1$s · проверено %2$s</string>
     <string name="coming_soon">Появится на следующем этапе</string>
-    <string name="catalog_note">В каталоге %1$d моделей · справочные данные GSMArena</string>
+    <string name="catalog_note">В каталоге %1$d моделей · сверено 16.11.2026</string>
     <string name="all_series">Все серии</string>
     <string name="missing_note">Показаны только проверенные значения. Недостающие характеристики не выдумываются.</string>
     <string name="open_source">Открыть страницу GSMArena</string>
@@ -135,6 +141,34 @@
     <string name="warranty_important">Важно: окончательное решение о гарантийном обслуживании принимается на основании результатов диагностики и условий гарантии конкретного устройства.</string>
     <string name="service_data_note">Данные с официального сайта Carlcare Uzbekistan.</string>
     <string name="service_source_note">Источник: carlcare.com/uz · проверено %1$s</string>
+    <string name="post_send">Отправка почтой</string>
+    <string name="post_intro_title">Бесплатная доставка в сервисный центр</string>
+    <string name="post_intro_text">Если в вашем городе нет сервисного центра Carlcare, передайте телефон в любой филиал EMU Express — его доставят в Carlcare на диагностику и ремонт и вернут в тот же филиал. Услуга бесплатная.</string>
+    <string name="post_search_hint">Город, район или адрес</string>
+    <string name="post_days_mon_sun">Пн–Вс</string>
+    <string name="post_days_mon_sat">Пн–Сб</string>
+    <string name="post_days_mon_fri">Пн–Пт</string>
+    <string name="post_days_sat_sun">Сб–Вс</string>
+    <string name="post_days_tue_sun">Вт–Вс</string>
+    <string name="post_source_note">Источник: список филиалов EMU Express, проверено %1$s. Адреса и часы работы могут меняться — уточняйте по телефону.</string>
+    <plurals name="post_branches">
+        <item quantity="one">%1$d филиал</item>
+        <item quantity="few">%1$d филиала</item>
+        <item quantity="many">%1$d филиалов</item>
+        <item quantity="other">%1$d филиала</item>
+    </plurals>
+    <string name="filter_region">Область</string>
+    <string name="all_regions">Все области</string>
+    <string name="region_all">Все</string>
+    <string name="region_clear">Сбросить</string>
+    <string name="region_search_hint">Поиск области</string>
+    <string name="region_apply">Применить</string>
+    <plurals name="post_regions_selected">
+        <item quantity="one">%1$d область</item>
+        <item quantity="few">%1$d области</item>
+        <item quantity="many">%1$d областей</item>
+        <item quantity="other">%1$d области</item>
+    </plurals>
 
     <string name="group_general">Общая информация</string>
     <string name="group_body">Корпус и габариты</string>

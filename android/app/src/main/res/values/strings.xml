@@ -4,14 +4,19 @@
     <string name="language_en">English</string>
     <string name="language_ru">Русский</string>
     <string name="language_uz">O\'zbek</string>
+    <string name="theme">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
     <string name="footer_credit">T-Seller · Developed by Carlcare Uzbekistan</string>
-    <string name="tagline">Product knowledge and sales support for TECNO &amp; Infinix</string>
+    <string name="tagline">Product knowledge and sales support for TECNO, Infinix &amp; iTel</string>
     <string name="search_hint">Search models or specs</string>
     <string name="all_models">All models</string>
     <string name="models_count">%1$d models</string>
     <string name="catalog">Catalog</string>
     <string name="brand_tecno">TECNO</string>
     <string name="brand_infinix">Infinix</string>
+    <string name="brand_itel">iTel</string>
     <string name="tools">Tools</string>
     <string name="compare">Compare</string>
     <string name="compare_sub">Up to three devices side by side</string>
@@ -44,7 +49,7 @@
     <string name="assistant_suggest_3">How does bypass charging work?</string>
     <string name="quiz">Knowledge quiz</string>
     <string name="quiz_sub">Test and improve your product knowledge</string>
-    <string name="quiz_intro_text">Ten questions about TECNO and Infinix specs, technologies and service. Each answer comes with a short explanation, so the quiz doubles as practice.</string>
+    <string name="quiz_intro_text">Ten questions about TECNO, Infinix and iTel specs, technologies and service. Each answer comes with a short explanation, so the quiz doubles as practice.</string>
     <string name="quiz_intro_meta">10 questions · about 3 minutes</string>
     <string name="quiz_start">Start quiz</string>
     <string name="quiz_progress">%1$d / %2$d</string>
@@ -76,8 +81,9 @@
     <string name="not_verified">Not verified</string>
     <string name="variant">Variant</string>
     <string name="source_note">Source: GSMArena · last checked %1$s</string>
+    <string name="specs_source_note">Source: %1$s · checked %2$s</string>
     <string name="coming_soon">Coming in a later phase</string>
-    <string name="catalog_note">Catalog: %1$d models · GSMArena reference data</string>
+    <string name="catalog_note">Catalog: %1$d models · specs checked 2026-11-16</string>
     <string name="all_series">All series</string>
     <string name="missing_note">Only verified values are shown. Missing specifications are not invented.</string>
     <string name="open_source">Open GSMArena page</string>
@@ -133,6 +139,30 @@
     <string name="warranty_important">Important: the final decision on warranty service is made based on the diagnostic results and the warranty terms of the specific device.</string>
     <string name="service_data_note">Data from the official Carlcare Uzbekistan website.</string>
     <string name="service_source_note">Source: carlcare.com/uz · checked %1$s</string>
+    <string name="post_send">Send by post</string>
+    <string name="post_intro_title">Free delivery to the service center</string>
+    <string name="post_intro_text">If your city has no Carlcare service center, hand the phone in at any EMU Express branch: it will be delivered to Carlcare for diagnostics and repair and returned to the same branch. Delivery is free of charge.</string>
+    <string name="post_search_hint">City, district or address</string>
+    <string name="post_days_mon_sun">Mon–Sun</string>
+    <string name="post_days_mon_sat">Mon–Sat</string>
+    <string name="post_days_mon_fri">Mon–Fri</string>
+    <string name="post_days_sat_sun">Sat–Sun</string>
+    <string name="post_days_tue_sun">Tue–Sun</string>
+    <string name="post_source_note">Source: EMU Express branch list, checked %1$s. Addresses and hours may change — confirm by phone.</string>
+    <plurals name="post_branches">
+        <item quantity="one">%1$d branch</item>
+        <item quantity="other">%1$d branches</item>
+    </plurals>
+    <string name="filter_region">Region</string>
+    <string name="all_regions">All regions</string>
+    <string name="region_all">All</string>
+    <string name="region_clear">Clear</string>
+    <string name="region_search_hint">Search region</string>
+    <string name="region_apply">Apply</string>
+    <plurals name="post_regions_selected">
+        <item quantity="one">%1$d region</item>
+        <item quantity="other">%1$d regions</item>
+    </plurals>
 
     <string name="group_general">General information</string>
     <string name="group_body">Design and dimensions</string>

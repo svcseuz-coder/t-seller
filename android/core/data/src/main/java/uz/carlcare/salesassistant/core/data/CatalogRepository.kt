@@ -20,6 +20,7 @@ class CatalogRepository(
     private val context: Context,
 ) {
     private val dao = database.catalogDao()
+    private val seedPrefs = context.getSharedPreferences("catalog_seed", Context.MODE_PRIVATE)
 
     fun observeAll(): Flow<List<ProductWithSpecs>> = dao.observeAll()
 
@@ -63,10 +64,14 @@ class CatalogRepository(
         dao.trimRecentViews(RECENT_LIMIT)
     }
 
-    suspend fun seedIfEmpty() = withContext(Dispatchers.IO) {
-        if (dao.count() > 0) return@withContext
-        val json = context.assets.open("products.json").bufferedReader().use { it.readText() }
-        val items = JSONObject(json).getJSONArray("items")
+    suspend fun syncCatalog() = withContext(Dispatchers.IO) {
+        val root = JSONObject(context.assets.open("products.json").bufferedReader().use { it.readText() })
+        val version = root.optString("seed_version").takeIf { it.isNotBlank() }
+        val installed = seedPrefs.getString(KEY_SEED_VERSION, null)
+        // Re-seed only when the bundled catalog changes; favorites and recent views stay untouched.
+        if (dao.count() > 0 && version == installed) return@withContext
+
+        val items = root.getJSONArray("items")
         val products = mutableListOf<ProductEntity>()
         val specs = mutableListOf<SpecEntity>()
 
@@ -93,6 +98,8 @@ class CatalogRepository(
                 gsmarenaName = o.optStringOrNull("gsmarena_name"),
                 matchNote = o.optStringOrNull("match_note"),
                 fetchedAt = o.optStringOrNull("fetched_at"),
+                source = o.optJSONObject("verification")?.optStringOrNull("source"),
+                checkedAt = o.optJSONObject("verification")?.optStringOrNull("checked_at"),
                 imageUrl = image,
                 variantLabels = if (variants.size > 1) variants.joinToString("|") else null,
             )
@@ -109,9 +116,12 @@ class CatalogRepository(
         }
 
         database.withTransaction {
+            dao.deleteAllSpecs()
+            dao.deleteAllProducts()
             dao.insertProducts(products)
             dao.insertSpecs(specs)
         }
+        if (version != null) seedPrefs.edit().putString(KEY_SEED_VERSION, version).apply()
     }
 
     private fun collectSpecs(
@@ -138,6 +148,7 @@ class CatalogRepository(
 
     companion object {
         const val RECENT_LIMIT = 8
+        private const val KEY_SEED_VERSION = "seed_version"
     }
 }
 

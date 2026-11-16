@@ -19,12 +19,15 @@ class AppContainer(
         context.applicationContext,
         AppDatabase::class.java,
         "sales_assistant.db",
-    ).fallbackToDestructiveMigration().build()
+    ).addMigrations(AppDatabase.MIGRATION_4_5)
+        .fallbackToDestructiveMigration()
+        .build()
 
     val catalogRepository = CatalogRepository(database, context.applicationContext)
     val serviceRepository = ServiceRepository(database, context.applicationContext)
     val guideRepository = GuideRepository(context.applicationContext)
     val quizRepository = QuizRepository(context.applicationContext)
+    val postBranchRepository = PostBranchRepository(context.applicationContext)
     val assistantRepository = AssistantRepository(
         catalog = catalogRepository,
         guide = guideRepository,
@@ -35,10 +38,11 @@ class AppContainer(
 
     init {
         scope.launch {
-            catalogRepository.seedIfEmpty()
+            catalogRepository.syncCatalog()
             serviceRepository.seedIfEmpty()
             guideRepository.load()
             quizRepository.load()
+            postBranchRepository.load()
         }
     }
 }

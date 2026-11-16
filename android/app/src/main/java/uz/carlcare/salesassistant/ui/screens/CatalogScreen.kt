@@ -22,6 +22,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.filled.Star
+import androidx.compose.material.icons.outlined.PhoneAndroid
 import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material.icons.outlined.StarBorder
 import androidx.compose.material3.Card
@@ -56,6 +57,7 @@ import coil.compose.AsyncImage
 import uz.carlcare.salesassistant.R
 import uz.carlcare.salesassistant.core.data.db.ProductWithSpecs
 import uz.carlcare.salesassistant.core.design.BrandColors
+import uz.carlcare.salesassistant.core.design.brandAccent
 import uz.carlcare.salesassistant.core.design.Pill
 import uz.carlcare.salesassistant.ui.CatalogViewModel
 
@@ -189,13 +191,16 @@ private fun ProductCard(
     onClick: () -> Unit,
 ) {
     val product = item.product
-    val accent = if (product.brand == "TECNO") BrandColors.Tecno else BrandColors.Infinix
+    val accent = brandAccent(product.brand)
     val variants = item.variants()
     val variant = variants.first()
     val chipset = item.field("platform", "chipset", variant)
     val battery = item.field("battery", "capacity", variant)
     val refresh = item.field("display", "refresh_rate", variant)
-    val has5g = variants.any { item.field("comms", "network_5g", it) != null }
+    // Vendor sheets record "No" explicitly, so presence alone is not enough.
+    val has5g = variants.any {
+        item.field("comms", "network_5g", it)?.equals("No", ignoreCase = true) == false
+    }
     val hasNfc = variants.any { item.field("comms", "nfc", it)?.startsWith("Yes") == true }
 
     Card(
@@ -220,6 +225,13 @@ private fun ProductCard(
                             .fillMaxSize()
                             .padding(6.dp),
                         contentScale = ContentScale.Fit,
+                    )
+                } else {
+                    Icon(
+                        Icons.Outlined.PhoneAndroid,
+                        contentDescription = null,
+                        modifier = Modifier.size(36.dp),
+                        tint = accent,
                     )
                 }
             }

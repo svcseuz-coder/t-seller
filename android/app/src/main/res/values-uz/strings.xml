@@ -4,14 +4,19 @@
     <string name="language_en">English</string>
     <string name="language_ru">Русский</string>
     <string name="language_uz">O\'zbek</string>
+    <string name="theme">Mavzu</string>
+    <string name="theme_system">Tizimdagidek</string>
+    <string name="theme_light">Yorug\'</string>
+    <string name="theme_dark">Qorong\'i</string>
     <string name="footer_credit">T-Seller · Developed by Carlcare Uzbekistan</string>
-    <string name="tagline">TECNO va Infinix mahsulot bilimlari va savdo yordami</string>
-    <string name="search_hint">Model yoki xususiyat qidirish</string>
+    <string name="tagline">TECNO, Infinix va iTel mahsulot bilimlari va savdo yordami</string>
+    <string name="search_hint">Model yoki xususiyat</string>
     <string name="all_models">Barcha modellar</string>
     <string name="models_count">%1$d ta model</string>
     <string name="catalog">Katalog</string>
     <string name="brand_tecno">TECNO</string>
     <string name="brand_infinix">Infinix</string>
+    <string name="brand_itel">iTel</string>
     <string name="tools">Vositalar</string>
     <string name="compare">Taqqoslash</string>
     <string name="compare_sub">Uch tagacha qurilma yonma-yon</string>
@@ -44,7 +49,7 @@
     <string name="assistant_suggest_3">Bypass quvvatlash qanday ishlaydi?</string>
     <string name="quiz">Bilim testi</string>
     <string name="quiz_sub">Mahsulot bilimini sinang</string>
-    <string name="quiz_intro_text">TECNO va Infinix xususiyatlari, texnologiyalari va servisi haqida o\'nta savol. Har bir javobdan so\'ng qisqa izoh chiqadi, shuning uchun test mashg\'ulot sifatida ham ishlaydi.</string>
+    <string name="quiz_intro_text">TECNO, Infinix va iTel xususiyatlari, texnologiyalari va servisi haqida o\'nta savol. Har bir javobdan so\'ng qisqa izoh chiqadi, shuning uchun test mashg\'ulot sifatida ham ishlaydi.</string>
     <string name="quiz_intro_meta">10 ta savol · taxminan 3 daqiqa</string>
     <string name="quiz_start">Testni boshlash</string>
     <string name="quiz_progress">%1$d / %2$d</string>
@@ -76,8 +81,9 @@
     <string name="not_verified">Tasdiqlanmagan</string>
     <string name="variant">Versiya</string>
     <string name="source_note">Manba: GSMArena · tekshirilgan %1$s</string>
+    <string name="specs_source_note">Manba: %1$s · tekshirilgan %2$s</string>
     <string name="coming_soon">Keyingi bosqichda qo\'shiladi</string>
-    <string name="catalog_note">Katalogda %1$d ta model · GSMArena ma\'lumotnomasi</string>
+    <string name="catalog_note">Katalogda %1$d ta model · 2026-11-16 da tekshirilgan</string>
     <string name="all_series">Barcha seriyalar</string>
     <string name="missing_note">Faqat tasdiqlangan qiymatlar ko\'rsatiladi. Mavjud bo\'lmagan ma\'lumotlar to\'qib chiqarilmaydi.</string>
     <string name="open_source">GSMArena sahifasini ochish</string>
@@ -133,6 +139,30 @@
     <string name="warranty_important">Muhim: kafolatli xizmat bo\'yicha yakuniy qaror diagnostika natijalari va aniq qurilmaning kafolat shartlari asosida qabul qilinadi.</string>
     <string name="service_data_note">Ma\'lumotlar Carlcare Uzbekistan rasmiy saytidan.</string>
     <string name="service_source_note">Manba: carlcare.com/uz · tekshirilgan %1$s</string>
+    <string name="post_send">Pochta orqali yuborish</string>
+    <string name="post_intro_title">Servis markaziga bepul yetkazib berish</string>
+    <string name="post_intro_text">Shahringizda Carlcare servis markazi bo\'lmasa, telefonni istalgan EMU Express filialiga topshiring — u Carlcare\'ga diagnostika va ta\'mirga yetkaziladi va o\'sha filialga qaytariladi. Xizmat bepul.</string>
+    <string name="post_search_hint">Shahar, tuman yoki manzil</string>
+    <string name="post_days_mon_sun">Du–Yak</string>
+    <string name="post_days_mon_sat">Du–Sha</string>
+    <string name="post_days_mon_fri">Du–Ju</string>
+    <string name="post_days_sat_sun">Sha–Yak</string>
+    <string name="post_days_tue_sun">Se–Yak</string>
+    <string name="post_source_note">Manba: EMU Express filiallar ro\'yxati, tekshirilgan sana: %1$s. Manzil va ish vaqti o\'zgarishi mumkin — telefon orqali aniqlashtiring.</string>
+    <plurals name="post_branches">
+        <item quantity="one">%1$d filial</item>
+        <item quantity="other">%1$d filial</item>
+    </plurals>
+    <string name="filter_region">Viloyat</string>
+    <string name="all_regions">Barcha viloyatlar</string>
+    <string name="region_all">Barchasi</string>
+    <string name="region_clear">Tozalash</string>
+    <string name="region_search_hint">Viloyatni qidirish</string>
+    <string name="region_apply">Qo\'llash</string>
+    <plurals name="post_regions_selected">
+        <item quantity="one">%1$d viloyat</item>
+        <item quantity="other">%1$d viloyat</item>
+    </plurals>
 
     <string name="group_general">Umumiy ma\'lumot</string>
     <string name="group_body">Korpus va o\'lchamlar</string>
