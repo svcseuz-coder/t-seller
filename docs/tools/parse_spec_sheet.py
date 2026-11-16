@@ -16,6 +16,7 @@ ROW_MAP = {
     "sound": {"speakers": 54, "jack": 55},
     "features": {"fingerprint": 57, "face_unlock": 58, "sensors": 59},
     "software": {"android": 61, "custom_ui": 62, "updates": 63},
+    "warranty": {"duration": 66},
 }
 MISSING = {"не подтверждено", "not verified", "unspecified", "-", "—", ""}
 

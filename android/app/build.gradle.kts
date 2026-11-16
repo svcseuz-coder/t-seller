@@ -27,8 +27,8 @@ android {
         applicationId = "uz.carlcare.salesassistant"
         minSdk = 29
         targetSdk = 35
-        versionCode = 17
-        versionName = "2.0.2"
+        versionCode = 19
+        versionName = "2.0.4"
 
         vectorDrawables { useSupportLibrary = true }
 

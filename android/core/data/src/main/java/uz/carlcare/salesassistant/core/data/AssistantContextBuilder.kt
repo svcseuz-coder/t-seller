@@ -47,6 +47,7 @@ object AssistantContextBuilder {
         "features" to listOf("fingerprint", "face_unlock"),
         "sound" to listOf("speakers", "jack"),
         "software" to listOf("android", "custom_ui", "updates"),
+        "warranty" to listOf("duration"),
     )
 
     fun build(

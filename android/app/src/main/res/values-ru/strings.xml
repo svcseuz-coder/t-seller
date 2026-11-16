@@ -182,6 +182,7 @@
     <string name="group_sound">Звук</string>
     <string name="group_features">Безопасность и датчики</string>
     <string name="group_software">Операционная система</string>
+    <string name="group_warranty">Гарантия</string>
 
     <string name="field_announced">Анонс</string>
     <string name="field_status">Статус</string>
@@ -229,5 +230,6 @@
     <string name="field_android">Android</string>
     <string name="field_custom_ui">Оболочка</string>
     <string name="field_updates">Обновления</string>
+    <string name="field_warranty_duration">Срок действия гарантии</string>
     <string name="field_other">Другое</string>
 </resources>

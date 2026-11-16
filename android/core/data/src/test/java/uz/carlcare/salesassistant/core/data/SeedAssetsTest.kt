@@ -17,11 +17,11 @@ class SeedAssetsTest {
     }
 
     @Test
-    fun `catalog bundle keeps the agreed 39 models`() {
+    fun `catalog bundle keeps the agreed 41 models`() {
         val root = asset("products.json")
         val items = root.getJSONArray("items")
-        assertEquals(39, items.length())
-        assertEquals("2026-11-16.2", root.getString("seed_version"))
+        assertEquals(41, items.length())
+        assertEquals("2026-11-16.4", root.getString("seed_version"))
 
         val ids = mutableSetOf<String>()
         var tecno = 0
@@ -41,7 +41,7 @@ class SeedAssetsTest {
         }
         assertEquals(19, tecno)
         assertEquals(13, infinix)
-        assertEquals(7, itel)
+        assertEquals(9, itel)
     }
 
     @Test
@@ -55,9 +55,29 @@ class SeedAssetsTest {
         }
         val itelModels = products.filter { it.getString("brand") == "iTel" }.map { it.getString("model") }
         assertEquals(
-            listOf("A100C", "A300+", "A300C", "City 200", "City 200s", "Power 80", "S26 Ultra").sorted(),
+            listOf("A100C", "A200", "A200+", "A300+", "A300C", "City 200", "City 200s", "Power 80", "S26 Ultra").sorted(),
             itelModels.sorted(),
         )
+    }
+
+    @Test
+    fun `every model carries its vendor warranty period`() {
+        val items = asset("products.json").getJSONArray("items")
+        for (i in 0 until items.length()) {
+            val product = items.getJSONObject(i)
+            val duration = product.getJSONObject("specs")
+                .getJSONObject("warranty")
+                .getString("duration")
+            val label = "${product.getString("id")} ${product.getString("model")}"
+            when (product.getString("brand")) {
+                "TECNO" -> assertEquals(label, "13 months", duration)
+                "iTel" -> assertEquals(label, "12 months", duration)
+                "Infinix" -> assertTrue(
+                    "$label: unexpected warranty $duration",
+                    duration == "12 months" || duration == "24 months",
+                )
+            }
+        }
     }
 
     @Test

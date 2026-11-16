@@ -19,7 +19,7 @@ from parse_spec_sheet import read_sheet  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUT = ROOT / "android/core/data/src/main/assets/products.json"
-SEED_VERSION = "2026-11-16.2"
+SEED_VERSION = "2026-11-16.4"
 CHECKED_AT = "2026-11-16"
 
 # Official product shots from the GSMArena pages whose specs match the sheet.
@@ -27,6 +27,8 @@ PHOTOS = {
     ("Infinix", "Xpad 20"): "https://fdn2.gsmarena.com/vv/bigpic/infinix-xpad20.jpg",
     ("Infinix", "Xpad 20 Pro"): "https://fdn2.gsmarena.com/vv/bigpic/infinix-xpad-20-pro.jpg",
     ("iTel", "A100C"): "https://fdn2.gsmarena.com/vv/bigpic/itel-a100c.jpg",
+    ("iTel", "A200"): "https://fdn2.gsmarena.com/vv/bigpic/itel-a200.jpg",
+    ("iTel", "A200+"): "https://fdn2.gsmarena.com/vv/bigpic/itel-a200-plus.jpg",
     ("iTel", "A300C"): "https://fdn2.gsmarena.com/vv/bigpic/itel-a300c.jpg",
     ("iTel", "A300+"): "https://fdn2.gsmarena.com/vv/bigpic/itel-a300.jpg",
     ("iTel", "City 200"): "https://fdn2.gsmarena.com/vv/bigpic/itel-city-200-.jpg",
@@ -43,6 +45,8 @@ SOURCES = {
 NEW_IDS = {
     ("Infinix", "Xpad 20"): "I12",
     ("Infinix", "Xpad 20 Pro"): "I13",
+    ("iTel", "A200"): "L08",
+    ("iTel", "A200+"): "L09",
 }
 
 

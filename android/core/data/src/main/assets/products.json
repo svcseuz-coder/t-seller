@@ -1,5 +1,5 @@
 {
- "seed_version": "2026-11-16.2",
+ "seed_version": "2026-11-16.4",
  "items": [
   {
    "id": "T02",
@@ -85,6 +85,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -183,6 +186,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -281,6 +287,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -379,6 +388,9 @@
      "android": "16",
      "custom_ui": "HIOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -477,6 +489,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16.3",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -575,6 +590,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16.2",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -673,6 +691,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -771,6 +792,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -869,6 +893,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -967,6 +994,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1065,6 +1095,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1163,6 +1196,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1261,6 +1297,9 @@
      "android": "Android 15",
      "custom_ui": "HIOS 15",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1359,6 +1398,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1457,6 +1499,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1555,6 +1600,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1653,6 +1701,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1751,6 +1802,9 @@
      "android": "Android 15",
      "custom_ui": "HIOS 15",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1849,6 +1903,9 @@
      "android": "Android 16",
      "custom_ui": "HIOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "13 months"
     }
    },
    "regional_variants": [],
@@ -1947,6 +2004,9 @@
      "android": "Android 15",
      "custom_ui": "XOS 15",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -2045,6 +2105,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "24 months"
     }
    },
    "regional_variants": [],
@@ -2143,6 +2206,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "24 months"
     }
    },
    "regional_variants": [],
@@ -2241,6 +2307,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "24 months"
     }
    },
    "regional_variants": [],
@@ -2339,6 +2408,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "24 months"
     }
    },
    "regional_variants": [],
@@ -2437,6 +2509,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "24 months"
     }
    },
    "regional_variants": [],
@@ -2535,6 +2610,9 @@
      "android": "15",
      "custom_ui": "XOS 15.1",
      "updates": null
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [
@@ -2614,6 +2692,9 @@
        "android": "Android 15",
        "custom_ui": "XOS 15.1",
        "updates": null
+      },
+      "warranty": {
+       "duration": "12 months"
       }
      }
     }
@@ -2717,6 +2798,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -2815,6 +2899,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": "up to 3 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -2913,6 +3000,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16",
      "updates": null
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3011,6 +3101,9 @@
      "android": "Android 16",
      "custom_ui": "XOS 16.3",
      "updates": null
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3109,6 +3202,9 @@
      "android": "Android 15",
      "custom_ui": "XOS 15.1",
      "updates": null
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3207,6 +3303,9 @@
      "android": "Android 15",
      "custom_ui": "XOS 15.1",
      "updates": null
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3305,6 +3404,9 @@
      "android": "Android 15",
      "custom_ui": "itel OS 15",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3403,6 +3505,9 @@
      "android": "Android 16",
      "custom_ui": "itel OS 16",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3501,6 +3606,9 @@
      "android": "Android 16",
      "custom_ui": "itel OS 16",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3599,6 +3707,9 @@
      "android": "Android 15",
      "custom_ui": "itel OS 15",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3697,6 +3808,9 @@
      "android": "Android 15",
      "custom_ui": "itel OS 15",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3795,6 +3909,9 @@
      "android": "Android 16",
      "custom_ui": "itel OS 16",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3893,6 +4010,9 @@
      "android": "Android 15",
      "custom_ui": "itel OS 15",
      "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
     }
    },
    "regional_variants": [],
@@ -3902,6 +4022,208 @@
    "verification": {
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
+    "verified_fields": [],
+    "checked_at": "2026-11-16"
+   },
+   "missing_critical": []
+  },
+  {
+   "id": "L08",
+   "brand": "iTel",
+   "series": "A",
+   "model": "A200",
+   "year": 2026,
+   "status": "vendor_provided",
+   "gsmarena_url": null,
+   "gsmarena_name": null,
+   "match_note": null,
+   "fetched_at": "2026-11-16.4",
+   "specs": {
+    "release": {
+     "announced": "2026, February",
+     "status": "Available. Released 2026, February"
+    },
+    "body": {
+     "dimensions": "170 × 70 × 8.29 mm",
+     "weight": "185 g",
+     "build": "Glass front, plastic back, plastic frame",
+     "sim": "Nano-SIM + Nano-SIM",
+     "ip_rating": null,
+     "colors": "Comet Orange, Nightly Blue, Meteor Titanium, Nebula Green"
+    },
+    "display": {
+     "type": "IPS LCD, 120Hz",
+     "size": "6.75 inches, 110.0 cm2",
+     "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+     "refresh_rate": "120Hz",
+     "brightness": "700 nits (typ)",
+     "protection": null
+    },
+    "platform": {
+     "chipset": "Unisoc T7250",
+     "cpu": "Octa-core 1.8 GHz",
+     "gpu": "Mali-G57 MP1",
+     "os": "Android 15, up to 2 major OS updates, itel OS 15"
+    },
+    "memory": {
+     "ram": "3GB",
+     "storage": "64GB, 128GB",
+     "card_slot": "microSDXC"
+    },
+    "main_camera": {
+     "modules": "13 MP",
+     "features": "LED flash",
+     "video": "1080p@30fps",
+     "ois": null,
+     "eis": null
+    },
+    "selfie_camera": {
+     "modules": "5 MP",
+     "features": null,
+     "video": "1080p@30fps"
+    },
+    "battery": {
+     "capacity": "5000 mAh",
+     "type": "Li-Po",
+     "wired_charging": "15W wired",
+     "wireless_charging": null,
+     "reverse_charging": null,
+     "bypass_charging": null
+    },
+    "comms": {
+     "network_5g": "No",
+     "nfc": "No",
+     "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+     "bluetooth": "5.3, A2DP, LE",
+     "gps": "GPS",
+     "usb": "USB Type-C 2.0, OTG"
+    },
+    "sound": {
+     "speakers": "Yes",
+     "jack": "Yes"
+    },
+    "features": {
+     "fingerprint": "side-mounted",
+     "face_unlock": "Yes",
+     "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "software": {
+     "android": "Android 15",
+     "custom_ui": "itel OS 15",
+     "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
+    }
+   },
+   "regional_variants": [],
+   "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/itel-a200.jpg"
+   ],
+   "verification": {
+    "source": "Infinix sales dept (iTel sheet)",
+    "status_gsmarena": "vendor",
+    "verified_fields": [],
+    "checked_at": "2026-11-16"
+   },
+   "missing_critical": []
+  },
+  {
+   "id": "L09",
+   "brand": "iTel",
+   "series": "A",
+   "model": "A200+",
+   "year": 2026,
+   "status": "vendor_provided",
+   "gsmarena_url": null,
+   "gsmarena_name": null,
+   "match_note": null,
+   "fetched_at": "2026-11-16.4",
+   "specs": {
+    "release": {
+     "announced": "2026, February",
+     "status": "Available. Released 2026, February"
+    },
+    "body": {
+     "dimensions": "167.6 × 78.6 × 8.29 mm",
+     "weight": "185 g",
+     "build": "Glass front, plastic back, plastic frame",
+     "sim": "Nano-SIM + Nano-SIM",
+     "ip_rating": null,
+     "colors": "Comet Orange, Nightly Blue, Meteor Titanium, Aura White"
+    },
+    "display": {
+     "type": "IPS LCD, 120Hz",
+     "size": "6.75 inches, 110.0 cm2",
+     "resolution": "720 x 1600 pixels, 20:9 ratio (~260 ppi density)",
+     "refresh_rate": "120Hz",
+     "brightness": "700 nits (typ)",
+     "protection": null
+    },
+    "platform": {
+     "chipset": "Unisoc T7250",
+     "cpu": "Octa-core 1.8 GHz",
+     "gpu": "Mali-G57 MP1",
+     "os": "Android 15, up to 2 major OS updates, itel OS 15"
+    },
+    "memory": {
+     "ram": "3GB",
+     "storage": "64GB, 128GB",
+     "card_slot": null
+    },
+    "main_camera": {
+     "modules": "13 MP",
+     "features": "LED flash",
+     "video": "1080p@30fps",
+     "ois": null,
+     "eis": null
+    },
+    "selfie_camera": {
+     "modules": "5 MP",
+     "features": null,
+     "video": "1080p@30fps"
+    },
+    "battery": {
+     "capacity": "6000 mAh",
+     "type": "Li-Po",
+     "wired_charging": "18W wired",
+     "wireless_charging": null,
+     "reverse_charging": null,
+     "bypass_charging": null
+    },
+    "comms": {
+     "network_5g": "No",
+     "nfc": "No",
+     "wlan": "Wi-Fi 802.11 a/b/g/n/ac, dual-band",
+     "bluetooth": "5.3, A2DP, LE",
+     "gps": "GPS",
+     "usb": "USB Type-C 2.0, OTG"
+    },
+    "sound": {
+     "speakers": "Yes",
+     "jack": "Yes"
+    },
+    "features": {
+     "fingerprint": "side-mounted",
+     "face_unlock": "Yes",
+     "sensors": "Fingerprint (side-mounted), accelerometer, gyro, proximity, compass"
+    },
+    "software": {
+     "android": "Android 15",
+     "custom_ui": "itel OS 15",
+     "updates": "up to 2 major OS updates"
+    },
+    "warranty": {
+     "duration": "12 months"
+    }
+   },
+   "regional_variants": [],
+   "images": [
+    "https://fdn2.gsmarena.com/vv/bigpic/itel-a200-plus.jpg"
+   ],
+   "verification": {
+    "source": "Infinix sales dept (iTel sheet)",
+    "status_gsmarena": "vendor",
     "verified_fields": [],
     "checked_at": "2026-11-16"
    },

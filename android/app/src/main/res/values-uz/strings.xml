@@ -176,6 +176,7 @@
     <string name="group_sound">Ovoz</string>
     <string name="group_features">Xavfsizlik va datchiklar</string>
     <string name="group_software">Operatsion tizim</string>
+    <string name="group_warranty">Kafolat</string>
 
     <string name="field_announced">E\'lon qilingan</string>
     <string name="field_status">Holati</string>
@@ -223,5 +224,6 @@
     <string name="field_android">Android</string>
     <string name="field_custom_ui">Interfeys</string>
     <string name="field_updates">Yangilanishlar</string>
+    <string name="field_warranty_duration">Kafolat muddati</string>
     <string name="field_other">Boshqa</string>
 </resources>

@@ -176,6 +176,7 @@
     <string name="group_sound">Audio</string>
     <string name="group_features">Security and sensors</string>
     <string name="group_software">Operating system</string>
+    <string name="group_warranty">Warranty</string>
 
     <string name="field_announced">Announcement</string>
     <string name="field_status">Status</string>
@@ -223,5 +224,6 @@
     <string name="field_android">Android</string>
     <string name="field_custom_ui">Custom UI</string>
     <string name="field_updates">Updates</string>
+    <string name="field_warranty_duration">Warranty period</string>
     <string name="field_other">Other</string>
 </resources>

@@ -64,7 +64,7 @@ import uz.carlcare.salesassistant.ui.ProductViewModel
 
 internal val GROUPS = listOf(
     "release", "body", "display", "platform", "memory", "main_camera",
-    "selfie_camera", "battery", "comms", "sound", "features", "software",
+    "selfie_camera", "battery", "comms", "sound", "features", "software", "warranty",
 )
 
 internal val FIELD_ORDER = mapOf(
@@ -79,6 +79,7 @@ internal val FIELD_ORDER = mapOf(
     "body" to listOf("dimensions", "weight", "build", "sim", "ip_rating", "colors"),
     "sound" to listOf("speakers", "jack"),
     "software" to listOf("android", "custom_ui", "updates"),
+    "warranty" to listOf("duration"),
     "release" to listOf("announced", "status"),
 )
 
@@ -365,6 +366,7 @@ internal fun groupLabel(group: String): Int = when (group) {
     "sound" -> R.string.group_sound
     "features" -> R.string.group_features
     "software" -> R.string.group_software
+    "warranty" -> R.string.group_warranty
     else -> R.string.group_general
 }
 
@@ -414,5 +416,6 @@ internal fun fieldLabel(group: String, field: String): Int = when (field) {
     "android" -> R.string.field_android
     "custom_ui" -> R.string.field_custom_ui
     "updates" -> R.string.field_updates
+    "duration" -> R.string.field_warranty_duration
     else -> R.string.field_other
 }
