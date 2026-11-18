@@ -25,6 +25,7 @@ import androidx.compose.material.icons.outlined.Email
 import androidx.compose.material.icons.outlined.LocalShipping
 import androidx.compose.material.icons.outlined.Phone
 import androidx.compose.material.icons.outlined.Search
+import androidx.compose.material.icons.outlined.Tune
 import androidx.compose.material3.AssistChip
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -63,6 +64,7 @@ import uz.carlcare.salesassistant.core.design.BrandColors
 import uz.carlcare.salesassistant.core.design.Pill
 import uz.carlcare.salesassistant.core.design.SectionTitle
 import uz.carlcare.salesassistant.ui.ServiceViewModel
+import uz.carlcare.salesassistant.ui.components.MultiSelectFilterSheet
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -74,7 +76,10 @@ fun ServiceScreen(
 ) {
     val support by viewModel.support.collectAsStateWithLifecycle()
     val centers by viewModel.centers.collectAsStateWithLifecycle()
+    val cities by viewModel.cities.collectAsStateWithLifecycle()
+    val selectedCities by viewModel.selectedCityNames.collectAsStateWithLifecycle()
     var query by rememberSaveable { mutableStateOf("") }
+    var cityFilterOpen by rememberSaveable { mutableStateOf(false) }
     val uri = LocalUriHandler.current
     val accent = BrandColors.Tecno
 
@@ -151,6 +156,44 @@ fun ServiceScreen(
                 )
             }
 
+            item {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                ) {
+                    AssistChip(
+                        onClick = { cityFilterOpen = true },
+                        label = {
+                            Text(
+                                if (selectedCities.isEmpty()) {
+                                    stringResource(R.string.all_cities)
+                                } else {
+                                    pluralStringResource(
+                                        R.plurals.service_cities_selected,
+                                        selectedCities.size,
+                                        selectedCities.size,
+                                    )
+                                },
+                            )
+                        },
+                        leadingIcon = {
+                            Icon(
+                                Icons.Outlined.Tune,
+                                contentDescription = null,
+                                tint = accent,
+                                modifier = Modifier.size(16.dp),
+                            )
+                        },
+                    )
+                    if (selectedCities.isNotEmpty()) {
+                        TextButton(onClick = viewModel::clearCities) {
+                            Text(stringResource(R.string.region_clear))
+                        }
+                    }
+                }
+            }
+
             if (centers.isEmpty()) {
                 item {
                     Text(
@@ -182,6 +225,17 @@ fun ServiceScreen(
                 }
             }
         }
+    }
+
+    if (cityFilterOpen) {
+        MultiSelectFilterSheet(
+            title = stringResource(R.string.filter_city),
+            hint = stringResource(R.string.city_search_hint),
+            options = cities,
+            selected = selectedCities,
+            onApply = { viewModel.applyCities(it); cityFilterOpen = false },
+            onDismiss = { cityFilterOpen = false },
+        )
     }
 }
 

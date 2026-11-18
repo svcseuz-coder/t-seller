@@ -6,10 +6,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -25,15 +23,12 @@ import androidx.compose.material.icons.outlined.Phone
 import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material.icons.outlined.Tune
 import androidx.compose.material3.AssistChip
-import androidx.compose.material3.Button
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.Checkbox
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Scaffold
@@ -42,11 +37,9 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -61,11 +54,11 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import uz.carlcare.salesassistant.R
 import uz.carlcare.salesassistant.core.data.PostBranch
-import uz.carlcare.salesassistant.core.data.SearchText
 import uz.carlcare.salesassistant.core.design.BrandColors
 import uz.carlcare.salesassistant.core.design.Pill
 import uz.carlcare.salesassistant.core.design.SectionTitle
 import uz.carlcare.salesassistant.ui.PostDeliveryViewModel
+import uz.carlcare.salesassistant.ui.components.MultiSelectFilterSheet
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -212,8 +205,10 @@ fun PostDeliveryScreen(viewModel: PostDeliveryViewModel, onBack: () -> Unit) {
     }
 
     if (filterOpen) {
-        RegionFilterSheet(
-            regions = regions,
+        MultiSelectFilterSheet(
+            title = stringResource(R.string.filter_region),
+            hint = stringResource(R.string.region_search_hint),
+            options = regions,
             selected = selectedRegions,
             onApply = { viewModel.applyRegions(it); filterOpen = false },
             onDismiss = { filterOpen = false },
@@ -343,98 +338,6 @@ private fun BranchCard(branch: PostBranch, accent: Color, uri: androidx.compose.
                     }
                 }
             }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun RegionFilterSheet(
-    regions: List<String>,
-    selected: Set<String>,
-    onApply: (Set<String>) -> Unit,
-    onDismiss: () -> Unit,
-) {
-    var query by rememberSaveable { mutableStateOf("") }
-    // Edits stay local until Apply, so dragging the sheet away keeps the old filter.
-    var draft by rememberSaveable { mutableStateOf(selected.toList()) }
-    val checked = draft.toSet()
-
-    ModalBottomSheet(
-        onDismissRequest = onDismiss,
-        sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true),
-    ) {
-        Column(
-            modifier = Modifier
-                .fillMaxWidth()
-                .fillMaxHeight(0.8f)
-                .padding(horizontal = 20.dp),
-        ) {
-            Text(stringResource(R.string.filter_region), style = MaterialTheme.typography.titleLarge)
-            OutlinedTextField(
-                value = query,
-                onValueChange = { query = it },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 12.dp),
-                placeholder = {
-                    Text(
-                        stringResource(R.string.region_search_hint),
-                        maxLines = 1,
-                        overflow = TextOverflow.Ellipsis,
-                    )
-                },
-                leadingIcon = { Icon(Icons.Outlined.Search, contentDescription = null) },
-                singleLine = true,
-                shape = RoundedCornerShape(18.dp),
-            )
-            Row {
-                TextButton(onClick = { draft = regions }) { Text(stringResource(R.string.region_all)) }
-                TextButton(onClick = { draft = emptyList() }) { Text(stringResource(R.string.region_clear)) }
-            }
-            val filtered = remember(regions, query) {
-                regions.filter { SearchText.matches(it, query) }
-            }
-            LazyColumn(
-                modifier = Modifier.weight(1f),
-                contentPadding = PaddingValues(vertical = 8.dp),
-            ) {
-                items(filtered, key = { it }) { region ->
-                    Row(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .clip(RoundedCornerShape(12.dp))
-                            .clickable {
-                                draft = if (region in checked) draft - region else draft + region
-                            }
-                            .padding(horizontal = 8.dp, vertical = 4.dp),
-                        verticalAlignment = Alignment.CenterVertically,
-                    ) {
-                        Checkbox(
-                            checked = region in checked,
-                            onCheckedChange = {
-                                draft = if (region in checked) draft - region else draft + region
-                            },
-                        )
-                        Spacer(Modifier.width(8.dp))
-                        Text(
-                            text = region,
-                            style = MaterialTheme.typography.bodyLarge,
-                            modifier = Modifier.weight(1f),
-                        )
-                    }
-                }
-            }
-            Button(
-                onClick = { onApply(checked) },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = 8.dp, bottom = 12.dp),
-                shape = RoundedCornerShape(18.dp),
-            ) {
-                Text(stringResource(R.string.region_apply))
-            }
-            Spacer(Modifier.navigationBarsPadding())
         }
     }
 }

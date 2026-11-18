@@ -19,8 +19,9 @@ from parse_spec_sheet import read_sheet  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUT = ROOT / "android/core/data/src/main/assets/products.json"
-SEED_VERSION = "2026-11-16.4"
+SEED_VERSION = "2026-11-18.1"
 CHECKED_AT = "2026-11-16"
+MODELS_JSON = Path(__file__).with_name("gsmarena_models.json")
 
 # Official product shots from the GSMArena pages whose specs match the sheet.
 PHOTOS = {
@@ -78,6 +79,7 @@ def main():
     out_path = Path(args.out)
     current = json.loads(out_path.read_text(encoding="utf-8"))
     existing = {model_key(p["brand"], p["model"]): p for p in current["items"]}
+    model_codes = json.loads(MODELS_JSON.read_text(encoding="utf-8"))["items"]
 
     wb = openpyxl.load_workbook(args.workbook, data_only=True)
     sheets = (("TECNO", "TECNO"), ("Infinix", "Infinix"), ("ITEL", "iTel"))
@@ -132,6 +134,10 @@ def main():
 
             pid = base_id(brand_name, model_name, series)
             old = existing.get(model_key(brand_name, model_name))
+            specs = tidy(main_model["specs"])
+            code = (model_codes.get(pid) or {}).get("models")
+            if code:
+                specs["release"] = {"models": code, **specs["release"]}
             item = {
                 "id": pid,
                 "brand": brand_name,
@@ -143,7 +149,7 @@ def main():
                 "gsmarena_name": (old or {}).get("gsmarena_name"),
                 "match_note": (old or {}).get("match_note"),
                 "fetched_at": (old or {}).get("fetched_at") or SEED_VERSION,
-                "specs": tidy(main_model["specs"]),
+                "specs": specs,
                 "regional_variants": [],
                 "images": (old or {}).get("images") or ([PHOTOS[(brand_name, model_name)]] if (brand_name, model_name) in PHOTOS else []),
                 "verification": {

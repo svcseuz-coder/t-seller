@@ -1,0 +1,126 @@
+{
+ "source": "GSMArena product pages (data-spec models)",
+ "fetched_at": "2026-11-18",
+ "items": {
+  "T02": {
+   "url": "https://www.gsmarena.com/tecno_camon_50-14501.php",
+   "models": "CN5"
+  },
+  "T03": {
+   "url": "https://www.gsmarena.com/tecno_camon_50_pro-14500.php",
+   "models": "CN5c"
+  },
+  "T13": {
+   "url": "https://www.gsmarena.com/tecno_camon_50_pro_5g-14538.php",
+   "models": "CN7c"
+  },
+  "T01": {
+   "url": "https://www.gsmarena.com/tecno_camon_50_ultra_5g-14519.php",
+   "models": "CN7c"
+  },
+  "T17": {
+   "url": "https://www.gsmarena.com/tecno_camon_air-14919.php",
+   "models": "CN6c"
+  },
+  "T06": {
+   "url": "https://www.gsmarena.com/tecno_camon_slim-14745.php",
+   "models": "CN6c"
+  },
+  "T10": {
+   "url": "https://www.gsmarena.com/tecno_camon_slim_5g-14918.php",
+   "models": "CN6"
+  },
+  "T05": {
+   "url": "https://www.gsmarena.com/tecno_spark_50_4g-14596.php",
+   "models": "KN4"
+  },
+  "T07": {
+   "url": "https://www.gsmarena.com/tecno_spark_50_pro-14728.php",
+   "models": "KO5"
+  },
+  "T04": {
+   "url": "https://www.gsmarena.com/tecno_spark_go_3-14420.php",
+   "models": "KN3"
+  },
+  "T09": {
+   "url": "https://www.gsmarena.com/tecno_pova_8_5g-14714.php",
+   "models": "LK6"
+  },
+  "T08": {
+   "url": "https://www.gsmarena.com/tecno_pova_8_pro_5g-14875.php",
+   "models": "LK7"
+  },
+  "T14": {
+   "url": "https://www.gsmarena.com/tecno_pova_curve_2_5g-14384.php",
+   "models": "LK7K"
+  },
+  "I01": {
+   "url": "https://www.gsmarena.com/infinix_gt_30_pro_5g-13889.php",
+   "models": "X6873"
+  },
+  "I04": {
+   "url": "https://www.gsmarena.com/infinix_gt_50_pro_5g-14497.php",
+   "models": "X6891"
+  },
+  "I08": {
+   "url": "https://www.gsmarena.com/infinix_note_60_5g-14498.php",
+   "models": "X6879"
+  },
+  "I05": {
+   "url": "https://www.gsmarena.com/infinix_note_60_pro_5g-14499.php",
+   "models": "X6878"
+  },
+  "I02": {
+   "url": "https://www.gsmarena.com/infinix_note_60_ultra_5g-14528.php",
+   "models": "X6877"
+  },
+  "I03": {
+   "url": "https://www.gsmarena.com/infinix_note_edge_5g-14421.php",
+   "models": "X6887"
+  },
+  "I06": {
+   "url": "https://www.gsmarena.com/infinix_hot_60i-13983.php",
+   "models": "X6728, X6728B"
+  },
+  "I10": {
+   "url": "https://www.gsmarena.com/infinix_hot_70-14683.php",
+   "models": "X6895B, X6895"
+  },
+  "I09": {
+   "url": "https://www.gsmarena.com/infinix_hot_70_pro_5g-14806.php",
+   "models": "X6896"
+  },
+  "I07": {
+   "url": "https://www.gsmarena.com/infinix_smart_20-14502.php",
+   "models": "X6840, X6840B"
+  },
+  "I11": {
+   "url": "https://www.gsmarena.com/infinix_xpad_30_pro-14913.php",
+   "models": "X1103"
+  },
+  "I13": {
+   "url": "https://www.gsmarena.com/infinix_xpad_20_pro-14116.php",
+   "models": "X1201"
+  },
+  "L01": {
+   "url": "https://www.gsmarena.com/itel_a100c-14212.php",
+   "models": "A6611L"
+  },
+  "L04": {
+   "url": "https://www.gsmarena.com/itel_city_200-14479.php",
+   "models": "C681L"
+  },
+  "L07": {
+   "url": "https://www.gsmarena.com/itel_super_26_ultra-14128.php",
+   "models": "S688LN"
+  },
+  "L08": {
+   "url": "https://www.gsmarena.com/itel_a200-14478.php",
+   "models": "A675L"
+  },
+  "L09": {
+   "url": "https://www.gsmarena.com/itel_a200+-14477.php",
+   "models": "A676L"
+  }
+ }
+}

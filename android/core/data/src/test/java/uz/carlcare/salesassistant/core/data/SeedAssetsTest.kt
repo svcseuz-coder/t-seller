@@ -21,7 +21,7 @@ class SeedAssetsTest {
         val root = asset("products.json")
         val items = root.getJSONArray("items")
         assertEquals(41, items.length())
-        assertEquals("2026-11-16.4", root.getString("seed_version"))
+        assertEquals("2026-11-18.1", root.getString("seed_version"))
 
         val ids = mutableSetOf<String>()
         var tecno = 0
@@ -78,6 +78,24 @@ class SeedAssetsTest {
                 )
             }
         }
+    }
+
+    @Test
+    fun `GSMArena model codes are attached where the source lists them`() {
+        val items = asset("products.json").getJSONArray("items")
+        val codes = (0 until items.length()).associate { i ->
+            val product = items.getJSONObject(i)
+            product.getString("id") to product.getJSONObject("specs")
+                .getJSONObject("release")
+                .optString("models")
+                .ifBlank { null }
+        }
+
+        assertEquals("CN5", codes["T02"])
+        assertEquals("X6728, X6728B", codes["I06"])
+        assertEquals("A675L", codes["L08"])
+        assertEquals(30, codes.values.count { it != null })
+        assertEquals(null, codes["T12"])
     }
 
     @Test

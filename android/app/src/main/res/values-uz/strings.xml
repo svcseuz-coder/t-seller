@@ -163,6 +163,13 @@
         <item quantity="one">%1$d viloyat</item>
         <item quantity="other">%1$d viloyat</item>
     </plurals>
+    <string name="filter_city">Shahar</string>
+    <string name="all_cities">Barcha shaharlar</string>
+    <string name="city_search_hint">Shaharni qidirish</string>
+    <plurals name="service_cities_selected">
+        <item quantity="one">%1$d shahar</item>
+        <item quantity="other">%1$d shahar</item>
+    </plurals>
 
     <string name="group_general">Umumiy ma\'lumot</string>
     <string name="group_body">Korpus va o\'lchamlar</string>
@@ -180,6 +187,7 @@
 
     <string name="field_announced">E\'lon qilingan</string>
     <string name="field_status">Holati</string>
+    <string name="field_model_name">Model nomi</string>
     <string name="field_dimensions">O\'lchamlari</string>
     <string name="field_weight">Og\'irligi</string>
     <string name="field_build">Materiallar</string>

@@ -133,22 +133,38 @@ class CompareViewModel(repository: CatalogRepository) : ViewModel() {
 
 class ServiceViewModel(repository: ServiceRepository) : ViewModel() {
     private val query = MutableStateFlow("")
+    private val selectedCities = MutableStateFlow<Set<String>>(emptySet())
 
     val support: StateFlow<SupportInfoEntity?> = repository.observeSupport()
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), null)
 
+    val cities: StateFlow<List<String>> = repository.observeCenters()
+        .map { data -> data.map { it.city }.distinct() }
+        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
+
+    val selectedCityNames: StateFlow<Set<String>> = selectedCities
+
     val centers: StateFlow<List<ServiceCenterEntity>> =
-        combine(repository.observeCenters(), query) { all, q ->
+        combine(repository.observeCenters(), query, selectedCities) { all, q, cities ->
             all.filter { center ->
-                SearchText.matches(
-                    "${center.city} ${center.name} ${center.address} ${center.code}",
-                    q,
-                )
+                (cities.isEmpty() || center.city in cities) &&
+                    SearchText.matches(
+                        "${center.city} ${center.name} ${center.address} ${center.code}",
+                        q,
+                    )
             }
         }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), emptyList())
 
     fun search(value: String) {
         query.value = value
+    }
+
+    fun applyCities(value: Set<String>) {
+        selectedCities.value = value
+    }
+
+    fun clearCities() {
+        selectedCities.value = emptySet()
     }
 }
 

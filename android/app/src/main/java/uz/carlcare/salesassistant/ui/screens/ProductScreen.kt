@@ -80,7 +80,7 @@ internal val FIELD_ORDER = mapOf(
     "sound" to listOf("speakers", "jack"),
     "software" to listOf("android", "custom_ui", "updates"),
     "warranty" to listOf("duration"),
-    "release" to listOf("announced", "status"),
+    "release" to listOf("models", "announced", "status"),
 )
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -371,6 +371,7 @@ internal fun groupLabel(group: String): Int = when (group) {
 }
 
 internal fun fieldLabel(group: String, field: String): Int = when (field) {
+    "models" -> R.string.field_model_name
     "announced" -> R.string.field_announced
     "status" -> R.string.field_status
     "dimensions" -> R.string.field_dimensions

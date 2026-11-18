@@ -35,7 +35,7 @@ object AssistantContextBuilder {
     private val refreshIntent = setOf("refresh", "gerts", "hz", "fps")
 
     private val specGroups = listOf(
-        "release" to listOf("status"),
+        "release" to listOf("models", "status"),
         "body" to listOf("dimensions", "weight", "build", "sim", "ip_rating", "colors"),
         "display" to listOf("type", "size", "resolution", "refresh_rate", "brightness", "protection"),
         "platform" to listOf("os", "chipset", "cpu", "gpu"),
@@ -79,7 +79,7 @@ object AssistantContextBuilder {
         val includesService = tokens.any { it in serviceTokens }
 
         val text = buildString {
-            appendLine("CATALOG: 30 models in the Uzbekistan line-up — 19 TECNO, 11 Infinix.")
+            appendLine("CATALOG: 41 models in the Uzbekistan line-up — 19 TECNO, 13 Infinix, 9 iTel.")
             appendLine(
                 "DATA RULES: use only the facts below. If a value is absent, say it is not verified " +
                     "in the app data. Never invent specs, prices, availability or warranty decisions.",

@@ -1,5 +1,5 @@
 {
- "seed_version": "2026-11-16.4",
+ "seed_version": "2026-11-18.1",
  "items": [
   {
    "id": "T02",
@@ -14,6 +14,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN5",
      "announced": "2026, February 17",
      "status": "Available. Released 2026, March"
     },
@@ -115,6 +116,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN5c",
      "announced": "2026, February 17",
      "status": "Available. Released 2026, March"
     },
@@ -216,6 +218,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN7c",
      "announced": "2026, March 10",
      "status": "Available. Released 2026, March 10"
     },
@@ -317,6 +320,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN7c",
      "announced": "2026, March 02",
      "status": "Available. Released 2026, March"
     },
@@ -418,6 +422,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN6c",
      "announced": "2026, September 02",
      "status": "Available. Released 2026, September 02"
     },
@@ -519,6 +524,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN6c",
      "announced": "2026, June 23",
      "status": "Available. Released 2026, July"
     },
@@ -620,6 +626,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "CN6",
      "announced": "2026, September 02",
      "status": "Available. Released 2026, September"
     },
@@ -721,6 +728,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "KN4",
      "announced": "2026, April 14",
      "status": "Available. Released 2026, April 14"
     },
@@ -923,6 +931,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "KO5",
      "announced": "2026, June 15",
      "status": "Available. Released 2026, June"
     },
@@ -1226,6 +1235,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "KN3",
      "announced": "2026, January 16",
      "status": "Available. Released 2026, January 23"
     },
@@ -1428,6 +1438,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "LK6",
      "announced": "2026, June 11",
      "status": "Available. Released 2026, July 01"
     },
@@ -1529,6 +1540,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "LK7",
      "announced": "2026, August 13",
      "status": "Available. Released 2026, August 18"
     },
@@ -1630,6 +1642,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "LK7K",
      "announced": "2026, February 13",
      "status": "Available. Released 2026, February 20"
     },
@@ -1933,6 +1946,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6873",
      "announced": "2025, May 21",
      "status": "Available. Released 2025, June 01"
     },
@@ -2034,6 +2048,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6891",
      "announced": "2026, April 24",
      "status": "Available. Released 2026, April 25"
     },
@@ -2135,6 +2150,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6879",
      "announced": "2026, February 18",
      "status": "Available. Released 2026, March"
     },
@@ -2236,6 +2252,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6878",
      "announced": "2026, February 18",
      "status": "Available. Released 2026, March"
     },
@@ -2337,6 +2354,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6877",
      "announced": "2026, March 04",
      "status": "Available. Released 2026, May"
     },
@@ -2438,6 +2456,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6887",
      "announced": "2026, January 19",
      "status": "Available. Released 2026, January 31"
     },
@@ -2539,6 +2558,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6728, X6728B",
      "announced": "2025, July 02",
      "status": "Available. Released 2025, July 02"
     },
@@ -2727,6 +2747,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6895B, X6895",
      "announced": "2026, May 25",
      "status": "Available. Released 2026, May 25"
     },
@@ -2828,6 +2849,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6896",
      "announced": "2026, July 16",
      "status": "Available. Released 2026, July"
     },
@@ -2929,6 +2951,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X6840, X6840B",
      "announced": "2026, March 04",
      "status": "Available. Released 2026, March"
     },
@@ -3030,6 +3053,7 @@
    "fetched_at": "2026-11-05",
    "specs": {
     "release": {
+     "models": "X1103",
      "announced": "2026, September 07",
      "status": "Available. Released 2026, September 07"
     },
@@ -3232,6 +3256,7 @@
    "fetched_at": "2026-11-16",
    "specs": {
     "release": {
+     "models": "X1201",
      "announced": "2025, September 03",
      "status": "Available. Released 2025, September 03"
     },
@@ -3333,6 +3358,7 @@
    "fetched_at": "2026-11-16",
    "specs": {
     "release": {
+     "models": "A6611L",
      "announced": "2025, October 06",
      "status": "Available. Released 2025, October"
     },
@@ -3636,6 +3662,7 @@
    "fetched_at": "2026-11-16",
    "specs": {
     "release": {
+     "models": "C681L",
      "announced": "2026, February",
      "status": "Available. Released 2026, February"
     },
@@ -3939,6 +3966,7 @@
    "fetched_at": "2026-11-16",
    "specs": {
     "release": {
+     "models": "S688LN",
      "announced": "2025, September 05",
      "status": "Available. Released 2025, September 15"
     },
@@ -4040,6 +4068,7 @@
    "fetched_at": "2026-11-16.4",
    "specs": {
     "release": {
+     "models": "A675L",
      "announced": "2026, February",
      "status": "Available. Released 2026, February"
     },
@@ -4122,7 +4151,7 @@
    ],
    "verification": {
     "source": "Infinix sales dept (iTel sheet)",
-    "status_gsmarena": "vendor",
+    "status_gsmarena": "reference",
     "verified_fields": [],
     "checked_at": "2026-11-16"
    },
@@ -4141,6 +4170,7 @@
    "fetched_at": "2026-11-16.4",
    "specs": {
     "release": {
+     "models": "A676L",
      "announced": "2026, February",
      "status": "Available. Released 2026, February"
     },
@@ -4223,7 +4253,7 @@
    ],
    "verification": {
     "source": "Infinix sales dept (iTel sheet)",
-    "status_gsmarena": "vendor",
+    "status_gsmarena": "reference",
     "verified_fields": [],
     "checked_at": "2026-11-16"
    },

@@ -163,6 +163,13 @@
         <item quantity="one">%1$d region</item>
         <item quantity="other">%1$d regions</item>
     </plurals>
+    <string name="filter_city">City</string>
+    <string name="all_cities">All cities</string>
+    <string name="city_search_hint">Search city</string>
+    <plurals name="service_cities_selected">
+        <item quantity="one">%1$d city</item>
+        <item quantity="other">%1$d cities</item>
+    </plurals>
 
     <string name="group_general">General information</string>
     <string name="group_body">Design and dimensions</string>
@@ -180,6 +187,7 @@
 
     <string name="field_announced">Announcement</string>
     <string name="field_status">Status</string>
+    <string name="field_model_name">Model name</string>
     <string name="field_dimensions">Dimensions</string>
     <string name="field_weight">Weight</string>
     <string name="field_build">Build</string>

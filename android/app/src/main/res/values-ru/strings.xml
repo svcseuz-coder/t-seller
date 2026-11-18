@@ -169,6 +169,15 @@
         <item quantity="many">%1$d областей</item>
         <item quantity="other">%1$d области</item>
     </plurals>
+    <string name="filter_city">Город</string>
+    <string name="all_cities">Все города</string>
+    <string name="city_search_hint">Поиск города</string>
+    <plurals name="service_cities_selected">
+        <item quantity="one">%1$d город</item>
+        <item quantity="few">%1$d города</item>
+        <item quantity="many">%1$d городов</item>
+        <item quantity="other">%1$d города</item>
+    </plurals>
 
     <string name="group_general">Общая информация</string>
     <string name="group_body">Корпус и габариты</string>
@@ -186,6 +195,7 @@
 
     <string name="field_announced">Анонс</string>
     <string name="field_status">Статус</string>
+    <string name="field_model_name">Название модели</string>
     <string name="field_dimensions">Габариты</string>
     <string name="field_weight">Вес</string>
     <string name="field_build">Материалы</string>
