@@ -79,7 +79,13 @@ object AssistantContextBuilder {
         val includesService = tokens.any { it in serviceTokens }
 
         val text = buildString {
-            appendLine("CATALOG: 41 models in the Uzbekistan line-up — 19 TECNO, 13 Infinix, 9 iTel.")
+            val tecno = products.count { it.product.brand == "TECNO" }
+            val infinix = products.count { it.product.brand == "Infinix" }
+            val itel = products.count { it.product.brand == "iTel" }
+            appendLine(
+                "CATALOG: ${products.size} models in the Uzbekistan line-up — " +
+                    "$tecno TECNO, $infinix Infinix, $itel iTel.",
+            )
             appendLine(
                 "DATA RULES: use only the facts below. If a value is absent, say it is not verified " +
                     "in the app data. Never invent specs, prices, availability or warranty decisions.",

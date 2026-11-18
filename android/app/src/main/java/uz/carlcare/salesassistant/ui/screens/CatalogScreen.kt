@@ -242,7 +242,7 @@ private fun ProductCard(
                         text = product.model,
                         modifier = Modifier.weight(1f),
                         style = MaterialTheme.typography.titleMedium,
-                        maxLines = 1,
+                        maxLines = 2,
                         overflow = TextOverflow.Ellipsis,
                     )
                     Pill(text = product.series, accent = accent)

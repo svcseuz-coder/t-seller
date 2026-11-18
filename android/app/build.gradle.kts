@@ -27,8 +27,8 @@ android {
         applicationId = "uz.carlcare.salesassistant"
         minSdk = 29
         targetSdk = 35
-        versionCode = 20
-        versionName = "2.0.5"
+        versionCode = 21
+        versionName = "2.0.6"
 
         vectorDrawables { useSupportLibrary = true }
 
@@ -41,6 +41,14 @@ android {
             isMinifyEnabled = false
             signingConfig = signingConfigs.getByName("debug")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+        }
+        // Personal build: installs alongside the official app and ships the extended
+        // GSMArena catalog from src/personal/assets/products.json.
+        create("personal") {
+            initWith(getByName("release"))
+            applicationIdSuffix = ".ext"
+            versionNameSuffix = "-ext"
+            matchingFallbacks += "release"
         }
     }
 

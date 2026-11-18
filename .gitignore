@@ -39,3 +39,8 @@ server/assistant-proxy/dist/
 
 # Python tooling
 __pycache__/
+
+# Personal (non-official) build artifacts
+docs/T-Seller-*-ext.apk
+docs/tools/personal_extras.json
+docs/tools/.gsmarena_cache/

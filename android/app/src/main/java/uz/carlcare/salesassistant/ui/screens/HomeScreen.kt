@@ -437,7 +437,8 @@ private fun MiniProductCard(
                     Text(
                         text = product.model,
                         style = MaterialTheme.typography.titleSmall,
-                        maxLines = 1,
+                        maxLines = 2,
+                        minLines = 2,
                         overflow = TextOverflow.Ellipsis,
                     )
                     Text(
