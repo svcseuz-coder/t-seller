@@ -1,5 +1,5 @@
 {
- "seed_version": "2026-11-18.1",
+ "seed_version": "2026-11-19.1",
  "items": [
   {
    "id": "T02",
@@ -99,7 +99,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -108,7 +108,7 @@
    "brand": "TECNO",
    "series": "CAMON",
    "model": "Camon 50 Pro 4G",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_camon_50_pro-14500.php",
    "gsmarena_name": "Tecno Camon 50 Pro 4G",
@@ -201,7 +201,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -303,7 +303,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -405,7 +405,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -414,7 +414,7 @@
    "brand": "TECNO",
    "series": "CAMON",
    "model": "Camon Air",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_camon_air-14919.php",
    "gsmarena_name": "Tecno Camon Air",
@@ -507,7 +507,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -516,7 +516,7 @@
    "brand": "TECNO",
    "series": "CAMON",
    "model": "Camon Slim 4G",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_camon_slim-14745.php",
    "gsmarena_name": "Tecno Camon Slim 4G",
@@ -609,7 +609,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -711,7 +711,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -813,7 +813,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -914,7 +914,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -923,7 +923,7 @@
    "brand": "TECNO",
    "series": "SPARK",
    "model": "Spark 50 Pro",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_spark_50_pro-14728.php",
    "gsmarena_name": "Tecno Spark 50 Pro",
@@ -1016,7 +1016,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1117,7 +1117,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1218,7 +1218,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1227,7 +1227,7 @@
    "brand": "TECNO",
    "series": "SPARK",
    "model": "Spark Go 3",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_spark_go_3-14420.php",
    "gsmarena_name": "Tecno Spark Go 3",
@@ -1320,7 +1320,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1329,7 +1329,7 @@
    "brand": "TECNO",
    "series": "SPARK",
    "model": "Spark Go 3 Pro",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_spark_go_3_pro-14905.php",
    "gsmarena_name": "Tecno Spark Go 3 Pro",
@@ -1421,7 +1421,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1523,7 +1523,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1625,7 +1625,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1727,7 +1727,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1736,7 +1736,7 @@
    "brand": "TECNO",
    "series": "POP",
    "model": "Pop X",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_pop_x-14665.php",
    "gsmarena_name": "Tecno Pop X 4G",
@@ -1828,7 +1828,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -1837,7 +1837,7 @@
    "brand": "TECNO",
    "series": "POP",
    "model": "Pop X 5G",
-   "year": 2025,
+   "year": 2026,
    "status": "matched",
    "gsmarena_url": "https://www.gsmarena.com/tecno_pop_x_5g-14608.php",
    "gsmarena_name": "Tecno Pop X",
@@ -1929,7 +1929,7 @@
     "source": "GSMArena; TECNO vendor sheet",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2031,7 +2031,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2133,7 +2133,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2235,7 +2235,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2337,7 +2337,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2439,7 +2439,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2541,7 +2541,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2726,7 +2726,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": [],
    "variant_labels": [
@@ -2832,7 +2832,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -2934,7 +2934,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3036,7 +3036,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3138,7 +3138,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3239,7 +3239,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3341,7 +3341,7 @@
     "source": "GSMArena + Infinix sales dept",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3443,7 +3443,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3544,7 +3544,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3645,7 +3645,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3747,7 +3747,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3848,7 +3848,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -3949,7 +3949,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -4051,7 +4051,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -4153,7 +4153,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   },
@@ -4255,7 +4255,7 @@
     "source": "Infinix sales dept (iTel sheet)",
     "status_gsmarena": "reference",
     "verified_fields": [],
-    "checked_at": "2026-11-16"
+    "checked_at": "2026-11-19"
    },
    "missing_critical": []
   }

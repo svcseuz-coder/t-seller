@@ -21,7 +21,7 @@ class SeedAssetsTest {
         val root = asset("products.json")
         val items = root.getJSONArray("items")
         assertEquals(41, items.length())
-        assertEquals("2026-11-18.1", root.getString("seed_version"))
+        assertEquals("2026-11-19.1", root.getString("seed_version"))
 
         val ids = mutableSetOf<String>()
         var tecno = 0

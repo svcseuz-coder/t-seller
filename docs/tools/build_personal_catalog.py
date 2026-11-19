@@ -21,7 +21,7 @@ OUT = ROOT / "android/app/src/personal/assets/products.json"
 REPORT = Path(__file__).with_name("personal_extras.json")
 CACHE = Path(__file__).with_name(".gsmarena_cache")
 
-SEED_VERSION = "2026-11-18.p2"
+SEED_VERSION = "2026-11-19.p1"
 TODAY = "2026-11-18"
 MIN_YEAR = 2025
 UA = {

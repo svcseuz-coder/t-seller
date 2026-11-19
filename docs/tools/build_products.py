@@ -19,8 +19,8 @@ from parse_spec_sheet import read_sheet  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_OUT = ROOT / "android/core/data/src/main/assets/products.json"
-SEED_VERSION = "2026-11-18.1"
-CHECKED_AT = "2026-11-16"
+SEED_VERSION = "2026-11-19.1"
+CHECKED_AT = "2026-11-19"
 MODELS_JSON = Path(__file__).with_name("gsmarena_models.json")
 
 # Official product shots from the GSMArena pages whose specs match the sheet.
